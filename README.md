@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SEO-Friendly Static Website
 
-## Getting Started
+Bu proje, Next.js ve Tailwind CSS kullanılarak oluşturulmuş tamamen statik bir web sitesidir. Projenin temel amacı, SEO dostu bir yapı oluşturmak ve Google'da üst sıralarda yer almak için gerekli optimizasyonları sağlamaktır.
 
-First, run the development server:
+## Proje Kuralları
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 1. Genel Yapı
+- **Next.js**: Proje, Next.js'in Static Site Generation (SSG) özelliği kullanılarak oluşturulmuştur. Dinamik routing ve API routes gibi özellikler de kullanılabilir.
+- **TypeScript**: Tüm proje TypeScript ile yazılmıştır. Güvenlik ve kod kalitesi için TypeScript kullanımı zorunludur.
+- **Tailwind CSS**: Stil için Tailwind CSS kullanılmıştır. Responsive tasarım için Tailwind'in utility class'ları kullanılmalıdır.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. SEO Optimizasyonu
+- **Her Sayfa için SEO Ayarları**: Her sayfa, `<Head>` bileşeni kullanılarak SEO dostu meta tag'ler içermelidir. Bu tag'ler şunları içermelidir:
+  - `<title>`
+  - `<meta name="description">`
+  - `<meta name="keywords">`
+  - Open Graph tag'leri (`og:title`, `og:description`, `og:image`)
+- **Semantik HTML**: Tüm sayfalar semantik HTML etiketleri (`<header>`, `<main>`, `<section>`, `<article>`, `<footer>` gibi) kullanılarak oluşturulmalıdır.
+- **Heading Yapısı**: Her sayfada doğru bir `<h1>` - `<h6>` hiyerarşisi oluşturulmalıdır.
+- **Image Optimizasyonu**: Görseller, Next.js'in `<Image>` bileşeni kullanılarak optimize edilmelidir.
+- **İç Linkleme**: Sayfalar arasında anlamlı iç linkler oluşturulmalıdır.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. Responsive Tasarım
+- **Tailwind CSS**: Tüm bileşenler ve sayfalar, Tailwind CSS'in responsive utility class'ları kullanılarak mobil, tablet ve masaüstü cihazlara uyumlu hale getirilmelidir.
+- **Media Query Testi**: Her bileşen, farklı ekran boyutlarında test edilmelidir.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 4. Kod Yapısı ve Organizasyon
+- **Component-Based Structure**: Tüm UI elemanları, reusable bileşenler halinde oluşturulmalıdır. Bileşenler, `components/` dizini altında tutulmalıdır.
+- **TypeScript Interface'leri**: Her bileşen ve sayfa için TypeScript interface'leri tanımlanmalıdır.
+- **Clean Code**: Kod, okunabilir ve anlaşılır olmalıdır. Gereksiz karmaşıklıktan kaçınılmalıdır.
 
-## Learn More
+### 5. Static Site Generation (SSG)
+- **getStaticProps ve getStaticPaths**: Tüm sayfalar, `getStaticProps` ve `getStaticPaths` kullanılarak statik olarak oluşturulmalıdır.
+- **Sitemap.xml**: Proje, otomatik olarak bir `sitemap.xml` dosyası oluşturmalıdır. Bunun için `next-sitemap` paketi kullanılabilir.
 
-To learn more about Next.js, take a look at the following resources:
+### 6. Deployment
+- **Vercel**: Proje, Vercel üzerinde deploy edilmelidir. Vercel, Next.js ile tam uyumludur ve SSG için idealdir.
+- **Google Search Console**: Site, Google Search Console'a eklenmeli ve sitemap doğrulanmalıdır.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 7. SEO Çalışması Yapacak Kişi için Notlar
+- **İçerik Güncellemeleri**: İçerik güncellemeleri, `pages/` dizini altındaki ilgili sayfalar üzerinden yapılabilir.
+- **Meta Tag'ler**: Her sayfanın meta tag'leri, `<Head>` bileşeni içinde bulunur. Bu tag'ler, SEO çalışmaları için kritiktir.
+- **Analytics**: Google Analytics entegrasyonu mevcuttur. Kullanıcı davranışlarını takip etmek için kullanılabilir.
