@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Link from 'next/link'
 import Stats from '@/components/Stats'
 import References from '@/components/References'
@@ -16,7 +15,7 @@ export default function Home() {
               Güvenilir ve Profesyonel<br />Nakliyat Hizmetleri
             </h1>
             <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
-              Türkiye'nin her noktasında kaliteli, güvenli ve profesyonel nakliyat hizmetleri sunuyoruz.
+              Türkiye&apos;nin her noktasında kaliteli, güvenli ve profesyonel nakliyat hizmetleri sunuyoruz.
             </p>
             <div className="flex gap-4 justify-center">
               <Link 

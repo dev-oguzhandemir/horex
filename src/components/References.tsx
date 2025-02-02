@@ -32,7 +32,7 @@ export default function References() {
           Referanslarımız
         </h2>
         <p className="text-horex-dark-gray text-center mb-12 max-w-2xl mx-auto">
-          Türkiye'nin önde gelen kurumları tarafından tercih edilen güvenilir nakliyat çözümleri sunuyoruz.
+          Türkiye&apos;nin önde gelen kurumları tarafından tercih edilen güvenilir nakliyat çözümleri sunuyoruz.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {references.map((reference, index) => (
