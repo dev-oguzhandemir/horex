@@ -56,7 +56,7 @@ export default function Footer() {
               className="mb-6 brightness-0 invert"
             />
             <p className="text-gray-400 mb-4">
-              Türkiye'nin her noktasına güvenilir ve profesyonel nakliyat hizmetleri sunuyoruz.
+              Türkiye&apos;nin her noktasına güvenilir ve profesyonel nakliyat hizmetleri sunuyoruz.
             </p>
             <div className="space-y-2">
               <a href="tel:+908508883939" className="flex items-center space-x-2 text-gray-400 hover:text-horex-red transition-colors">

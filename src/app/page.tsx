@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import Stats from '@/components/Stats'
 import References from '@/components/References'
 import BlogSection from '@/components/BlogSection'
