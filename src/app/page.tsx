@@ -4,7 +4,6 @@ import BlogSection from '@/components/BlogSection'
 import FutureServices from '@/components/FutureServices'
 import HeroSection from '@/components/HeroSection'
 import SelectionCriteria from '@/components/SelectionCriteria'
-import Footer from '@/components/Footer'
 import { Metadata } from 'next'
 
 // SEO Metadata - Bu kısım dinamik olarak CMS'den de beslenebilir
@@ -137,9 +136,6 @@ export default function Home() {
 
       {/* Blog & Haberler */}
       <BlogSection />
-
-      {/* Footer */}
-      <Footer />
     </>
   )
 }
