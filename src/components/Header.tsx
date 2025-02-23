@@ -5,8 +5,8 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 const menuItems = [
-  { 
-    title: 'Anasayfa', 
+  {
+    title: 'Anasayfa',
     href: '/',
     icon: (
       <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -14,8 +14,8 @@ const menuItems = [
       </svg>
     )
   },
-  { 
-    title: 'Nakliyat Hizmetleri', 
+  {
+    title: 'Nakliyat Hizmetleri',
     href: '/nakliyat-hizmetleri',
     icon: (
       <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -23,7 +23,7 @@ const menuItems = [
       </svg>
     ),
     submenu: [
-      { 
+      {
         title: 'Evden Eve Nakliyat',
         href: '/nakliyat-hizmetleri/evden-eve-nakliyat',
         description: 'Eşyalarınızı özenle paketliyor, güvenle yeni adresinize taşıyoruz.',
@@ -33,7 +33,7 @@ const menuItems = [
           </svg>
         )
       },
-      { 
+      {
         title: 'Şehir İçi Nakliyat',
         href: '/nakliyat-hizmetleri/sehir-ici-nakliyat',
         description: 'Şehir içinde güvenli ve hızlı nakliyat hizmeti.',
@@ -44,7 +44,7 @@ const menuItems = [
           </svg>
         )
       },
-      { 
+      {
         title: 'Şehirler Arası Nakliyat',
         href: '/nakliyat-hizmetleri/sehirler-arasi-nakliyat',
         description: 'Türkiye\'nin her noktasına güvenli ve hızlı şehirler arası nakliyat hizmeti.',
@@ -55,7 +55,7 @@ const menuItems = [
           </svg>
         )
       },
-      { 
+      {
         title: 'Fabrika Taşımacılığı',
         href: '/nakliyat-hizmetleri/fabrika-tasimaciligi',
         description: 'Endüstriyel tesislerin taşınması için özel çözümler.',
@@ -65,7 +65,17 @@ const menuItems = [
           </svg>
         )
       },
-      { 
+      {
+        title: 'Ofis Taşıma',
+        href: '/nakliyat-hizmetleri/ofis-tasima',
+        description: 'İş yerinizi minimum kesinti ile yeni adresinize taşıyoruz.',
+        icon: (
+          <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+          </svg>
+        )
+      },
+      {
         title: 'Fuar Taşımacılığı',
         href: '/nakliyat-hizmetleri/fuar-tasimaciligi',
         description: 'Fuar malzemelerinizi zamanında ve güvenle taşıyoruz.',
@@ -75,17 +85,17 @@ const menuItems = [
           </svg>
         )
       },
-      { 
-        title: 'Parça Eşya Taşımacılığı',
-        href: '/nakliyat-hizmetleri/parca-esya-tasimaciligi',
-        description: 'Tek bir eşyanızı bile profesyonel ekibimizle taşıyoruz.',
+      {
+        title: 'Sigortalı Taşımacılık',
+        href: '/nakliyat-hizmetleri/sigortali-tasima',
+        description: 'Eşyalarınız sigorta güvencesi altında taşınır.',
         icon: (
           <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
           </svg>
         )
       },
-      { 
+      {
         title: 'Asansörlü Taşımacılık',
         href: '/nakliyat-hizmetleri/asansorlu-tasima',
         description: 'Yüksek katlı binalarda güvenli taşıma hizmeti.',
@@ -95,20 +105,20 @@ const menuItems = [
           </svg>
         )
       },
-      { 
-        title: 'Sigortalı Taşımacılık',
-        href: '/nakliyat-hizmetleri/sigortali-tasima',
-        description: 'Eşyalarınız sigorta güvencesi altında taşınır.',
+      {
+        title: 'Parça Eşya Taşımacılığı',
+        href: '/nakliyat-hizmetleri/parca-esya-tasimaciligi',
+        description: 'Tek bir eşyanızı bile profesyonel ekibimizle taşıyoruz.',
         icon: (
           <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
           </svg>
         )
-      }
+      },
     ]
   },
-  { 
-    title: 'Depolama Hizmetleri', 
+  {
+    title: 'Depolama Hizmetleri',
     href: '/depolama-hizmetleri',
     icon: (
       <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -127,8 +137,8 @@ const menuItems = [
         )
       },
       {
-        title: 'Oda Eşyası Depolama',
-        href: '/depolama-hizmetleri/oda-esyasi-depolama',
+        title: 'Oda Bazlı Depolama',
+        href: '/depolama-hizmetleri/oda-bazli-depolama',
         description: 'Tek bir odanın eşyalarını güvenle depoluyoruz.',
         icon: (
           <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -157,8 +167,8 @@ const menuItems = [
         )
       },
       {
-        title: 'Ofis Eşyası Depolama',
-        href: '/depolama-hizmetleri/ofis-esyasi-depolama',
+        title: 'Ofis ve Kurumsal Depolama',
+        href: '/depolama-hizmetleri/ofis-ve-kurumsal-depolama',
         description: 'Ofis mobilya ve ekipmanlarınız için profesyonel depolama hizmeti.',
         icon: (
           <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -229,8 +239,8 @@ const menuItems = [
       }
     ]
   },
-  { 
-    title: 'Hakkımızda', 
+  {
+    title: 'Hakkımızda',
     href: '/hakkimizda',
     icon: (
       <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -238,8 +248,8 @@ const menuItems = [
       </svg>
     )
   },
-  { 
-    title: 'İletişim', 
+  {
+    title: 'İletişim',
     href: '/iletisim',
     icon: (
       <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -247,8 +257,8 @@ const menuItems = [
       </svg>
     )
   },
-  { 
-    title: 'Blog', 
+  {
+    title: 'Blog',
     href: '/blog',
     icon: (
       <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -282,8 +292,8 @@ export default function Header() {
                 <span>info@horex.com.tr</span>
               </a>
             </div>
-            <Link 
-              href="/iletisim" 
+            <Link
+              href="/iletisim"
               className="bg-horex-red px-4 py-1.5 rounded text-sm hover:bg-red-700 transition-colors inline-flex items-center justify-center w-full md:w-auto"
             >
               Ücretsiz Teklif Al
@@ -297,17 +307,17 @@ export default function Header() {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <Image 
-              src="/logo.svg" 
-              alt="Horex Nakliyat Logo" 
-              width={150} 
+            <Image
+              src="/logo.svg"
+              alt="Horex Nakliyat Logo"
+              width={150}
               height={40}
               className="h-10 w-auto"
             />
           </Link>
 
           {/* Mobil Menü Butonu */}
-          <button 
+          <button
             className="lg:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
@@ -323,19 +333,18 @@ export default function Header() {
           {/* Desktop Menü */}
           <nav className="hidden lg:flex items-center space-x-8">
             {menuItems.map((item) => (
-              <div 
+              <div
                 key={item.title}
                 className="relative group"
                 onMouseEnter={() => item.submenu && setActiveSubmenu(item.title)}
                 onMouseLeave={() => setActiveSubmenu(null)}
               >
-                <Link 
+                <Link
                   href={item.href}
-                  className={`flex items-center space-x-1 transition-colors py-2 ${
-                    item.title === 'Blog' 
-                    ? 'text-horex-red font-semibold hover:text-horex-black' 
+                  className={`flex items-center space-x-1 transition-colors py-2 ${item.title === 'Blog'
+                    ? 'text-horex-red font-semibold hover:text-horex-black'
                     : 'text-horex-black hover:text-horex-red'
-                  }`}
+                    }`}
                 >
                   <span className="hidden xl:block">{item.icon}</span>
                   <span>{item.title}</span>
@@ -382,11 +391,10 @@ export default function Header() {
               {menuItems.map((item) => (
                 <div key={item.title}>
                   <button
-                    className={`flex items-center justify-between w-full p-3 text-left transition-colors ${
-                      item.title === 'Blog'
+                    className={`flex items-center justify-between w-full p-3 text-left transition-colors ${item.title === 'Blog'
                       ? 'text-horex-red font-semibold hover:bg-red-50'
                       : 'hover:bg-gray-50'
-                    }`}
+                      }`}
                     onClick={() => item.submenu ? setActiveSubmenu(activeSubmenu === item.title ? null : item.title) : setIsMenuOpen(false)}
                   >
                     <div className="flex items-center space-x-3">
@@ -394,10 +402,10 @@ export default function Header() {
                       <span>{item.title}</span>
                     </div>
                     {item.submenu && (
-                      <svg 
+                      <svg
                         className={`w-4 h-4 transition-transform duration-200 ${activeSubmenu === item.title ? 'rotate-180' : ''}`}
-                        fill="none" 
-                        viewBox="0 0 24 24" 
+                        fill="none"
+                        viewBox="0 0 24 24"
                         stroke="currentColor"
                       >
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
