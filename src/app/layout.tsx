@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -53,9 +54,7 @@ export default function RootLayout({
         <main className="min-h-screen pt-[120px]">
           {children}
         </main>
-        <footer className="w-full bg-horex-black text-white">
-          {/* Footer içeriği buraya gelecek */}
-        </footer>
+        <Footer />
       </body>
     </html>
   );

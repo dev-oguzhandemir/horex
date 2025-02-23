@@ -4,26 +4,26 @@ import Link from 'next/link';
 
 const blogPosts = [
   {
-    title: 'Güvenli Taşınmanın Püf Noktaları',
-    excerpt: 'Eşyalarınızı güvenle taşımak için dikkat etmeniz gereken önemli noktalar.',
+    title: 'Ev Taşınırken Dikkat Edilmesi Gerekenler',
+    excerpt: 'Ev taşımak heyecan verici ama aynı zamanda oldukça stresli bir süreç olabilir. Bu süreci daha kolay ve sorunsuz hale getirmek için dikkat etmeniz gereken bazı önemli noktalar bulunmaktadır.',
     image: '/blog/tasima-rehberi.jpg',
     date: '15 Ocak 2024',
-    slug: 'guvenli-tasinmanin-puf-noktalari'
+    slug: 'ev-tasima-surecinde-karsilasilan-sorunlar-ve-cozumleri'
+  },
+  {
+    title: 'Nakliye Firması Seçerken Dikkat Edilmesi Gerekenler',
+    excerpt: 'Bir nakliye firması seçmek, taşınma sürecinin en kritik aşamalarından biridir. Doğru firmayı seçmek, eşyalarınızın güvenli ve zamanında taşınmasını sağlar. İşte nakliye firması seçerken dikkat etmeniz gereken bazı önemli noktalar:',
+    image: '/blog/ofis-tasima.jpg',
+    date: '10 Ocak 2024',
+    slug: 'nakliye-firmasi-secimi'
   },
   {
     title: 'Ofis Taşıma Rehberi',
-    excerpt: 'İş süreçlerinizi aksatmadan ofis taşıma işlemini nasıl gerçekleştirebilirsiniz?',
-    image: '/blog/ofis-tasima.jpg',
-    date: '10 Ocak 2024',
-    slug: 'ofis-tasima-rehberi'
-  },
-  {
-    title: 'Eşya Depolama İpuçları',
-    excerpt: 'Eşyalarınızı uzun süre güvenle saklamak için profesyonel depolama önerileri.',
+    excerpt: 'Ofis taşımak, birçok işletme için zorlu ve stresli bir süreç olabilir. Ancak, doğru planlama ve organizasyon ile bu süreci daha kolay ve verimli hale getirebilirsiniz. İşte ofis taşınmanıza yardımcı olacak kapsamlı bir rehber.',
     image: '/blog/depolama.jpg',
     date: '5 Ocak 2024',
-    slug: 'esya-depolama-ipuclari'
-  }
+    slug: 'ofis-tasimak-rehberi'
+  },
 ];
 
 export default function BlogSection() {

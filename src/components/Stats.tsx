@@ -2,12 +2,12 @@ import React from 'react';
 
 const stats = [
   {
-    number: '15+',
+    number: '25+',
     title: 'Yıllık Deneyim',
     description: 'Sektörde güvenilir hizmet'
   },
   {
-    number: '50.000+',
+    number: '1.000+',
     title: 'Mutlu Müşteri',
     description: 'Başarıyla tamamlanan taşıma'
   },
