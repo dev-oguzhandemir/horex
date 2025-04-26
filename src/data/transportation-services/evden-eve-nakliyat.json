@@ -1,0 +1,83 @@
+{
+  "title": "Evden Eve Nakliyat",
+  "description": "Profesyonel ekibimiz ve modern ekipmanlarımızla eşyalarınızı güvenle yeni evinize taşıyoruz.",
+  "metaDescription": "Horex Nakliyat ile güvenli ve profesyonel evden eve nakliyat hizmeti. Ücretsiz ekspertiz, sigortalı taşımacılık ve uzman ekip.",
+  "metaKeywords": "evden eve nakliyat, ev taşıma, istanbul evden eve nakliyat, profesyonel nakliyat, sigortalı taşımacılık",
+  "heroImage": {
+    "src": "/blog/depolama.jpg",
+    "alt": "Horex Nakliyat Evden Eve Taşımacılık",
+    "width": 1200,
+    "height": 800
+  },
+  "features": [
+    {
+      "title": "Ücretsiz Ekspertiz",
+      "description": "Uzman ekibimiz eşyalarınızı yerinde inceleyerek en uygun taşıma planını oluşturur.",
+      "icon": "📋"
+    },
+    {
+      "title": "Profesyonel Paketleme",
+      "description": "Tüm eşyalarınız özel malzemelerle güvenle paketlenir ve etiketlenir.",
+      "icon": "📦"
+    },
+    {
+      "title": "Sigortalı Taşımacılık",
+      "description": "Eşyalarınız taşıma sürecinde tam sigorta kapsamındadır.",
+      "icon": "🛡️"
+    },
+    {
+      "title": "Uzman Ekip",
+      "description": "Deneyimli ve profesyonel ekibimiz eşyalarınızı özenle taşır.",
+      "icon": "👥"
+    },
+    {
+      "title": "Modern Ekipman",
+      "description": "En son teknoloji araç ve ekipmanlarla güvenli taşıma.",
+      "icon": "🚛"
+    },
+    {
+      "title": "7/24 Destek",
+      "description": "Taşınma sürecinde her an yanınızdayız.",
+      "icon": "📞"
+    }
+  ],
+  "content": {
+    "mainImage": {
+      "src": "/blog/depolama.jpg",
+      "alt": "Horex Nakliyat Profesyonel Evden Eve Nakliyat Hizmeti",
+      "width": 800,
+      "height": 600
+    },
+    "introduction": "Horex Nakliyat olarak, 20 yılı aşkın sektör deneyimimizle İstanbul ve tüm Türkiye'de profesyonel evden eve nakliyat hizmeti sunuyoruz. Modern ekipmanlarımız ve uzman kadromuzla taşınma sürecinizi güvenli ve sorunsuz hale getiriyoruz.Horex Nakliyat olarak, 20 yılı aşkın sektör deneyimimizle İstanbul ve tüm Türkiye'de profesyonel evden eve nakliyat hizmeti sunuyoruz. Modern ekipmanlarımız ve uzman kadromuzla taşınma sürecinizi güvenli ve sorunsuz hale getiriyoruz.Horex Nakliyat olarak, 20 yılı aşkın sektör deneyimimizle İstanbul ve tüm Türkiye'de profesyonel evden eve nakliyat hizmeti sunuyoruz. Modern ekipmanlarımız ve uzman kadromuzla taşınma sürecinizi güvenli ve sorunsuz hale getiriyoruz.",
+    "highlights": [
+      "Ücretsiz ekspertiz hizmeti",
+      "Profesyonel paketleme malzemeleri",
+      "Sigortalı taşımacılık garantisi",
+      "Deneyimli taşıma ekibi",
+      "Modern taşıma araçları",
+      "Özel eşya taşıma çözümleri"
+    ],
+    "process": {
+      "title": "Evden Eve Nakliyat Sürecimiz",
+      "steps": [
+        "Ücretsiz keşif ve ekspertiz ziyareti",
+        "Detaylı planlama ve fiyat teklifi",
+        "Profesyonel paketleme hizmeti",
+        "Güvenli yükleme ve taşıma",
+        "Yeni adrese yerleştirme",
+        "Kalite kontrol ve teslimat"
+      ]
+    },
+    "additionalInfo": {
+      "title": "Neden Horex Nakliyat?",
+      "items": [
+        "20 yıllık sektör deneyimi",
+        "Tam kapsamlı sigorta güvencesi",
+        "Şeffaf fiyatlandırma politikası",
+        "Profesyonel ve eğitimli ekip",
+        "Modern taşıma filosu",
+        "Müşteri memnuniyeti odaklı hizmet"
+      ]
+    }
+  }
+} 

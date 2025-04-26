@@ -87,7 +87,7 @@ const menuItems = [
       },
       {
         title: 'Sigortalı Taşımacılık',
-        href: '/nakliyat-hizmetleri/sigortali-tasima',
+        href: '/nakliyat-hizmetleri/sigortali-tasimacilik',
         description: 'Eşyalarınız sigorta güvencesi altında taşınır.',
         icon: (
           <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">

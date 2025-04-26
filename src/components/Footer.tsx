@@ -29,7 +29,7 @@ export default function Footer() {
     { title: 'Ofis Taşıma', href: '/nakliyat-hizmetleri/ofis-tasima' },
     { title: 'Şehirler Arası Nakliyat', href: '/nakliyat-hizmetleri/sehirler-arasi-nakliyat' },
     { title: 'Depolama Hizmetleri', href: '/depolama-hizmetleri' },
-    { title: 'Sigortalı Taşımacılık', href: '/nakliyat-hizmetleri/sigortali-tasima' },
+    { title: 'Sigortalı Taşımacılık', href: '/nakliyat-hizmetleri/sigortali-tasimacilik' },
     { title: 'Asansörlü Taşımacılık', href: '/nakliyat-hizmetleri/asansorlu-tasima' }
   ]
 

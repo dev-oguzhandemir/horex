@@ -11,14 +11,16 @@
     "postbuild": "next-sitemap"
   },
   "dependencies": {
-    "framer-motion": "^12.4.7",
+    "framer-motion": "^12.9.2",
     "next": "15.1.6",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-intersection-observer": "^9.16.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@next/bundle-analyzer": "latest",
+    "@tailwindcss/typography": "^0.5.16",
     "@types/node": "^20.17.16",
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
