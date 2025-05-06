@@ -1,43 +1,47 @@
 {
-  "title": "Evden Eve Nakliyat",
-  "description": "Profesyonel ekibimiz ve modern ekipmanlarımızla eşyalarınızı güvenle yeni evinize taşıyoruz.",
-  "metaDescription": "Horex Nakliyat ile güvenli ve profesyonel evden eve nakliyat hizmeti. Ücretsiz ekspertiz, sigortalı taşımacılık ve uzman ekip.",
+  "title": "Kolay ve Güvenli Taşınma Çözümleri",
+  "description": "EVDEN EVE NAKLİYAT HİZMETLERİNİN FAYDALARI VE İPUÇLARI",
+  "metaDescription": "Horex Nakliyat ile güvenli ve profesyonel evden eve nakliyat hizmeti. Modern ekipman, uzman ekip ve sigortalı taşımacılık.",
   "metaKeywords": "evden eve nakliyat, ev taşıma, istanbul evden eve nakliyat, profesyonel nakliyat, sigortalı taşımacılık",
+  "banner": {
+    "src": "/images/banner/all-page-banner-2.png",
+    "alt": "Horex Nakliyat Banner"
+  },
   "heroImage": {
     "src": "/blog/depolama.jpg",
-    "alt": "Horex Nakliyat Evden Eve Taşımacılık",
+    "alt": "Horex Nakliyat Evden Eve Nakliyat",
     "width": 1200,
     "height": 800
   },
   "features": [
     {
       "title": "Ücretsiz Ekspertiz",
-      "description": "Uzman ekibimiz eşyalarınızı yerinde inceleyerek en uygun taşıma planını oluşturur.",
+      "description": "Detaylı keşif ve fiyat teklifi.",
       "icon": "📋"
     },
     {
       "title": "Profesyonel Paketleme",
-      "description": "Tüm eşyalarınız özel malzemelerle güvenle paketlenir ve etiketlenir.",
+      "description": "Özel malzemelerle güvenli paketleme.",
       "icon": "📦"
     },
     {
-      "title": "Sigortalı Taşımacılık",
-      "description": "Eşyalarınız taşıma sürecinde tam sigorta kapsamındadır.",
+      "title": "Sigortalı Taşıma",
+      "description": "Tam kapsamlı sigorta ile güvenli taşıma.",
       "icon": "🛡️"
     },
     {
-      "title": "Uzman Ekip",
-      "description": "Deneyimli ve profesyonel ekibimiz eşyalarınızı özenle taşır.",
+      "title": "Montaj/Demontaj",
+      "description": "Uzman ekiple mobilya sökme ve kurma.",
+      "icon": "🔧"
+    },
+    {
+      "title": "Profesyonel Ekip",
+      "description": "Deneyimli taşıma personeli.",
       "icon": "👥"
     },
     {
-      "title": "Modern Ekipman",
-      "description": "En son teknoloji araç ve ekipmanlarla güvenli taşıma.",
-      "icon": "🚛"
-    },
-    {
       "title": "7/24 Destek",
-      "description": "Taşınma sürecinde her an yanınızdayız.",
+      "description": "Her an yanınızdayız.",
       "icon": "📞"
     }
   ],
@@ -48,36 +52,59 @@
       "width": 800,
       "height": 600
     },
-    "introduction": "Horex Nakliyat olarak, 20 yılı aşkın sektör deneyimimizle İstanbul ve tüm Türkiye'de profesyonel evden eve nakliyat hizmeti sunuyoruz. Modern ekipmanlarımız ve uzman kadromuzla taşınma sürecinizi güvenli ve sorunsuz hale getiriyoruz.Horex Nakliyat olarak, 20 yılı aşkın sektör deneyimimizle İstanbul ve tüm Türkiye'de profesyonel evden eve nakliyat hizmeti sunuyoruz. Modern ekipmanlarımız ve uzman kadromuzla taşınma sürecinizi güvenli ve sorunsuz hale getiriyoruz.Horex Nakliyat olarak, 20 yılı aşkın sektör deneyimimizle İstanbul ve tüm Türkiye'de profesyonel evden eve nakliyat hizmeti sunuyoruz. Modern ekipmanlarımız ve uzman kadromuzla taşınma sürecinizi güvenli ve sorunsuz hale getiriyoruz.",
+    "introductionTitle": "Profesyonel Evden Eve Nakliyat Hizmeti",
+    "introduction": "Evden eve nakliyat, evinizin güvenli ve profesyonel bir şekilde yeni adresinize taşınmasını sağlayan kapsamlı bir hizmettir. Eşyalarınız özenle paketlenir, güvenle taşınır ve yeni evinizde kurulur.",
+    "featuresTitle": "Hizmet Özellikleri",
+    "highlightsTitle": "Evden Eve Nakliyat Avantajları",
     "highlights": [
-      "Ücretsiz ekspertiz hizmeti",
-      "Profesyonel paketleme malzemeleri",
-      "Sigortalı taşımacılık garantisi",
-      "Deneyimli taşıma ekibi",
-      "Modern taşıma araçları",
-      "Özel eşya taşıma çözümleri"
+      {
+        "title": "Profesyonel Planlama",
+        "description": "Taşınma süreciniz detaylı bir şekilde planlanır ve organize edilir."
+      },
+      {
+        "title": "Güvenli Paketleme",
+        "description": "Tüm eşyalarınız özel paketleme malzemeleriyle koruma altına alınır."
+      },
+      {
+        "title": "Sigortalı Taşımacılık",
+        "description": "Eşyalarınız tam kapsamlı sigorta ile güvence altındadır."
+      },
+      {
+        "title": "Uzman Montaj Ekibi",
+        "description": "Mobilyalarınız profesyonel ekibimiz tarafından sökülür ve kurulur."
+      },
+      {
+        "title": "Modern Ekipman",
+        "description": "En son teknoloji taşıma ekipmanlarıyla güvenli taşıma sağlanır."
+      },
+      {
+        "title": "Yerleştirme Hizmeti",
+        "description": "Eşyalarınız yeni evinizde istediğiniz şekilde yerleştirilir."
+      }
     ],
     "process": {
       "title": "Evden Eve Nakliyat Sürecimiz",
       "steps": [
-        "Ücretsiz keşif ve ekspertiz ziyareti",
-        "Detaylı planlama ve fiyat teklifi",
-        "Profesyonel paketleme hizmeti",
+        "Ücretsiz keşif ve ekspertiz",
+        "Detaylı planlama",
+        "Profesyonel paketleme",
         "Güvenli yükleme ve taşıma",
-        "Yeni adrese yerleştirme",
-        "Kalite kontrol ve teslimat"
+        "Montaj ve yerleştirme",
+        "Kalite kontrolü"
       ]
     },
     "additionalInfo": {
       "title": "Neden Horex Nakliyat?",
       "items": [
-        "20 yıllık sektör deneyimi",
-        "Tam kapsamlı sigorta güvencesi",
-        "Şeffaf fiyatlandırma politikası",
-        "Profesyonel ve eğitimli ekip",
-        "Modern taşıma filosu",
+        "15 yıllık evden eve nakliyat deneyimi",
+        "Modern taşıma ekipmanları",
+        "Tam sigorta kapsamı",
+        "Uzman taşıma ekibi",
+        "Güvenli taşıma garantisi",
         "Müşteri memnuniyeti odaklı hizmet"
       ]
-    }
+    },
+    "ctaTitle": "Ücretsiz Ekspertiz İsteyin",
+    "ctaDescription": "Profesyonel evden eve nakliyat hizmetimiz için hemen bizimle iletişime geçin."
   }
 } 
