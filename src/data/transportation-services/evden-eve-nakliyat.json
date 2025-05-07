@@ -56,6 +56,9 @@
     "introduction": "Evden eve nakliyat, evinizin güvenli ve profesyonel bir şekilde yeni adresinize taşınmasını sağlayan kapsamlı bir hizmettir. Eşyalarınız özenle paketlenir, güvenle taşınır ve yeni evinizde kurulur.",
     "featuresTitle": "Hizmet Özellikleri",
     "highlightsTitle": "Evden Eve Nakliyat Avantajları",
+    "whatsappMessage": "Merhaba, evden eve nakliyat hizmeti hakkında bilgi almak istiyorum.",
+    "whatsappButtonText": "Ücretsiz Teklif Al",
+    "ctaButtonText": "İletişime Geçin",
     "highlights": [
       {
         "title": "Profesyonel Planlama",
@@ -82,6 +85,52 @@
         "description": "Eşyalarınız yeni evinizde istediğiniz şekilde yerleştirilir."
       }
     ],
+    "mainContent": {
+      "firstSection": {
+        "title": "Evden Eve Nakliyat Hizmetlerimiz",
+        "description": "Profesyonel ekibimiz ve modern ekipmanlarımızla, eşyalarınızı güvenle yeni adresinize taşıyoruz. Deneyimli personelimiz, eşyalarınızı özenle paketleyip, güvenli bir şekilde taşıma işlemini gerçekleştirir.",
+        "items": [
+          {
+            "title": "Profesyonel Ekip",
+            "description": "Deneyimli ve uzman kadromuz"
+          },
+          {
+            "title": "Güvenli Taşıma",
+            "description": "Sigortalı ve güvenli hizmet"
+          },
+          {
+            "title": "Hızlı Hizmet",
+            "description": "Zamanında teslimat garantisi"
+          },
+          {
+            "title": "Uygun Fiyat",
+            "description": "Rekabetçi fiyat politikası"
+          }
+        ]
+      },
+      "secondSection": {
+        "title": "Taşıma Sürecimiz",
+        "description": "Taşımaasdas sürecimiz, detaylı planlama ve profesyonel uygulama ile gerçekleşir. Eşyalarınızın envanterini çıkarır, özel paketleme malzemeleri ile güvenli bir şekilde paketleriz.",
+        "items": [
+          {
+            "title": "Detaylı Planlama",
+            "description": "Önceden hazırlık ve organizasyon"
+          },
+          {
+            "title": "Özel Paketleme",
+            "description": "Profesyonel paketleme hizmeti"
+          },
+          {
+            "title": "Modern Filo",
+            "description": "Bakımlı ve güvenli araçlar"
+          },
+          {
+            "title": "Montaj Hizmeti",
+            "description": "Eşyalarınızın kurulumu"
+          }
+        ]
+      }
+    },
     "process": {
       "title": "Evden Eve Nakliyat Sürecimiz",
       "steps": [

@@ -51,16 +51,20 @@ export default function FutureServices() {
             transition={{ duration: 0.5, delay: 0.4 }}
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-horex-black">
-              Nakliyat Hizmetlerinin Geleceği
+            Nakliyat Hizmetlerinin Geleceği
             </h2>
             <p className="text-gray-600 mb-6">
-              Teknolojinin gelişmesiyle birlikte, nakliyat hizmetleri de dönüşüm geçirmektedir. 
-              Online rezervasyon sistemleri, GPS takip özellikleri ve dijital envanter yönetimi gibi 
-              yenilikler, nakliyat sektöründe müşteri memnuniyetini artırmaktadır.
+            Teknolojinin gelişmesiyle birlikte, nakliyat hizmetleri de dönüşüm geçirmektedir. Online
+rezervasyon sistemleri, GPS takip özellikleri ve dijital envanter yönetimi gibi yenilikler, nakliyat
+sektöründe müşteri memnuniyetini artırmaktadır. Gelecekte, daha sürdürülebilir ve çevre dostu
+taşımacılık çözümlerinin de yaygınlaşması beklenmektedir.
+
             </p>
             <p className="text-gray-600 mb-8">
-              Gelecekte, daha sürdürülebilir ve çevre dostu taşımacılık çözümlerinin de 
-              yaygınlaşması beklenmektedir.
+            Sonuç olarak, nakliyat firmaları taşınma sürecini kolaylaştıran ve müşterilerine güven veren
+önemli kuruluşlardır. Doğru firma seçimi, taşınmanın sorunsuz ve keyifli bir deneyim haline
+gelmesini sağlar. Bu nedenle, taşınma planlarınız için profesyonel bir nakliyat hizmeti tercih
+etmek her zaman en iyi seçenektir.
             </p>
 
             {/* Teknoloji Özellikleri */}
@@ -74,8 +78,9 @@ export default function FutureServices() {
                 }}
                 transition={{ duration: 0.3, delay: 0.6 }}
               >
-                <h3 className="font-semibold text-horex-red mb-2">Online Rezervasyon</h3>
-                <p className="text-sm text-gray-600">7/24 online teklif ve rezervasyon imkanı</p>
+                <h3 className="font-semibold text-horex-red mb-2">Referanslar ve İncelemeler</h3>
+                <p className="text-sm text-gray-600">Bir nakliyat firması seçmeden önce, firmanın müşteri yorumlarını ve referanslarını incelemek
+                önemlidir. Olumlu geri bildirimler, firmanın güvenilirliği hakkında fikir verir.</p>
               </motion.div>
 
               <motion.div 
@@ -87,8 +92,9 @@ export default function FutureServices() {
                 }}
                 transition={{ duration: 0.3, delay: 0.7 }}
               >
-                <h3 className="font-semibold text-horex-red mb-2">GPS Takip</h3>
-                <p className="text-sm text-gray-600">Eşyalarınızın anlık konum takibi</p>
+                <h3 className="font-semibold text-horex-red mb-2">Lisans ve Sigorta</h3>
+                <p className="text-sm text-gray-600">Firmanın gerekli lisanslara sahip olması ve sigorta hizmeti sunması, eşyalarınızın güvenliği
+                açısından önem taşır.</p>
               </motion.div>
 
               <motion.div 
@@ -100,8 +106,9 @@ export default function FutureServices() {
                 }}
                 transition={{ duration: 0.3, delay: 0.8 }}
               >
-                <h3 className="font-semibold text-horex-red mb-2">Dijital Envanter</h3>
-                <p className="text-sm text-gray-600">Dijital eşya listesi ve takip sistemi</p>
+                <h3 className="font-semibold text-horex-red mb-2">Fiyatlandırma ve Şeffaflık</h3>
+                <p className="text-sm text-gray-600">Fiyatlandırma konusunda şeffaf olan ve ek masrafları önceden belirten firmalar tercih
+                edilmelidir. Böylece beklenmedik maliyetlerle karşılaşılmaz.</p>
               </motion.div>
 
               <motion.div 
@@ -113,8 +120,9 @@ export default function FutureServices() {
                 }}
                 transition={{ duration: 0.3, delay: 0.9 }}
               >
-                <h3 className="font-semibold text-horex-red mb-2">Çevre Dostu</h3>
-                <p className="text-sm text-gray-600">Sürdürülebilir taşımacılık çözümleri</p>
+                <h3 className="font-semibold text-horex-red mb-2">Profesyonel Ekip ve Ekipman</h3>
+                <p className="text-sm text-gray-600">Firmanın, işinde deneyimli bir ekibe ve modern ekipmanlara sahip olması, taşınma sürecinin
+                kalitesini artırır.</p>
               </motion.div>
             </div>
           </motion.div>
