@@ -1,0 +1,159 @@
+{
+  "title": "Şehirler Arası Nakliyat",
+  "description": "Güvenli ve Hızlı Taşımacılığın Anahtarı",
+  "metaDescription": "Horex Nakliyat ile Türkiye'nin her şehrine güvenilir şehirler arası nakliyat hizmeti. Modern araç filosu, uzman ekip ve sigortalı taşımacılık.",
+  "metaKeywords": "şehirler arası nakliyat, şehirlerarası taşımacılık, şehirler arası ev taşıma, istanbul şehirlerarası nakliyat, profesyonel nakliyat, sigortalı taşımacılık",
+  "banner": {
+    "src": "/images/banner/all-page-banner-2.png",
+    "alt": "Horex Nakliyat Banner"
+  },
+  "heroImage": {
+    "src": "/blog/sehirlerarasi.jpg",
+    "alt": "Horex Nakliyat Şehirler Arası Nakliyat",
+    "width": 1200,
+    "height": 800
+  },
+  "features": [
+    {
+      "title": "Ücretsiz Keşif",
+      "description": "Detaylı planlama ve fiyat teklifi.",
+      "icon": "📋"
+    },
+    {
+      "title": "Sigortalı Taşıma",
+      "description": "Tam kapsamlı sigorta güvencesi.",
+      "icon": "🛡️"
+    },
+    {
+      "title": "Uzman Ekip",
+      "description": "Deneyimli taşıma personeli.",
+      "icon": "👥"
+    },
+    {
+      "title": "Modern Araç Filosu",
+      "description": "Güvenli ve bakımlı araçlar.",
+      "icon": "🚚"
+    },
+    {
+      "title": "Hızlı Teslimat",
+      "description": "Zamanında teslimat garantisi.",
+      "icon": "⏱️"
+    },
+    {
+      "title": "7/24 Destek",
+      "description": "Her an ulaşılabilir müşteri hizmetleri.",
+      "icon": "📞"
+    }
+  ],
+  "content": {
+    "mainImage": {
+      "src": "/blog/sehirlerarasi.jpg",
+      "alt": "Horex Nakliyat Profesyonel Şehirler Arası Nakliyat Hizmeti",
+      "width": 800,
+      "height": 600
+    },
+    "introductionTitle": "Şehirler Arası Nakliyat",
+    "introduction": "Şehirler arası nakliyat, bir şehirden başka bir şehre taşınmayı veya eşya gönderimini ifade eder. Bu süreç, özellikle taşınacak eşya miktarı fazla olduğunda veya mesafe uzun olduğunda, dikkatli bir planlama ve profesyonel bir hizmet gerektirir. Aşağıda şehirler arası nakliyat hakkında bilmeniz gereken önemli bilgiler ve ipuçları yer almaktadır.",
+    "featuresTitle": "Hizmet Özellikleri",
+    "highlightsTitle": "Şehirler Arası Nakliyat Avantajları",
+    "whatsappMessage": "Merhaba, şehirler arası nakliyat hizmeti hakkında bilgi almak istiyorum.",
+    "whatsappButtonText": "Ücretsiz Teklif Al",
+    "ctaButtonText": "İletişime Geçin",
+    "highlights": [
+      {
+        "title": "Profesyonel Organizasyon",
+        "description": "Şehirler arası taşınma süreciniz detaylı bir şekilde planlanır ve organize edilir."
+      },
+      {
+        "title": "Özel Araç Filosu",
+        "description": "Her taşıma için uygun boyutta ve özellikte araçlarla hizmet verilir."
+      },
+      {
+        "title": "Sigortalı Taşımacılık",
+        "description": "Eşyalarınız şehirler arası yolculukta tam kapsamlı sigorta ile güvence altındadır."
+      },
+      {
+        "title": "GPS Takip Sistemi",
+        "description": "Araçlarımızda bulunan GPS sistemi ile eşyalarınızın konumunu takip edebilirsiniz."
+      },
+      {
+        "title": "Güvenli Ambalajlama",
+        "description": "Uzun yol taşımacılığına uygun özel ambalajlama teknikleri kullanılır."
+      },
+      {
+        "title": "Tek Sefer Taşıma",
+        "description": "Eşyalarınız aktarmasız, doğrudan adresinize teslim edilir."
+      }
+    ],
+    "mainContent": {
+      "firstSection": {
+        "title": "Şehirler Arası Nakliyat Hizmetlerimiz",
+        "description": "Modern araç filomuz ve profesyonel ekibimizle, eşyalarınızı Türkiye'nin bir ucundan diğerine güvenle taşıyoruz. Uzman kadromuz, eşyalarınızı uzun yol şartlarına uygun şekilde paketleyip, güvenli bir şekilde taşıma işlemini gerçekleştirir.",
+        "items": [
+          {
+            "title": "Özel Araç Filosu",
+            "description": "Her mesafe için uygun araçlar"
+          },
+          {
+            "title": "Uzman Ekip",
+            "description": "Deneyimli şehirler arası taşıma personeli"
+          },
+          {
+            "title": "Tam Sigorta",
+            "description": "Yolculuk boyunca eşyalarınız güvende"
+          },
+          {
+            "title": "Kesintisiz Hizmet",
+            "description": "Türkiye'nin her noktasına taşıma"
+          }
+        ]
+      },
+      "secondSection": {
+        "title": "Şehirler Arası Taşıma Sürecimiz",
+        "description": "Şehirler arası taşıma sürecimiz, detaylı planlama ve güvenli uygulama ile gerçekleşir. Eşyalarınızın envanterini çıkarır, uzun yol taşımacılığına uygun özel malzemeler ile paketleriz.",
+        "items": [
+          {
+            "title": "Ön Keşif",
+            "description": "Detaylı planlama ve hazırlık"
+          },
+          {
+            "title": "Özel Paketleme",
+            "description": "Uzun yola dayanıklı ambalajlama"
+          },
+          {
+            "title": "Güvenli Taşıma",
+            "description": "Deneyimli sürücüler ve bakımlı araçlar"
+          },
+          {
+            "title": "Kurulum Hizmeti",
+            "description": "Yeni adresinizde eşyalarınızın kurulumu"
+          }
+        ]
+      }
+    },
+    "process": {
+      "title": "Şehirler Arası Nakliyat Sürecimiz",
+      "steps": [
+        "Ücretsiz keşif ve planlama",
+        "Özel koruyucu paketleme",
+        "Güvenli yükleme",
+        "GPS takipli şehirler arası taşıma",
+        "Yeni adresinizde kurulum",
+        "Kalite kontrolü"
+      ]
+    },
+    "additionalInfo": {
+      "title": "Neden Horex Nakliyat?",
+      "items": [
+        "15 yıllık şehirler arası nakliyat deneyimi",
+        "Modern araç filosu",
+        "7/24 müşteri desteği",
+        "Tam sigorta kapsamı",
+        "Eşyalarınızın GPS takibi",
+        "Türkiye'nin her iline hizmet"
+      ]
+    },
+    "ctaTitle": "Ücretsiz Fiyat Teklifi Alın",
+    "ctaDescription": "Profesyonel şehirler arası nakliyat hizmetimiz için hemen bizimle iletişime geçin."
+  }
+} 

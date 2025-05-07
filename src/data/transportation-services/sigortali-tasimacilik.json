@@ -1,0 +1,159 @@
+{
+  "title": "Sigortalı Taşımacılık",
+  "description": "EŞYALARINIZ GÜVENLİ ELLERDE - %100 SİGORTA GARANTİSİ",
+  "metaDescription": "Horex Nakliyat ile tam kapsamlı sigortalı taşımacılık hizmeti. Eşyalarınızı her türlü riske karşı koruyoruz. Profesyonel ve güvenli nakliye çözümleri.",
+  "metaKeywords": "sigortalı taşımacılık, nakliyat sigortası, eşya taşıma sigortası, garantili nakliyat, güvenli taşımacılık, ev eşyası sigorta, ofis ekipmanı sigorta",
+  "banner": {
+    "src": "/images/banner/all-page-banner-2.png",
+    "alt": "Horex Nakliyat Banner"
+  },
+  "heroImage": {
+    "src": "/blog/sigortali-tasimacilik.jpg",
+    "alt": "Horex Nakliyat Sigortalı Taşımacılık Hizmeti",
+    "width": 1200,
+    "height": 800
+  },
+  "features": [
+    {
+      "title": "Tam Kapsamlı Sigorta",
+      "description": "Tüm eşyalarınız için %100 güvence.",
+      "icon": "🛡️"
+    },
+    {
+      "title": "Hızlı Hasar Tespiti",
+      "description": "Anında hasar değerlendirmesi.",
+      "icon": "⚡"
+    },
+    {
+      "title": "Hızlı Tazminat",
+      "description": "Hızlı ödeme ve çözüm süreci.",
+      "icon": "💰"
+    },
+    {
+      "title": "Detaylı Envanter",
+      "description": "Taşınan tüm eşyaların listelenmesi.",
+      "icon": "📋"
+    },
+    {
+      "title": "Uzman Personel",
+      "description": "Sigortalı taşıma konusunda eğitimli ekip.",
+      "icon": "👥"
+    },
+    {
+      "title": "Şeffaf Sözleşme",
+      "description": "Açık ve net sigorta koşulları.",
+      "icon": "📝"
+    }
+  ],
+  "content": {
+    "mainImage": {
+      "src": "/blog/sigortali-tasimacilik.jpg",
+      "alt": "Horex Nakliyat Sigortalı Taşımacılık Hizmeti",
+      "width": 800,
+      "height": 600
+    },
+    "introductionTitle": "Sigortalı Taşımacılık Hizmeti",
+    "introduction": "Sigortalı taşımacılık, eşyalarınızın taşınma sürecinde oluşabilecek hasar, kayıp veya kırılma gibi risklere karşı tam koruma sağlar. Horex Nakliyat olarak, tüm taşımacılık hizmetlerimizde sigorta seçeneği sunarak, sizlere huzurlu bir taşınma deneyimi yaşatıyoruz.",
+    "featuresTitle": "Hizmet Özellikleri",
+    "highlightsTitle": "Sigortalı Taşımacılık Avantajları",
+    "whatsappMessage": "Merhaba, sigortalı taşımacılık hizmeti hakkında bilgi almak istiyorum.",
+    "whatsappButtonText": "Ücretsiz Teklif Al",
+    "ctaButtonText": "İletişime Geçin",
+    "highlights": [
+      {
+        "title": "Tam Güvence",
+        "description": "Eşyalarınız için kapsamlı sigorta ile tam güvence sağlanır."
+      },
+      {
+        "title": "Maddi Koruma",
+        "description": "Olası hasarlarda maddi kayıplarınız sigorta kapsamında karşılanır."
+      },
+      {
+        "title": "Stressiz Taşınma",
+        "description": "Sigorta güvencesi ile taşınma stresi ortadan kalkar."
+      },
+      {
+        "title": "Değerli Eşya Güvencesi",
+        "description": "Antika, sanat eseri gibi değerli eşyalarınız özel olarak sigortalanır."
+      },
+      {
+        "title": "Şeffaf Süreç",
+        "description": "Sigorta poliçesi ve kapsamı hakkında detaylı bilgilendirme yapılır."
+      },
+      {
+        "title": "Hızlı Çözüm",
+        "description": "Hasar durumunda hızlı değerlendirme ve tazminat süreci."
+      }
+    ],
+    "mainContent": {
+      "firstSection": {
+        "title": "Sigortalı Taşımacılık Hizmetlerimiz",
+        "description": "Sigortalı taşımacılık hizmetimiz, eşyalarınızın taşınma sırasında oluşabilecek her türlü riske karşı tam koruma sağlar. Nakliye sigortası, taşıma sürecinde meydana gelebilecek hasar, kayıp veya kırılma gibi durumları kapsar.",
+        "items": [
+          {
+            "title": "Ev Eşyası Sigortası",
+            "description": "Mobilya ve kişisel eşyaların güvencesi"
+          },
+          {
+            "title": "Ofis Ekipmanı Sigortası",
+            "description": "Elektronik cihaz ve ofis mobilyaları koruması"
+          },
+          {
+            "title": "Değerli Eşya Sigortası",
+            "description": "Antika ve sanat eserleri için özel koruma"
+          },
+          {
+            "title": "Uluslararası Taşıma Sigortası",
+            "description": "Sınır ötesi taşımalar için tam güvence"
+          }
+        ]
+      },
+      "secondSection": {
+        "title": "Sigortalı Taşımacılık Sürecimiz",
+        "description": "Sigortalı taşımacılık sürecimiz, eşyalarınızın değerlerinin belirlenmesi ile başlar ve taşıma sonrası kontrol ile tamamlanır. Her adımda şeffaf bir süreç yürütülerek, olası risklere karşı tam koruma sağlanır.",
+        "items": [
+          {
+            "title": "Eşya Değerlendirmesi",
+            "description": "Detaylı envanter ve değer tespiti"
+          },
+          {
+            "title": "Sigorta Poliçesi",
+            "description": "Kapsamlı sigorta sözleşmesi hazırlanması"
+          },
+          {
+            "title": "Profesyonel Paketleme",
+            "description": "Hasarı önleyici özel ambalajlama"
+          },
+          {
+            "title": "Teslim Kontrolü",
+            "description": "Taşıma sonrası eşya kontrol ve onayı"
+          }
+        ]
+      }
+    },
+    "process": {
+      "title": "Sigortalı Taşımacılık Sürecimiz",
+      "steps": [
+        "Ücretsiz keşif ve eşya değerlendirmesi",
+        "Detaylı envanter çıkarma",
+        "Sigorta poliçesi hazırlama",
+        "Profesyonel paketleme ve etiketleme",
+        "Güvenli taşıma ve teslim",
+        "Teslim sonrası eşya kontrolü"
+      ]
+    },
+    "additionalInfo": {
+      "title": "Neden Horex Nakliyat?",
+      "items": [
+        "10 yıllık sigortalı taşımacılık deneyimi",
+        "Özel sigorta anlaşmaları",
+        "Hızlı hasar tespiti ve tazminat süreci",
+        "Her türlü eşya için sigorta seçeneği",
+        "Şeffaf sigorta şartları",
+        "Uzman sigorta danışmanlığı"
+      ]
+    },
+    "ctaTitle": "Sigortalı Taşıma Teklifi Alın",
+    "ctaDescription": "Eşyalarınızı tam güvence altına alacak sigortalı taşımacılık hizmetimiz için hemen bizimle iletişime geçin."
+  }
+} 

@@ -1,0 +1,159 @@
+{
+  "title": "Fuar Taşımacılığı",
+  "description": "FUAR STANDİ VE EKİPMAN TAŞIMA UZMANI",
+  "metaDescription": "Horex Nakliyat ile fuar taşımacılığı hizmeti. Fuar standı, ekipman ve ürünlerinizi zamanlama hassasiyeti ve özel paketleme ile güvenle taşıyoruz.",
+  "metaKeywords": "fuar taşımacılığı, fuar standı taşıma, fuar lojistik, stand taşıma, fuar ekipman taşıma, fuar nakliye, sergi taşıma",
+  "banner": {
+    "src": "/images/banner/all-page-banner-2.png",
+    "alt": "Horex Nakliyat Banner"
+  },
+  "heroImage": {
+    "src": "/blog/fuar-tasima.jpg",
+    "alt": "Horex Nakliyat Fuar Taşımacılığı",
+    "width": 1200,
+    "height": 800
+  },
+  "features": [
+    {
+      "title": "Zamanlama",
+      "description": "Tam zamanında teslimat garantisi.",
+      "icon": "⏱️"
+    },
+    {
+      "title": "Stand Kurulum",
+      "description": "Fuar standı kurulum desteği.",
+      "icon": "🛠️"
+    },
+    {
+      "title": "Özel Paketleme",
+      "description": "Hassas ekipman için özel çözümler.",
+      "icon": "📦"
+    },
+    {
+      "title": "Fuar Lojistiği",
+      "description": "Uluslararası fuar lojistik desteği.",
+      "icon": "🌐"
+    },
+    {
+      "title": "Depolama",
+      "description": "Fuar ekipmanları için depolama.",
+      "icon": "🏢"
+    },
+    {
+      "title": "7/24 Destek",
+      "description": "Fuar sürecinde sürekli iletişim.",
+      "icon": "📱"
+    }
+  ],
+  "content": {
+    "mainImage": {
+      "src": "/blog/fuar-tasima.jpg",
+      "alt": "Horex Nakliyat Fuar Taşımacılığı Hizmeti",
+      "width": 800,
+      "height": 600
+    },
+    "introductionTitle": "Fuar Taşımacılığı Hizmeti",
+    "introduction": "Fuar taşımacılığı, ticari fuarlar, sergiler ve etkinliklerde kullanılacak stand, ürün ve ekipmanların fuar alanına ve fuar sonrası geri taşınması hizmetidir. Zamanlama hassasiyeti, özel paketleme ve hızlı kurulum gerektiren fuar lojistiğinde profesyonel çözümler sunuyoruz.",
+    "featuresTitle": "Hizmet Özellikleri",
+    "highlightsTitle": "Fuar Taşımacılığı Avantajları",
+    "whatsappMessage": "Merhaba, fuar taşımacılığı hizmeti hakkında bilgi almak istiyorum.",
+    "whatsappButtonText": "Ücretsiz Teklif Al",
+    "ctaButtonText": "İletişime Geçin",
+    "highlights": [
+      {
+        "title": "Zaman Yönetimi",
+        "description": "Fuarların kritik zaman çizelgelerine uygun lojistik planlaması yapılır."
+      },
+      {
+        "title": "Özel Ambalajlama",
+        "description": "Stand ve sergilenecek ürünler için özel koruyucu paketleme sağlanır."
+      },
+      {
+        "title": "Kurulum Desteği",
+        "description": "Fuar standı kurulumu ve demontajı için teknik destek verilir."
+      },
+      {
+        "title": "Uluslararası Lojistik",
+        "description": "Yurt içi ve yurt dışı fuarlar için gümrük işlemleri dahil komple lojistik çözümü."
+      },
+      {
+        "title": "Ürün Güvenliği",
+        "description": "Sergilenecek değerli ürünler için maksimum güvenlik önlemleri alınır."
+      },
+      {
+        "title": "Acil Durum Çözümleri",
+        "description": "Fuar sırasında oluşabilecek lojistik ihtiyaçlar için 7/24 destek."
+      }
+    ],
+    "mainContent": {
+      "firstSection": {
+        "title": "Fuar Taşımacılığı Hizmetlerimiz",
+        "description": "Horex Nakliyat olarak, şirketlerin fuar katılımlarında ihtiyaç duydukları tüm lojistik hizmetleri tek elden sunuyoruz. Fuar öncesi planlamadan, etkinlik sonrası demontaj ve geri taşımaya kadar tüm süreci profesyonelce yönetiyoruz.",
+        "items": [
+          {
+            "title": "Stand Taşıma",
+            "description": "Fuar standı ve modüler parçaların taşınması"
+          },
+          {
+            "title": "Ürün Taşıma",
+            "description": "Sergilenecek ürünlerin özel paketleme ile taşınması"
+          },
+          {
+            "title": "Ekipman Lojistiği",
+            "description": "Teknik ekipman ve donanım taşıma"
+          },
+          {
+            "title": "Uluslararası Fuar Lojistiği",
+            "description": "Yurt dışı fuarlar için gümrük ve taşıma hizmetleri"
+          }
+        ]
+      },
+      "secondSection": {
+        "title": "Fuar Taşıma Sürecimiz",
+        "description": "Fuar taşımacılığımız, zamanında teslimat ve güvenli taşıma prensiplerine dayanır. Özellikle fuarların sıkı zaman kısıtlamaları ve özel kurulum gereksinimleri göz önünde bulundurularak tasarlanmış bir süreç yönetimi uygularız.",
+        "items": [
+          {
+            "title": "Fuar Öncesi Planlama",
+            "description": "Fuar alanı ve zaman kısıtlamalarına göre lojistik planı"
+          },
+          {
+            "title": "Özel Paketleme",
+            "description": "Stand ve ürünler için koruyucu paketleme"
+          },
+          {
+            "title": "Zamanında Teslimat",
+            "description": "Fuar kurulum programına uygun sevkiyat"
+          },
+          {
+            "title": "Yerinde Destek",
+            "description": "Fuar alanında kurulum ve demontaj desteği"
+          }
+        ]
+      }
+    },
+    "process": {
+      "title": "Fuar Taşıma Sürecimiz",
+      "steps": [
+        "Fuar planlaması ve keşif",
+        "Özel paketleme ve yükleme",
+        "Zamanında fuar alanına teslimat",
+        "Stand kurulumuna destek",
+        "Fuar boyunca lojistik destek",
+        "Demontaj ve geri taşıma"
+      ]
+    },
+    "additionalInfo": {
+      "title": "Neden Horex Nakliyat?",
+      "items": [
+        "Fuar lojistiği konusunda uzmanlaşmış ekip",
+        "Fuar organizatörleriyle koordineli çalışma",
+        "Esnek ve hızlı çözüm kapasitesi",
+        "Uluslararası fuar deneyimi",
+        "Stand ve ekipman taşıma uzmanlığı",
+        "Tam sigorta güvencesi"
+      ]
+    },
+    "ctaTitle": "Fuar Taşımacılığı Teklifi Alın",
+    "ctaDescription": "Profesyonel fuar stand ve ekipman taşıma hizmetimiz için hemen bizimle iletişime geçin."
+  }
+} 

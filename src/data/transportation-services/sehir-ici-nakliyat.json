@@ -1,0 +1,159 @@
+{
+  "title": "Şehir İçi Nakliyat",
+  "description": "AYNI ŞEHİRDE HIZLI VE GÜVENLİ TAŞIMACILIK",
+  "metaDescription": "Horex Nakliyat ile şehir içi nakliyat hizmeti. İstanbul'un tüm ilçelerinde ev, ofis ve parça eşya taşıma. Aynı gün teslimat imkanı ve profesyonel hizmet.",
+  "metaKeywords": "şehir içi nakliyat, istanbul içi nakliyat, ev taşıma, ofis taşıma, ilçeler arası nakliyat, aynı şehir taşımacılık, ekonomik nakliyat",
+  "banner": {
+    "src": "/images/banner/all-page-banner-2.png",
+    "alt": "Horex Nakliyat Banner"
+  },
+  "heroImage": {
+    "src": "/blog/sehir-ici.jpg",
+    "alt": "Horex Nakliyat Şehir İçi Nakliyat",
+    "width": 1200,
+    "height": 800
+  },
+  "features": [
+    {
+      "title": "Aynı Gün Taşıma",
+      "description": "Hızlı ve pratik taşıma çözümleri.",
+      "icon": "🕐"
+    },
+    {
+      "title": "Trafik Yönetimi",
+      "description": "Şehir trafiğinde optimum rota planlaması.",
+      "icon": "🚦"
+    },
+    {
+      "title": "Uygun Fiyatlar",
+      "description": "Şehir içi uygun fiyat avantajı.",
+      "icon": "💰"
+    },
+    {
+      "title": "Profesyonel Ekip",
+      "description": "Deneyimli nakliyat personeli.",
+      "icon": "👥"
+    },
+    {
+      "title": "Modern Araçlar",
+      "description": "Şehir içine uygun boyutlarda araçlar.",
+      "icon": "🚚"
+    },
+    {
+      "title": "7/24 Hizmet",
+      "description": "Dilediğiniz saatte taşıma imkanı.",
+      "icon": "📅"
+    }
+  ],
+  "content": {
+    "mainImage": {
+      "src": "/blog/sehir-ici.jpg",
+      "alt": "Horex Nakliyat Şehir İçi Nakliyat Hizmeti",
+      "width": 800,
+      "height": 600
+    },
+    "introductionTitle": "Şehir İçi Nakliyat Hizmeti",
+    "introduction": "Şehir içi nakliyat, aynı şehir sınırları içerisindeki ev, ofis veya eşya taşıma işlemlerini kapsar. Horex Nakliyat olarak, İstanbul'un tüm ilçeleri arasında profesyonel, hızlı ve güvenli taşımacılık hizmeti sunuyoruz.",
+    "featuresTitle": "Hizmet Özellikleri",
+    "highlightsTitle": "Şehir İçi Nakliyat Avantajları",
+    "whatsappMessage": "Merhaba, şehir içi nakliyat hizmeti hakkında bilgi almak istiyorum.",
+    "whatsappButtonText": "Ücretsiz Teklif Al",
+    "ctaButtonText": "İletişime Geçin",
+    "highlights": [
+      {
+        "title": "Aynı Gün Taşıma",
+        "description": "Şehir içi taşımalarında genellikle aynı gün içinde taşıma işlemi tamamlanır."
+      },
+      {
+        "title": "Kısa Mesafe Avantajı",
+        "description": "Kısa mesafe taşımacılık sayesinde daha ekonomik fiyatlar sunulur."
+      },
+      {
+        "title": "Esnek Planlama",
+        "description": "Şehir içi taşımalarda dilediğiniz gün ve saatte hizmet alabilirsiniz."
+      },
+      {
+        "title": "Trafiğe Göre Planlama",
+        "description": "Şehir trafiğinin yoğun olmadığı saatlere göre taşıma planlanır."
+      },
+      {
+        "title": "Hızlı Kurulum",
+        "description": "Kısa mesafe sayesinde yeni evinizde hızlı kurulum sağlanır."
+      },
+      {
+        "title": "İlçeler Arası Hizmet",
+        "description": "İstanbul'un tüm ilçeleri arasında kesintisiz nakliyat desteği."
+      }
+    ],
+    "mainContent": {
+      "firstSection": {
+        "title": "Şehir İçi Nakliyat Hizmetlerimiz",
+        "description": "İstanbul'un 39 ilçesinde kapsamlı şehir içi nakliyat hizmeti sunuyoruz. Bağcılar'dan Beşiktaş'a, Kadıköy'den Beylikdüzü'ne kadar tüm ilçeler arasında ev, ofis ve parça eşya taşımacılığı yapıyoruz.",
+        "items": [
+          {
+            "title": "Ev Taşıma",
+            "description": "Şehir içi ev taşıma hizmeti"
+          },
+          {
+            "title": "Ofis Taşıma",
+            "description": "İş yerlerinin şehir içi taşınması"
+          },
+          {
+            "title": "Parça Eşya Taşıma",
+            "description": "Tek mobilya veya beyaz eşya taşıma"
+          },
+          {
+            "title": "Asansörlü Taşıma",
+            "description": "Yüksek katlı binalarda özel çözüm"
+          }
+        ]
+      },
+      "secondSection": {
+        "title": "Şehir İçi Taşıma Sürecimiz",
+        "description": "Şehir içi taşıma sürecimiz, detaylı planlama ve şehir trafiğini göz önünde bulundurarak yapılır. Eşyalarınızın güvenli ve hızlı bir şekilde yeni adresinize ulaşması için tüm detayları düşünürüz.",
+        "items": [
+          {
+            "title": "Ücretsiz Keşif",
+            "description": "Ev veya ofis ziyareti ile değerlendirme"
+          },
+          {
+            "title": "Trafik Analizi",
+            "description": "En uygun taşıma saat ve güzergahı belirleme"
+          },
+          {
+            "title": "Güvenli Paketleme",
+            "description": "Eşyaların özenle paketlenmesi"
+          },
+          {
+            "title": "Hızlı Teslimat",
+            "description": "Kısa sürede yeni adrese teslimat"
+          }
+        ]
+      }
+    },
+    "process": {
+      "title": "Şehir İçi Nakliyat Sürecimiz",
+      "steps": [
+        "Ücretsiz keşif ve fiyat teklifi",
+        "Taşıma gün ve saatinin belirlenmesi",
+        "Profesyonel paketleme hizmeti",
+        "Güvenli yükleme ve taşıma",
+        "Yeni adreste eşyaların yerleştirilmesi",
+        "Müşteri memnuniyeti kontrolü"
+      ]
+    },
+    "additionalInfo": {
+      "title": "Neden Horex Nakliyat?",
+      "items": [
+        "İstanbul'un tüm ilçelerinde hizmet",
+        "Şehir trafiğine hakim sürücüler",
+        "Farklı boyutlarda şehir içi nakliye araçları",
+        "Aynı gün taşıma imkanı",
+        "Tam sigorta kapsamı",
+        "Ekonomik şehir içi taşıma fiyatları"
+      ]
+    },
+    "ctaTitle": "Şehir İçi Nakliyat Teklifi Alın",
+    "ctaDescription": "İstanbul içinde her semte profesyonel nakliyat hizmetimiz için hemen bizimle iletişime geçin."
+  }
+} 

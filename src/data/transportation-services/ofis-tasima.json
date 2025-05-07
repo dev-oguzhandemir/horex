@@ -1,0 +1,159 @@
+{
+  "title": "Profesyonel Ofis Taşıma",
+  "description": "İŞ AKIŞINI KESİNTİYE UĞRATMADAN OFİS TAŞIMA ÇÖZÜMÜ",
+  "metaDescription": "Horex Nakliyat ile profesyonel ofis taşıma hizmeti. Minimum kesinti, maksimum verimlilik ile ofis mobilyaları, IT ekipmanları ve dokümanlarınızı güvenle taşıyoruz.",
+  "metaKeywords": "ofis taşıma, şirket taşıma, kurumsal taşımacılık, istanbul ofis taşıma, it ekipmanı taşıma, ofis mobilyası taşıma, profesyonel ofis nakliyat",
+  "banner": {
+    "src": "/images/banner/all-page-banner-2.png",
+    "alt": "Horex Nakliyat Banner"
+  },
+  "heroImage": {
+    "src": "/blog/ofis-tasima.jpg",
+    "alt": "Horex Nakliyat Profesyonel Ofis Taşıma",
+    "width": 1200,
+    "height": 800
+  },
+  "features": [
+    {
+      "title": "Detaylı Planlama",
+      "description": "Kesintisiz iş akışı için stratejik planlama.",
+      "icon": "📋"
+    },
+    {
+      "title": "IT Ekipman Taşıma",
+      "description": "Hassas elektronik ekipman taşıma uzmanlığı.",
+      "icon": "💻"
+    },
+    {
+      "title": "Sigortalı Taşıma",
+      "description": "Tam kapsamlı sigorta güvencesi.",
+      "icon": "🛡️"
+    },
+    {
+      "title": "Demontaj/Montaj",
+      "description": "Ofis mobilyalarının sökülmesi ve kurulması.",
+      "icon": "🔧"
+    },
+    {
+      "title": "Hafta Sonu Taşıma",
+      "description": "İş kaybını önlemek için esnek zamanlama.",
+      "icon": "📅"
+    },
+    {
+      "title": "Dokümantasyon Yönetimi",
+      "description": "Dosya ve evrakların organizasyonu.",
+      "icon": "📁"
+    }
+  ],
+  "content": {
+    "mainImage": {
+      "src": "/blog/ofis-tasima.jpg",
+      "alt": "Horex Nakliyat Profesyonel Ofis Taşıma Hizmeti",
+      "width": 800,
+      "height": 600
+    },
+    "introductionTitle": "Profesyonel Ofis Taşıma Hizmeti",
+    "introduction": "Ofis taşıma, şirketinizin tüm ekipman ve mobilyalarının yeni iş yerinize güvenli ve düzenli bir şekilde taşınması işlemidir. Doğru planlama ve profesyonel destek ile iş akışınızı minimum düzeyde etkileyerek taşınma sürecinizi yönetiyoruz.",
+    "featuresTitle": "Hizmet Özellikleri",
+    "highlightsTitle": "Ofis Taşıma Avantajları",
+    "whatsappMessage": "Merhaba, ofis taşıma hizmeti hakkında bilgi almak istiyorum.",
+    "whatsappButtonText": "Ücretsiz Teklif Al",
+    "ctaButtonText": "İletişime Geçin",
+    "highlights": [
+      {
+        "title": "İş Sürekliliği",
+        "description": "Minimum kesinti ile iş akışınızın devamlılığını sağlarız."
+      },
+      {
+        "title": "Özel Paketleme",
+        "description": "Hassas ofis ekipmanları için özel koruyucu malzemeler kullanılır."
+      },
+      {
+        "title": "Hafta Sonu Operasyonu",
+        "description": "Çalışma saatleri dışında taşınma imkanı ile verimlilik kaybını önleriz."
+      },
+      {
+        "title": "Adres Koordinasyonu",
+        "description": "Yeni ofis binası ile gerekli izin ve koordinasyon işlemleri yürütülür."
+      },
+      {
+        "title": "Yerleşim Planı",
+        "description": "Yeni ofisiniz için detaylı yerleşim planı oluşturulur."
+      },
+      {
+        "title": "Atık Yönetimi",
+        "description": "Taşınma sonrası gereksiz malzeme ve ambalajların bertarafı sağlanır."
+      }
+    ],
+    "mainContent": {
+      "firstSection": {
+        "title": "Ofis Taşıma Hizmetlerimiz",
+        "description": "Profesyonel ekibimiz ve özel ekipmanlarımızla, ofis mobilyaları, IT sistemleri, dosya ve evrakları güvenle yeni adresinize taşıyoruz. İş akışınızı minimum düzeyde etkileyecek şekilde planlanan süreç, deneyimli kadromuz tarafından titizlikle yönetilir.",
+        "items": [
+          {
+            "title": "IT Sistemleri Taşıma",
+            "description": "Bilgisayar ve server güvenli taşıma"
+          },
+          {
+            "title": "Mobilya Söküm-Kurulum",
+            "description": "Profesyonel demontaj ve montaj"
+          },
+          {
+            "title": "Evrak Taşıma",
+            "description": "Doküman ve dosyaların organizasyonu"
+          },
+          {
+            "title": "Özel Ekipman Taşıma",
+            "description": "Hassas ofis ekipmanları için çözümler"
+          }
+        ]
+      },
+      "secondSection": {
+        "title": "Ofis Taşıma Sürecimiz",
+        "description": "Ofis taşıma sürecimiz, iş akışınızı en az etkileyecek şekilde planlanır ve koordine edilir. Şirketinizin tüm ihtiyaçları göz önünde bulundurularak, taşınma süreci adım adım yönetilir.",
+        "items": [
+          {
+            "title": "Keşif ve Planlama",
+            "description": "Detaylı ön değerlendirme"
+          },
+          {
+            "title": "Yerleşim Planı",
+            "description": "Yeni ofis düzeni tasarımı"
+          },
+          {
+            "title": "Güvenli Paketleme",
+            "description": "Ekipman türüne özel ambalajlama"
+          },
+          {
+            "title": "Hızlı Kurulum",
+            "description": "Yeni ofiste hızlı operasyonel hazırlık"
+          }
+        ]
+      }
+    },
+    "process": {
+      "title": "Ofis Taşıma Sürecimiz",
+      "steps": [
+        "Ücretsiz keşif ve ihtiyaç analizi",
+        "Taşınma planı ve zaman çizelgesi oluşturma",
+        "Ekipman listesi ve envanter çıkarma",
+        "Profesyonel paketleme ve etiketleme",
+        "Güvenli taşıma ve kurulum",
+        "Kalite kontrolü ve onay"
+      ]
+    },
+    "additionalInfo": {
+      "title": "Neden Horex Nakliyat?",
+      "items": [
+        "12 yıllık kurumsal taşımacılık deneyimi",
+        "IT ekipmanı taşıma konusunda uzmanlık",
+        "Şirkete özel taşıma çözümleri",
+        "Kurumsal müşteri referansları",
+        "Tam sigorta kapsamı",
+        "İş sürekliliğini koruyacak çözümler"
+      ]
+    },
+    "ctaTitle": "Ofis Taşıma Teklifi Alın",
+    "ctaDescription": "Profesyonel ofis taşıma hizmetimiz için hemen bizimle iletişime geçin."
+  }
+} 

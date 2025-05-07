@@ -1,0 +1,159 @@
+{
+  "title": "Fabrika Taşımacılığı",
+  "description": "AĞIR MAKİNE VE EKİPMAN TAŞIMA UZMANI",
+  "metaDescription": "Horex Nakliyat ile fabrika taşımacılığı hizmeti. Endüstriyel makine ve ekipmanlarınızı özel kaldırma sistemleri ve profesyonel ekiple güvenle taşıyoruz.",
+  "metaKeywords": "fabrika taşımacılığı, endüstriyel makine taşıma, fabrika taşıma, makine taşıma, ağır yük taşıma, üretim hattı taşıma, fabrika relokasyon",
+  "banner": {
+    "src": "/images/banner/all-page-banner-2.png",
+    "alt": "Horex Nakliyat Banner"
+  },
+  "heroImage": {
+    "src": "/blog/fabrika-tasima.jpg",
+    "alt": "Horex Nakliyat Fabrika Taşımacılığı",
+    "width": 1200,
+    "height": 800
+  },
+  "features": [
+    {
+      "title": "Proje Yönetimi",
+      "description": "Detaylı taşıma planı ve koordinasyon.",
+      "icon": "📋"
+    },
+    {
+      "title": "Özel Ekipman",
+      "description": "Ağır makine taşıma sistemleri.",
+      "icon": "🏗️"
+    },
+    {
+      "title": "Sigortalı Taşıma",
+      "description": "Yüksek değerli ekipman güvencesi.",
+      "icon": "🛡️"
+    },
+    {
+      "title": "7/24 Hizmet",
+      "description": "Üretimi aksatmayan taşıma çözümleri.",
+      "icon": "⏰"
+    },
+    {
+      "title": "Teknik Ekip",
+      "description": "Endüstriyel ekipman uzmanları.",
+      "icon": "👷"
+    },
+    {
+      "title": "Yerleşim Planlaması",
+      "description": "Yeni alan üretim optimizasyonu.",
+      "icon": "🏭"
+    }
+  ],
+  "content": {
+    "mainImage": {
+      "src": "/blog/fabrika-tasima.jpg",
+      "alt": "Horex Nakliyat Fabrika Taşımacılığı Hizmeti",
+      "width": 800,
+      "height": 600
+    },
+    "introductionTitle": "Fabrika Taşımacılığı Hizmeti",
+    "introduction": "Fabrika taşımacılığı, endüstriyel tesislerin, üretim hatlarının ve ağır makinelerin bir lokasyondan başka bir lokasyona güvenli şekilde taşınması hizmetidir. Yüksek değerli ve hassas ekipmanların zarar görmeden, minimum üretim kaybıyla taşınması için profesyonel çözümler sunuyoruz.",
+    "featuresTitle": "Hizmet Özellikleri",
+    "highlightsTitle": "Fabrika Taşımacılığı Avantajları",
+    "whatsappMessage": "Merhaba, fabrika taşımacılığı hizmeti hakkında bilgi almak istiyorum.",
+    "whatsappButtonText": "Ücretsiz Teklif Al",
+    "ctaButtonText": "İletişime Geçin",
+    "highlights": [
+      {
+        "title": "Kapsamlı Planlama",
+        "description": "Taşıma öncesi detaylı risk analizi ve süreç planlaması yapılır."
+      },
+      {
+        "title": "Minimum Kesinti",
+        "description": "Üretim süreçlerinizi en az etkileyecek taşıma programı hazırlanır."
+      },
+      {
+        "title": "Özel Taşıma Ekipmanları",
+        "description": "Ağır ve hassas makineler için özel kaldırma ve taşıma sistemleri kullanılır."
+      },
+      {
+        "title": "Teknik Personel",
+        "description": "Endüstriyel makine ve ekipman konusunda uzman kadro ile çalışırız."
+      },
+      {
+        "title": "Tam Sigorta",
+        "description": "Yüksek değerli ekipmanlarınız için özel sigorta çözümleri sunulur."
+      },
+      {
+        "title": "Anahtar Teslim Hizmet",
+        "description": "Sökümden kuruluma kadar tüm süreç tek elden yönetilir."
+      }
+    ],
+    "mainContent": {
+      "firstSection": {
+        "title": "Fabrika Taşımacılığı Hizmetlerimiz",
+        "description": "Horex Nakliyat olarak, endüstriyel tesislerin, fabrikaların ve üretim hatlarının taşınması konusunda uzmanlaşmış kadromuzla hizmet veriyoruz. Her biri kendi alanında uzman mühendisler, teknisyenler ve nakliye personelimizle karmaşık fabrika taşıma projelerini başarıyla yönetiyoruz.",
+        "items": [
+          {
+            "title": "Ağır Makine Taşıma",
+            "description": "CNC, pres ve üretim makineleri taşıma"
+          },
+          {
+            "title": "Üretim Hattı Taşıma",
+            "description": "Komple üretim bandı relokasyonu"
+          },
+          {
+            "title": "Endüstriyel Ekipman",
+            "description": "Hassas endüstriyel cihaz taşıma"
+          },
+          {
+            "title": "Komple Fabrika Taşıma",
+            "description": "Tüm tesis demontaj ve montajı"
+          }
+        ]
+      },
+      "secondSection": {
+        "title": "Fabrika Taşıma Sürecimiz",
+        "description": "Fabrika taşıma sürecimiz, detaylı bir planlama ile başlar ve yeni lokasyonda işletmenizin tam kapasite çalışması ile sonuçlanır. Her adımda teknik ekipmanlarınızın güvenliği ve işinizin devamlılığı ön planda tutulur.",
+        "items": [
+          {
+            "title": "Keşif ve Analiz",
+            "description": "Detaylı envanter ve risk değerlendirmesi"
+          },
+          {
+            "title": "Proje Planlaması",
+            "description": "Zaman çizelgesi ve kaynak planlaması"
+          },
+          {
+            "title": "Teknik Demontaj",
+            "description": "Uzman ekiple profesyonel sökme işlemi"
+          },
+          {
+            "title": "Kurulum ve Test",
+            "description": "Yeni lokasyonda montaj ve test süreci"
+          }
+        ]
+      }
+    },
+    "process": {
+      "title": "Fabrika Taşıma Sürecimiz",
+      "steps": [
+        "Keşif ve teklif aşaması",
+        "Proje planı ve risk analizi",
+        "Teknik demontaj ve paketleme",
+        "Özel ekipmanlarla güvenli taşıma",
+        "Yeni lokasyonda teknik montaj",
+        "Kalibrasyon ve test işlemleri"
+      ]
+    },
+    "additionalInfo": {
+      "title": "Neden Horex Nakliyat?",
+      "items": [
+        "Endüstriyel taşımacılık konusunda 15 yıllık deneyim",
+        "Mühendis ve teknisyenlerden oluşan teknik ekip",
+        "Ağır yük taşıma için özel ekipman filosu",
+        "Yüksek değerli makine taşıma uzmanlığı",
+        "Endüstriyel sigorta çözümleri",
+        "Anahtar teslim fabrika taşıma hizmeti"
+      ]
+    },
+    "ctaTitle": "Fabrika Taşıma Teklifi Alın",
+    "ctaDescription": "Profesyonel fabrika taşımacılığı, makine ve endüstriyel ekipman taşıma hizmetimiz için hemen bizimle iletişime geçin."
+  }
+} 

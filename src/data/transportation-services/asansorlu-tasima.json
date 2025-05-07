@@ -1,0 +1,159 @@
+{
+  "title": "Asansörlü Taşıma",
+  "description": "YÜKSEK KATLARA GÜVENLİ TAŞIMA ÇÖZÜMÜ",
+  "metaDescription": "Horex Nakliyat ile asansörlü taşıma hizmeti. Dar merdiven ve yüksek katlara özel asansör sistemi ile eşyalarınızı hasarsız ve hızlı şekilde taşıyoruz.",
+  "metaKeywords": "asansörlü taşıma, asansörlü nakliyat, yüksek kat taşıma, dış cephe asansörü, eşya taşıma asansörü, asansörlü ev taşıma, asansörlü eşya taşıma",
+  "banner": {
+    "src": "/images/banner/all-page-banner-2.png",
+    "alt": "Horex Nakliyat Banner"
+  },
+  "heroImage": {
+    "src": "/blog/asansorlu-tasima.jpg",
+    "alt": "Horex Nakliyat Asansörlü Taşıma",
+    "width": 1200,
+    "height": 800
+  },
+  "features": [
+    {
+      "title": "Güvenli Taşıma",
+      "description": "Eşyaların hasar görmeden taşınması.",
+      "icon": "🛡️"
+    },
+    {
+      "title": "Hızlı Hizmet",
+      "description": "Merdiven taşımaya göre çok daha hızlı.",
+      "icon": "⚡"
+    },
+    {
+      "title": "Yüksek Katlara",
+      "description": "30 kata kadar ulaşım imkanı.",
+      "icon": "🏢"
+    },
+    {
+      "title": "Dar Alanlarda",
+      "description": "Merdiveni dar binalarda ideal çözüm.",
+      "icon": "↔️"
+    },
+    {
+      "title": "Büyük Eşyalar",
+      "description": "Koltuk, buzdolabı, çamaşır makinesi taşıma.",
+      "icon": "🛋️"
+    },
+    {
+      "title": "Sigortalı Taşıma",
+      "description": "Tam güvence ile taşıma hizmeti.",
+      "icon": "📝"
+    }
+  ],
+  "content": {
+    "mainImage": {
+      "src": "/blog/asansorlu-tasima.jpg",
+      "alt": "Horex Nakliyat Asansörlü Taşıma Hizmeti",
+      "width": 800,
+      "height": 600
+    },
+    "introductionTitle": "Asansörlü Taşıma Hizmeti",
+    "introduction": "Asansörlü taşıma, özellikle yüksek katlı binalarda, dar merdivenlerde veya büyük, ağır eşyaların taşınmasında kullanılan özel bir nakliyat hizmetidir. Dış cephe asansörü kullanılarak eşyaların doğrudan pencere veya balkondan taşınması ile hızlı, güvenli ve hasarsız bir taşıma süreci sağlanır.",
+    "featuresTitle": "Hizmet Özellikleri",
+    "highlightsTitle": "Asansörlü Taşıma Avantajları",
+    "whatsappMessage": "Merhaba, asansörlü taşıma hizmeti hakkında bilgi almak istiyorum.",
+    "whatsappButtonText": "Ücretsiz Teklif Al",
+    "ctaButtonText": "İletişime Geçin",
+    "highlights": [
+      {
+        "title": "Hızlı Taşıma",
+        "description": "Merdiven kullanılarak yapılan taşımalara göre 3 kat daha hızlı taşıma süreci."
+      },
+      {
+        "title": "Hasar Riski Minimizasyonu",
+        "description": "Dar merdivenlerde eşyalara hasar gelme riski ortadan kalkar."
+      },
+      {
+        "title": "Yüksek Katlara Erişim",
+        "description": "30 kata kadar ulaşabilen asansör sistemi ile sorunsuz taşıma."
+      },
+      {
+        "title": "Uygun Fiyat",
+        "description": "İş gücü maliyetini düşürerek daha ekonomik taşıma imkanı."
+      },
+      {
+        "title": "Büyük Eşya Taşıma",
+        "description": "Koltuk takımı, buzdolabı, çamaşır makinesi gibi büyük eşyaların kolayca taşınması."
+      },
+      {
+        "title": "Emek Tasarrufu",
+        "description": "Taşıma ekibi için fiziksel zorlanmayı azaltarak daha özenli taşıma."
+      }
+    ],
+    "mainContent": {
+      "firstSection": {
+        "title": "Asansörlü Taşıma Hizmetlerimiz",
+        "description": "Horex Nakliyat olarak, profesyonel asansörlü taşıma hizmetimizle eşyalarınızı güvenle yüksek katlara taşıyoruz. Modern asansör sistemlerimiz ve tecrübeli ekibimizle, özellikle dar merdivenleri olan binalar için ideal çözümler sunuyoruz.",
+        "items": [
+          {
+            "title": "Ev Taşıma",
+            "description": "Yüksek katlardaki evlere asansörlü taşıma"
+          },
+          {
+            "title": "Ofis Taşıma",
+            "description": "İş yerlerinin asansörlü taşıma ile taşınması"
+          },
+          {
+            "title": "Büyük Eşya Taşıma",
+            "description": "Büyük mobilya ve beyaz eşyaların taşınması"
+          },
+          {
+            "title": "Saatlik Kiralama",
+            "description": "Asansör sisteminin saatlik kiralanması"
+          }
+        ]
+      },
+      "secondSection": {
+        "title": "Asansörlü Taşıma Sürecimiz",
+        "description": "Asansörlü taşıma hizmetimiz, profesyonel bir keşif ile başlar ve eşyalarınızın tam güvenliği sağlanarak tamamlanır. Modern asansör sistemlerimiz ve uzman ekibimizle, yüksek katlara taşınmayı stressiz bir deneyime dönüştürüyoruz.",
+        "items": [
+          {
+            "title": "Keşif ve Planlama",
+            "description": "Bina yapısına uygun asansör sistemi belirleme"
+          },
+          {
+            "title": "Asansör Kurulumu",
+            "description": "Profesyonel ekiple güvenli kurulum"
+          },
+          {
+            "title": "Profesyonel Taşıma",
+            "description": "Eşyaların özenle asansörle taşınması"
+          },
+          {
+            "title": "Yerleştirme",
+            "description": "Eşyaların belirlenen konumlara yerleştirilmesi"
+          }
+        ]
+      }
+    },
+    "process": {
+      "title": "Asansörlü Taşıma Sürecimiz",
+      "steps": [
+        "Ücretsiz keşif ve teklif",
+        "Asansör sisteminin kurulumu",
+        "Eşyaların paketlenmesi",
+        "Asansör ile güvenli taşıma",
+        "Yeni adrese yerleştirme",
+        "Gerekirse asansörün demontajı"
+      ]
+    },
+    "additionalInfo": {
+      "title": "Neden Horex Nakliyat?",
+      "items": [
+        "10 yıllık asansörlü taşıma deneyimi",
+        "Modern ve bakımlı asansör sistemleri",
+        "30 kata kadar erişim kapasitesi",
+        "Sigortalı ve güvenli taşıma",
+        "Profesyonel ve eğitimli ekip",
+        "Hızlı ve hasarsız taşıma garantisi"
+      ]
+    },
+    "ctaTitle": "Asansörlü Taşıma Teklifi Alın",
+    "ctaDescription": "Yüksek katlara güvenli ve hızlı taşıma için asansörlü taşıma hizmetimiz hakkında detaylı bilgi ve ücretsiz teklif almak için hemen iletişime geçin."
+  }
+} 

@@ -1,0 +1,159 @@
+{
+  "title": "Parça Eşya Taşımacılığı",
+  "description": "TEK BİR EŞYADAN TÜM EV EŞYALARINIZA KADAR PROFESYONEL TAŞIMA",
+  "metaDescription": "Horex Nakliyat ile parça eşya taşımacılığı hizmeti. Tek bir mobilya, beyaz eşya veya küçük parçalarınızı güvenle taşıyoruz. Ekonomik ve hızlı çözümler.",
+  "metaKeywords": "parça eşya taşıma, tek eşya taşıma, mobilya taşıma, beyaz eşya taşıma, kısmi taşımacılık, parça taşıma, ekonomik nakliyat",
+  "banner": {
+    "src": "/images/banner/all-page-banner-2.png",
+    "alt": "Horex Nakliyat Banner"
+  },
+  "heroImage": {
+    "src": "/blog/parca-esya.jpg",
+    "alt": "Horex Nakliyat Parça Eşya Taşımacılığı",
+    "width": 1200,
+    "height": 800
+  },
+  "features": [
+    {
+      "title": "Tek Eşya Taşıma",
+      "description": "Sadece bir mobilya veya beyaz eşya taşıma.",
+      "icon": "🪑"
+    },
+    {
+      "title": "Ekonomik Fiyat",
+      "description": "İhtiyaca göre uygun fiyatlı çözümler.",
+      "icon": "💰"
+    },
+    {
+      "title": "Özel Paketleme",
+      "description": "Her eşya için özel koruyucu ambalaj.",
+      "icon": "📦"
+    },
+    {
+      "title": "Hızlı Teslimat",
+      "description": "Tek eşya taşımada sürat avantajı.",
+      "icon": "⚡"
+    },
+    {
+      "title": "Güvenli Taşıma",
+      "description": "Sigortalı ve güvenli eşya taşıma.",
+      "icon": "🛡️"
+    },
+    {
+      "title": "Esnek Zamanlama",
+      "description": "Size uygun gün ve saat seçeneği.",
+      "icon": "🕒"
+    }
+  ],
+  "content": {
+    "mainImage": {
+      "src": "/blog/parca-esya.jpg",
+      "alt": "Horex Nakliyat Parça Eşya Taşımacılığı Hizmeti",
+      "width": 800,
+      "height": 600
+    },
+    "introductionTitle": "Parça Eşya Taşımacılığı Hizmeti",
+    "introduction": "Parça eşya taşımacılığı, tüm evinizi taşımak yerine sadece belirli eşyalarınızın taşınmasını sağlayan ekonomik bir hizmettir. Tek bir koltuk, yatak, buzdolabı veya çalışma masası gibi mobilya ve beyaz eşyalarınızı güvenle yeni adresinize taşıyoruz.",
+    "featuresTitle": "Hizmet Özellikleri",
+    "highlightsTitle": "Parça Eşya Taşımacılığı Avantajları",
+    "whatsappMessage": "Merhaba, parça eşya taşımacılığı hizmeti hakkında bilgi almak istiyorum.",
+    "whatsappButtonText": "Ücretsiz Teklif Al",
+    "ctaButtonText": "İletişime Geçin",
+    "highlights": [
+      {
+        "title": "Ekonomik Çözüm",
+        "description": "Tam ev taşımadan daha uygun fiyatlı alternatif sunar."
+      },
+      {
+        "title": "Hızlı İşlem",
+        "description": "Tek eşya taşıma işlemleri genellikle aynı gün içinde tamamlanır."
+      },
+      {
+        "title": "Özel Araçlar",
+        "description": "Parça eşyaya uygun boyutta araçlarla taşıma yapılır."
+      },
+      {
+        "title": "Paylaşımlı Taşıma",
+        "description": "Aynı güzergahtaki taşımalar birleştirilerek maliyet düşürülebilir."
+      },
+      {
+        "title": "Profesyonel İşçilik",
+        "description": "Tek eşya taşımalarda da profesyonel ekip ve ekipman kullanılır."
+      },
+      {
+        "title": "Her Mesafeye Hizmet",
+        "description": "Şehir içi veya şehirler arası parça eşya taşıma imkanı."
+      }
+    ],
+    "mainContent": {
+      "firstSection": {
+        "title": "Parça Eşya Taşımacılığı Hizmetlerimiz",
+        "description": "Horex Nakliyat olarak, tek mobilyadan küçük ev eşyalarına kadar farklı boyuttaki parça eşyalarınızı güvenle taşıyoruz. Özel ambalajlama teknikleri ve doğru ekipmanlarla eşyalarınızın zarar görmeden taşınmasını sağlıyoruz.",
+        "items": [
+          {
+            "title": "Mobilya Taşıma",
+            "description": "Koltuk, yatak, dolap gibi tek parça eşyalar"
+          },
+          {
+            "title": "Beyaz Eşya Taşıma",
+            "description": "Buzdolabı, çamaşır makinesi, bulaşık makinesi"
+          },
+          {
+            "title": "Elektronik Eşya Taşıma",
+            "description": "Televizyon, bilgisayar ve hassas cihazlar"
+          },
+          {
+            "title": "Koli ve Kutu Taşıma",
+            "description": "Az sayıda kutu ve paketlerin taşınması"
+          }
+        ]
+      },
+      "secondSection": {
+        "title": "Parça Eşya Taşıma Sürecimiz",
+        "description": "Parça eşya taşıma sürecimiz, eşyanın özelliklerine göre planlanır ve hızlı bir şekilde uygulanır. Doğru ambalajlama, güvenli taşıma ve zamanında teslimat prensipleri ile çalışırız.",
+        "items": [
+          {
+            "title": "Talep ve Bilgilendirme",
+            "description": "Eşya bilgisi alınması ve fiyat teklifi"
+          },
+          {
+            "title": "Özel Ambalajlama",
+            "description": "Eşya türüne göre koruyucu paketleme"
+          },
+          {
+            "title": "Profesyonel Taşıma",
+            "description": "Uzman personel ile güvenli taşıma"
+          },
+          {
+            "title": "Hızlı Teslimat",
+            "description": "Belirtilen adrese zamanında teslimat"
+          }
+        ]
+      }
+    },
+    "process": {
+      "title": "Parça Eşya Taşıma Sürecimiz",
+      "steps": [
+        "Eşya bilgilerinin alınması ve fiyatlandırma",
+        "Uygun araç ve ekipman planlaması",
+        "Taşıma gün ve saatinin belirlenmesi",
+        "Profesyonel paketleme ve yükleme",
+        "Güvenli taşıma ve teslim",
+        "Montaj hizmeti (gerekli ise)"
+      ]
+    },
+    "additionalInfo": {
+      "title": "Neden Horex Nakliyat?",
+      "items": [
+        "10 yıllık parça eşya taşımacılığı deneyimi",
+        "Özel koruyucu ambalajlama teknikleri",
+        "Esnek taşıma planlaması",
+        "Ekonomik fiyat seçenekleri",
+        "Profesyonel taşıma ekipmanları",
+        "Hızlı ve güvenilir hizmet"
+      ]
+    },
+    "ctaTitle": "Parça Eşya Taşıma Teklifi Alın",
+    "ctaDescription": "Tek bir eşyadan birkaç parça mobilyaya kadar tüm taşıma ihtiyaçlarınız için hemen bizimle iletişime geçin."
+  }
+} 
