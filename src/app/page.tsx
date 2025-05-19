@@ -193,7 +193,7 @@ export default function Home() {
       <FutureServices />
 
       {/* Referanslar */}
-      <References />
+      {/* <References /> */}
       
       {/* Sık Sorulan Sorular */}
       <FAQSection questions={faqQuestions} />

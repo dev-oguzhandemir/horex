@@ -4,7 +4,22 @@ import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 
-const menuItems = [
+interface MenuItem {
+  title: string;
+  href?: string;
+  icon: React.ReactNode;
+  submenu?: Submenu[];
+  isMenuOnly?: boolean;
+}
+
+interface Submenu {
+  title: string;
+  href: string;
+  description: string;
+  icon: React.ReactNode;
+}
+
+const menuItems: MenuItem[] = [
   {
     title: 'Anasayfa',
     href: '/',
@@ -16,7 +31,7 @@ const menuItems = [
   },
   {
     title: 'Nakliyat Hizmetleri',
-    href: '/nakliyat-hizmetleri',
+    isMenuOnly: true,
     icon: (
       <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -119,7 +134,7 @@ const menuItems = [
   },
   {
     title: 'Depolama Hizmetleri',
-    href: '/depolama-hizmetleri',
+    isMenuOnly: true,
     icon: (
       <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
@@ -180,7 +195,7 @@ const menuItems = [
   },
   {
     title: 'Hizmet Kapasitemiz',
-    href: '/hizmet-kapasitemiz',
+    isMenuOnly: true,
     icon: (
       <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
@@ -381,6 +396,24 @@ export default function Header() {
                 onMouseEnter={() => item.submenu && setActiveSubmenu(item.title)}
                 onMouseLeave={() => setActiveSubmenu(null)}
               >
+                {item.isMenuOnly ? (
+                  <div
+                    className={`flex items-center space-x-1 transition-colors py-2 cursor-pointer ${item.title === 'Blog'
+                      ? 'text-horex-red font-semibold hover:text-horex-black'
+                      : 'text-horex-black hover:text-horex-red'
+                      }`}
+                    aria-expanded={item.submenu ? activeSubmenu === item.title : undefined}
+                    aria-haspopup={item.submenu ? "true" : undefined}
+                  >
+                    <span className="hidden xl:block" aria-hidden="true">{item.icon}</span>
+                    <span>{item.title}</span>
+                    {item.submenu && (
+                      <svg className="w-4 h-4 transition-transform duration-200 group-hover:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                      </svg>
+                    )}
+                  </div>
+                ) : item.href ? (
                 <Link
                   href={item.href}
                   className={`flex items-center space-x-1 transition-colors py-2 ${item.title === 'Blog'
@@ -398,6 +431,7 @@ export default function Header() {
                     </svg>
                   )}
                 </Link>
+                ) : null}
                 
                 {item.submenu && activeSubmenu === item.title && (
                   <div 
@@ -463,7 +497,7 @@ export default function Header() {
                   onClick={() => {
                     if (item.submenu) {
                       setActiveSubmenu(activeSubmenu === item.title ? null : item.title)
-                    } else {
+                    } else if (!item.isMenuOnly) {
                       setIsMenuOpen(false)
                     }
                   }}

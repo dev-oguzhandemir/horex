@@ -230,23 +230,6 @@ export default function TransportationService({
               <p className="text-lg text-gray-700 leading-relaxed mb-8">
                 {content.introduction}
               </p>
-              
-              {/* Display mainImage if available */}
-              {content.mainImage && (
-                <div className="mb-12 relative w-full h-96 rounded-xl overflow-hidden">
-                  <Image
-                    src={content.mainImage.src}
-                    alt={content.mainImage.alt || `${title} - Detaylı Görsel | Horex Nakliyat`}
-                    fill
-                    sizes="(max-width: 768px) 100vw, 1200px"
-                    style={{ objectFit: 'cover' }}
-                    className="rounded-xl"
-                    loading="eager"
-                    quality={85}
-                    title={`${title} - Profesyonel Nakliyat Çözümleri | Horex Nakliyat`}
-                  />
-                </div>
-              )}
             </div>
           </div>
         </section>
@@ -277,59 +260,87 @@ export default function TransportationService({
         </section>
 
         {/* Main Content Section */}
-        <section className="py-16" aria-label="Ana İçerik">
+        <section className="py-20 bg-gray-50" aria-label="Ana İçerik">
           <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
-              {content.mainContent?.firstSection ? (
-                <>
-                  <h2 id="first-section-title" className="text-3xl md:text-4xl font-bold mb-6 text-horex-black text-center">
-                    {content.mainContent.firstSection.title}
-                  </h2>
-                  <p className="text-gray-600 mb-6 text-center">
-                    {content.mainContent.firstSection.description}
-                  </p>
+            {content.mainImage && (
+              <div className="mb-12 relative w-full h-96 rounded-xl overflow-hidden">
+                <Image
+                  src={content.mainImage.src}
+                  alt={content.mainImage.alt || `${title} - Detaylı Görsel | Horex Nakliyat`}
+                  fill
+                  sizes="(max-width: 768px) 100vw, 1200px"
+                  style={{ objectFit: 'cover' }}
+                  className="rounded-xl"
+                  loading="eager"
+                  quality={85}
+                  title={`${title} - Profesyonel Nakliyat Çözümleri | Horex Nakliyat`}
+                />
+              </div>
+            )}
 
-                  {/* Özellikler - Tek Sütun */}
-                  {content.mainContent.firstSection.items && content.mainContent.firstSection.items.length > 0 && (
-                    <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-12">
-                      {content.mainContent.firstSection.items.map((item, index) => (
-                        <div key={index} className="p-4 bg-horex-gray rounded-lg min-h-[120px] flex flex-col">
-                          <h3 className="font-semibold text-horex-red mb-2">{item.title}</h3>
-                          <p className="text-sm text-gray-600 flex-grow">{item.description}</p>
-                        </div>
-                      ))}
-                    </div>
-                  )}
-                </>
-              ) : (
-                <></>
-              )}
+            {content.mainContent?.firstSection ? (
+              <div className="mb-16">
+                <h2 id="first-section-title" className="text-3xl font-bold mb-6 text-center">
+                  {content.mainContent.firstSection.title}
+                </h2>
+                <p className="text-gray-700 mb-8 text-center max-w-4xl mx-auto">
+                  {content.mainContent.firstSection.description}
+                </p>
 
-              {content.mainContent?.secondSection ? (
-                <>
-                  <h2 id="second-section-title" className="text-3xl md:text-4xl font-bold mb-6 text-horex-black text-center">
-                    {content.mainContent.secondSection.title}
-                  </h2>
-                  <p className="text-gray-600 mb-6 text-center">
-                    {content.mainContent.secondSection.description}
-                  </p>
+                {/* Özellikler - Kart Tabanlı Tasarım */}
+                {content.mainContent.firstSection.items && content.mainContent.firstSection.items.length > 0 && (
+                  <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    {content.mainContent.firstSection.items.map((item, index) => (
+                      <motion.div 
+                        key={index} 
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 0.5, delay: index * 0.1 }}
+                        className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow"
+                      >
+                        <h3 className="text-xl font-bold mb-2 text-horex-red">{item.title}</h3>
+                        <p className="text-gray-600">{item.description}</p>
+                      </motion.div>
+                    ))}
+                  </div>
+                )}
+              </div>
+            ) : (
+              <></>
+            )}
 
-                  {/* Özellikler - Tek Sütun */}
-                  {content.mainContent.secondSection.items && content.mainContent.secondSection.items.length > 0 && (
-                    <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-                      {content.mainContent.secondSection.items.map((item, index) => (
-                        <div key={index} className="p-4 bg-horex-gray rounded-lg min-h-[120px] flex flex-col">
-                          <h3 className="font-semibold text-horex-red mb-2">{item.title}</h3>
-                          <p className="text-sm text-gray-600 flex-grow">{item.description}</p>
-                        </div>
-                      ))}
-                    </div>
-                  )}
-                </>
-              ) : (
-                <></>
-              )}
-            </div>
+            {content.mainContent?.secondSection ? (
+              <div className="mt-12">
+                <h2 id="second-section-title" className="text-3xl font-bold mb-6 text-center">
+                  {content.mainContent.secondSection.title}
+                </h2>
+                <p className="text-gray-700 mb-8 text-center max-w-4xl mx-auto">
+                  {content.mainContent.secondSection.description}
+                </p>
+
+                {/* Özellikler - Kart Tabanlı Tasarım */}
+                {content.mainContent.secondSection.items && content.mainContent.secondSection.items.length > 0 && (
+                  <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    {content.mainContent.secondSection.items.map((item, index) => (
+                      <motion.div 
+                        key={index}
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 0.5, delay: index * 0.1 }}
+                        className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow"
+                      >
+                        <h3 className="text-xl font-bold mb-2 text-horex-red">{item.title}</h3>
+                        <p className="text-gray-600">{item.description}</p>
+                      </motion.div>
+                    ))}
+                  </div>
+                )}
+              </div>
+            ) : (
+              <></>
+            )}
           </div>
         </section>
 

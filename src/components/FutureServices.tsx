@@ -31,8 +31,8 @@ export default function FutureServices() {
           >
             <div className="relative h-[400px] rounded-2xl overflow-hidden">
               <Image
-                src="/references/def-insaat.png"
-                alt="Modern Nakliyat Teknolojileri"
+                src="/images/all-big-size-image/11.jpg"
+                alt="Nakliyat Hizmetlerinin Geleceği - Horex Nakliyat"
                 fill
                 className="object-cover"
                 priority
