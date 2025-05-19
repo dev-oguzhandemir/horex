@@ -489,37 +489,53 @@ export default function Header() {
           <nav className="py-4" aria-label="Mobil Menü">
             {menuItems.map((item) => (
               <div key={item.title} className="border-b border-gray-100 last:border-b-0">
-                <button
-                  className={`flex items-center justify-between w-full p-3 text-left transition-colors ${item.title === 'Blog'
-                    ? 'text-horex-red font-semibold hover:bg-red-50'
-                    : 'hover:bg-gray-50'
-                    }`}
-                  onClick={() => {
-                    if (item.submenu) {
-                      setActiveSubmenu(activeSubmenu === item.title ? null : item.title)
-                    } else if (!item.isMenuOnly) {
-                      setIsMenuOpen(false)
-                    }
-                  }}
-                  aria-expanded={item.submenu ? activeSubmenu === item.title : undefined}
-                  aria-haspopup={item.submenu ? "true" : undefined}
-                >
-                  <div className="flex items-center space-x-3">
-                    <span className="w-5 h-5 flex-shrink-0" aria-hidden="true">{item.icon}</span>
-                    <span>{item.title}</span>
-                  </div>
-                  {item.submenu && (
-                    <svg
-                      className={`w-4 h-4 transition-transform duration-200 flex-shrink-0 ${activeSubmenu === item.title ? 'rotate-180' : ''}`}
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      aria-hidden="true"
-                    >
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                    </svg>
-                  )}
-                </button>
+                {item.href && !item.submenu ? (
+                  <Link
+                    href={item.href}
+                    className={`flex items-center justify-between w-full p-3 text-left transition-colors ${item.title === 'Blog'
+                      ? 'text-horex-red font-semibold hover:bg-red-50'
+                      : 'hover:bg-gray-50'
+                      }`}
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    <div className="flex items-center space-x-3">
+                      <span className="w-5 h-5 flex-shrink-0" aria-hidden="true">{item.icon}</span>
+                      <span>{item.title}</span>
+                    </div>
+                  </Link>
+                ) : (
+                  <button
+                    className={`flex items-center justify-between w-full p-3 text-left transition-colors ${item.title === 'Blog'
+                      ? 'text-horex-red font-semibold hover:bg-red-50'
+                      : 'hover:bg-gray-50'
+                      }`}
+                    onClick={() => {
+                      if (item.submenu) {
+                        setActiveSubmenu(activeSubmenu === item.title ? null : item.title)
+                      } else if (!item.isMenuOnly) {
+                        setIsMenuOpen(false)
+                      }
+                    }}
+                    aria-expanded={item.submenu ? activeSubmenu === item.title : undefined}
+                    aria-haspopup={item.submenu ? "true" : undefined}
+                  >
+                    <div className="flex items-center space-x-3">
+                      <span className="w-5 h-5 flex-shrink-0" aria-hidden="true">{item.icon}</span>
+                      <span>{item.title}</span>
+                    </div>
+                    {item.submenu && (
+                      <svg
+                        className={`w-4 h-4 transition-transform duration-200 flex-shrink-0 ${activeSubmenu === item.title ? 'rotate-180' : ''}`}
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        aria-hidden="true"
+                      >
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                      </svg>
+                    )}
+                  </button>
+                )}
                 <div 
                   className={`bg-gray-50 overflow-hidden transition-all duration-300 ease-in-out ${
                     item.submenu && activeSubmenu === item.title 

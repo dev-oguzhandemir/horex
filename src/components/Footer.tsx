@@ -2,8 +2,12 @@
 
 import Link from 'next/link'
 import Image from 'next/image'
+import { getDistrictSlugs } from '@/data/districts'
 
 export default function Footer() {
+  // Get the district slugs and names from the data file
+  const semtlerData = getDistrictSlugs();
+  
   const istanbulIlceleri = [
     'Adalar', 'Arnavutköy', 'Ataşehir', 'Avcılar', 'Bağcılar', 'Bahçelievler', 'Bakırköy', 
     'Başakşehir', 'Bayrampaşa', 'Beşiktaş', 'Beykoz', 'Beylikdüzü', 'Beyoğlu', 'Büyükçekmece', 
@@ -12,6 +16,7 @@ export default function Footer() {
     'Silivri', 'Sultanbeyli', 'Sultangazi', 'Şile', 'Şişli', 'Tuzla', 'Ümraniye', 'Üsküdar', 'Zeytinburnu'
   ]
 
+  // This list is now only used for display purposes
   const istanbulSemtler = [
     'Levent', 'Maslak', 'Nişantaşı', 'Etiler', 'Bebek', 'Ortaköy', 'Mecidiyeköy', 'Fulya',
     'Acıbadem', 'Kozyatağı', 'Bostancı', 'Caddebostan', 'Florya', 'Yeşilköy', 'Bahçeşehir',
@@ -169,13 +174,13 @@ export default function Footer() {
         <div className="border-t border-gray-800 pt-8 mb-8">
           <h3 className="text-xl font-semibold mb-6">İstanbul'un Önemli Semtleri</h3>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-2">
-            {istanbulSemtler.map((semt) => (
+            {semtlerData.map(({ slug, districtName }) => (
               <Link
-                key={semt}
-                href={`/nakliyat-hizmetleri/istanbul/${semt.toLowerCase()}-evden-eve-nakliyat`}
+                key={slug}
+                href={`/semtler/${slug}`}
                 className="text-gray-400 hover:text-horex-red transition-colors text-sm"
               >
-                {semt} Nakliyat
+                {districtName} Nakliyat
               </Link>
             ))}
           </div>

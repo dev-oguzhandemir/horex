@@ -1,30 +1,11 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { getAllBlogPosts } from '@/data/blogPosts';
+import { formatDate } from '@/utils/dateUtils';
 
-const blogPosts = [
-  {
-    title: 'Ev Taşınırken Dikkat Edilmesi Gerekenler',
-    excerpt: 'Ev taşımak heyecan verici ama aynı zamanda oldukça stresli bir süreç olabilir. Bu süreci daha kolay ve sorunsuz hale getirmek için dikkat etmeniz gereken bazı önemli noktalar bulunmaktadır.',
-    image: '/blog/tasima-rehberi.jpg',
-    date: '15 Ocak 2024',
-    slug: 'ev-tasima-surecinde-karsilasilan-sorunlar-ve-cozumleri'
-  },
-  {
-    title: 'Nakliye Firması Seçerken Dikkat Edilmesi Gerekenler',
-    excerpt: 'Bir nakliye firması seçmek, taşınma sürecinin en kritik aşamalarından biridir. Doğru firmayı seçmek, eşyalarınızın güvenli ve zamanında taşınmasını sağlar. İşte nakliye firması seçerken dikkat etmeniz gereken bazı önemli noktalar:',
-    image: '/blog/ofis-tasima.jpg',
-    date: '10 Ocak 2024',
-    slug: 'nakliye-firmasi-secimi'
-  },
-  {
-    title: 'Ofis Taşıma Rehberi',
-    excerpt: 'Ofis taşımak, birçok işletme için zorlu ve stresli bir süreç olabilir. Ancak, doğru planlama ve organizasyon ile bu süreci daha kolay ve verimli hale getirebilirsiniz. İşte ofis taşınmanıza yardımcı olacak kapsamlı bir rehber.',
-    image: '/blog/depolama.jpg',
-    date: '5 Ocak 2024',
-    slug: 'ofis-tasimak-rehberi'
-  },
-];
+// Get the first 3 blog posts from the actual data source
+const blogPosts = getAllBlogPosts().slice(0, 3);
 
 export default function BlogSection() {
   return (
@@ -50,7 +31,7 @@ export default function BlogSection() {
             >
               <div className="relative aspect-[16/9]">
                 <Image
-                  src={post.image}
+                  src={post.coverImage}
                   alt={post.title}
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw"
@@ -60,7 +41,7 @@ export default function BlogSection() {
               </div>
               <div className="p-6">
                 <time className="text-sm text-horex-dark-gray mb-2 block">
-                  {post.date}
+                  {formatDate(post.date)}
                 </time>
                 <h3 className="text-xl font-semibold mb-2 group-hover:text-horex-red transition-colors">
                   {post.title}
