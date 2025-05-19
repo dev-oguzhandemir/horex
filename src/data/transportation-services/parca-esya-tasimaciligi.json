@@ -8,8 +8,8 @@
     "alt": "Horex Nakliyat Banner"
   },
   "heroImage": {
-    "src": "/blog/parca-esya.jpg",
-    "alt": "Horex Nakliyat Parça Eşya Taşımacılığı",
+    "src": "/images/transportation-services/parca-esya-tasimaciligi.jpg",
+    "alt": "Horex Nakliyat Parça Eşya Taşımacılığı Hizmeti",
     "width": 1200,
     "height": 800
   },
@@ -47,7 +47,7 @@
   ],
   "content": {
     "mainImage": {
-      "src": "/blog/parca-esya.jpg",
+      "src": "/images/transportation-services/parca-esya-tasimaciligi.jpg",
       "alt": "Horex Nakliyat Parça Eşya Taşımacılığı Hizmeti",
       "width": 800,
       "height": 600

@@ -1,0 +1,159 @@
+{
+  "title": "Özel Eşya Depolama",
+  "description": "DEĞER VERDİĞİNİZ ÖZEL EŞYALARINIZ İÇİN ÖZEL KORUMA",
+  "metaDescription": "Horex Nakliyat ile değerli ve özel eşyalarınız için uzman depolama hizmeti. Antikalar, müzik aletleri, sanat eserleri ve koleksiyonlar için özel koşullarda, güvenli saklama çözümleri.",
+  "metaKeywords": "özel eşya depolama, antika depolama, değerli eşya saklama, sanat eseri depolama, müzik aleti depolama, koleksiyon depolama, hassas eşya saklama, özel koruma",
+  "banner": {
+    "src": "/images/banner/all-page-banner-2.png",
+    "alt": "Horex Nakliyat Banner"
+  },
+  "heroImage": {
+    "src": "/images/storage-services/ozel-esya-depolama.jpg",
+    "alt": "Özel Eşya Depolama - Değerli ve Antika Eşyalar İçin Güvenli Depolama Çözümleri",
+    "width": 1200,
+    "height": 800
+  },
+  "features": [
+    {
+      "title": "Özel İklim Kontrolü",
+      "description": "Eşya türüne göre özel ısı ve nem ayarları.",
+      "icon": "🌡️"
+    },
+    {
+      "title": "Yüksek Güvenlik",
+      "description": "İleri derecede güvenlik önlemleri ve sigorta.",
+      "icon": "🔒"
+    },
+    {
+      "title": "Uzman Personel",
+      "description": "Değerli eşya konusunda eğitimli çalışanlar.",
+      "icon": "👨‍💼"
+    },
+    {
+      "title": "Özel Paketleme",
+      "description": "Antikalar için özel koruyucu paketler.",
+      "icon": "📦"
+    },
+    {
+      "title": "Düzenli Bakım",
+      "description": "Periyodik kontrol ve muhafaza hizmeti.",
+      "icon": "🔍"
+    },
+    {
+      "title": "Değerleme Hizmeti",
+      "description": "Profesyonel eşya değerlendirme ve ekspertiz.",
+      "icon": "💰"
+    }
+  ],
+  "content": {
+    "mainImage": {
+      "src": "/images/storage-services/ozel-esya-depolama.jpg",
+      "alt": "Özel Eşya Depolama - Antika ve Sanat Eserleri İçin Özel Koruma Çözümleri",
+      "width": 800,
+      "height": 600
+    },
+    "introductionTitle": "Özel Eşya Depolama Hizmeti",
+    "introduction": "Özel eşya depolama hizmetimiz, antika mobilyalar, sanat eserleri, piyano gibi müzik aletleri ve diğer değerli/hassas eşyalarınız için geliştirilmiş profesyonel bir çözümdür. Bu özel eşyaların korunması için standart depolama koşullarından daha yüksek güvenlik, özel iklim kontrolü ve uzman müdahalesi sağlıyoruz.",
+    "featuresTitle": "Hizmet Özellikleri",
+    "highlightsTitle": "Özel Eşya Depolama Avantajları",
+    "whatsappMessage": "Merhaba, özel eşya depolama hizmeti hakkında bilgi almak istiyorum.",
+    "whatsappButtonText": "Özel Teklif Al",
+    "ctaButtonText": "İletişime Geçin",
+    "highlights": [
+      {
+        "title": "Ekstra İklim Kontrolü",
+        "description": "Hassas eşyalar için hassas nem, sıcaklık ve ışık kontrolü sağlayan özel depolama odaları."
+      },
+      {
+        "title": "Gelişmiş Güvenlik",
+        "description": "Değerli eşyalar için çift katlı güvenlik sistemleri, özel alarm ve izolasyon çözümleri."
+      },
+      {
+        "title": "Profesyonel Değerlendirme",
+        "description": "Uzman ekibimiz tarafından eşyalarınızın özel koruma ihtiyaçlarının değerlendirilmesi."
+      },
+      {
+        "title": "Özel Taşıma Araçları",
+        "description": "Hassas eşyaların depolanacağı alana zarar görmeden taşınması için özel araçlar."
+      },
+      {
+        "title": "Genişletilmiş Sigorta",
+        "description": "Değerli eşyalarınız için kapsamlı sigorta seçenekleri ve ekstra teminat paketleri."
+      },
+      {
+        "title": "Düzenli Bakım",
+        "description": "Özel eşyalarınız için periyodik kontrol ve gerektiğinde uzman bakım desteği."
+      }
+    ],
+    "mainContent": {
+      "firstSection": {
+        "title": "Özel Eşya Depolama Hizmetlerimiz",
+        "description": "Farklı türdeki değerli eşyalarınız için özel olarak tasarlanmış depolama çözümleri sunuyoruz. Her bir eşya kategorisi için özel koşullar ve güvenlik önlemleri uyguluyoruz.",
+        "items": [
+          {
+            "title": "Antika Mobilya Depolama",
+            "description": "Asırlık değerli mobilyalarınız için özel koruma"
+          },
+          {
+            "title": "Sanat Eseri Depolama",
+            "description": "Resim, heykel ve sanat koleksiyonları için müze standartları"
+          },
+          {
+            "title": "Piyano ve Müzik Aleti Depolama",
+            "description": "Özel nem ve sıcaklık kontrolü ile enstrüman koruma"
+          },
+          {
+            "title": "Koleksiyon Eşyaları Depolama",
+            "description": "Değerli koleksiyonlarınız için güvenli ve optimize edilmiş ortam"
+          }
+        ]
+      },
+      "secondSection": {
+        "title": "Özel Eşya Depolama Sürecimiz",
+        "description": "Değerli eşyalarınızın depolanması sırasında izlediğimiz süreç, standart depolama hizmetlerimizden farklı olarak daha detaylı ve kişiselleştirilmiş adımlar içerir.",
+        "items": [
+          {
+            "title": "Uzman Değerlendirmesi",
+            "description": "Eşyalarınızın durumu ve özel ihtiyaçlarının belirlenmesi"
+          },
+          {
+            "title": "Özel Paketleme",
+            "description": "Eşya türüne ve hassasiyetine göre özel malzemelerle paketleme"
+          },
+          {
+            "title": "Eşya Dokümantasyonu",
+            "description": "Detaylı fotoğraflama ve durum raporlaması"
+          },
+          {
+            "title": "Özel Alanlarda Saklama",
+            "description": "Eşyanın gereksinimlerine özel olarak hazırlanmış alanlarda depolama"
+          }
+        ]
+      }
+    },
+    "process": {
+      "title": "Özel Eşya Depolama Adımları",
+      "steps": [
+        "Uzman ekip tarafından ücretsiz değerlendirme",
+        "Eşyalarınızın profesyonel belgelenmesi",
+        "Özel koruyucu malzemelerle paketleme",
+        "Güvenli ve kontrollü taşıma",
+        "Eşya türüne özel depolama alanlarına yerleştirme",
+        "Düzenli kontrol ve bakım hizmetleri"
+      ]
+    },
+    "additionalInfo": {
+      "title": "Neden Horex Özel Eşya Depolama?",
+      "items": [
+        "20 yıllık antika ve değerli eşya tecrübesi",
+        "Sanat tarihçileri ve restoratörlerden oluşan danışma kurulu",
+        "İleri düzey iklim kontrol teknolojisi",
+        "Her eşya kategorisi için farklı depolama alanları",
+        "Değerli eşyalar için özel sigorta paketleri",
+        "Uzman taşıma ve kurulum ekipleri"
+      ]
+    },
+    "ctaTitle": "Değerli Eşyalarınız İçin Özel Çözüm",
+    "ctaDescription": "Kıymetli ve hassas eşyalarınızı profesyonel ellere emanet edin. Özel depolama çözümlerimiz için hemen iletişime geçin."
+  }
+} 

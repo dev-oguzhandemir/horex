@@ -1,0 +1,159 @@
+{
+  "title": "Parça Eşya Depolama",
+  "description": "AZ SAYIDA EŞYANIZ İÇİN EKONOMİK VE PRATİK ÇÖZÜMLER",
+  "metaDescription": "Horex Nakliyat ile birkaç parça eşyanız için ekonomik depolama çözümleri. Sezonluk eşyalar, fazla mobilyalar veya kişisel eşyalarınız için güvenli, uygun fiyatlı depolama hizmeti.",
+  "metaKeywords": "parça eşya depolama, birkaç eşya depolama, sezonluk eşya saklama, küçük hacimli depolama, ekonomik depolama, kısmi eşya depolama, mini depolama",
+  "banner": {
+    "src": "/images/banner/all-page-banner-2.png",
+    "alt": "Horex Nakliyat Banner"
+  },
+  "heroImage": {
+    "src": "/images/storage-services/parca-esya-depolama.jpg",
+    "alt": "Parça Eşya Depolama - Az Sayıda Eşyalarınız İçin Ekonomik Depolama Hizmetleri",
+    "width": 1200,
+    "height": 800
+  },
+  "features": [
+    {
+      "title": "Ekonomik Çözüm",
+      "description": "Az eşya için uygun fiyatlı depolama seçenekleri.",
+      "icon": "💰"
+    },
+    {
+      "title": "Esnek Süreler",
+      "description": "Günlük, haftalık veya aylık saklama seçenekleri.",
+      "icon": "📅"
+    },
+    {
+      "title": "Kolay Erişim",
+      "description": "Eşyalarınıza dilediğiniz zaman ulaşma imkanı.",
+      "icon": "🔑"
+    },
+    {
+      "title": "Profesyonel Paketleme",
+      "description": "Az sayıda eşya için özel paketleme hizmeti.",
+      "icon": "📦"
+    },
+    {
+      "title": "Güvenli Saklama",
+      "description": "24 saat kamera ve alarm sistemleri.",
+      "icon": "🔒"
+    },
+    {
+      "title": "Teslimat Hizmeti",
+      "description": "İhtiyaç duyduğunuzda adresinize teslimat.",
+      "icon": "🚚"
+    }
+  ],
+  "content": {
+    "mainImage": {
+      "src": "/images/storage-services/parca-esya-depolama.jpg",
+      "alt": "Parça Eşya Depolama - Sezonluk ve Az Sayıda Eşyalar İçin Mini Depolama Çözümü",
+      "width": 800,
+      "height": 600
+    },
+    "introductionTitle": "Parça Eşya Depolama Hizmeti",
+    "introduction": "Parça eşya depolama hizmetimiz, komple ev eşyası yerine sadece birkaç parça eşyanızı güvenle saklamak istediğinizde ideal bir çözümdür. Tek bir mobilya, beyaz eşya veya birkaç kutu kişisel eşyanız için tam ev depolama maliyetine katlanmadan, ekonomik ve pratik bir seçenek sunuyoruz.",
+    "featuresTitle": "Hizmet Özellikleri",
+    "highlightsTitle": "Parça Eşya Depolama Avantajları",
+    "whatsappMessage": "Merhaba, parça eşya depolama hizmeti hakkında bilgi almak istiyorum.",
+    "whatsappButtonText": "Fiyat Teklifi Al",
+    "ctaButtonText": "İletişime Geçin",
+    "highlights": [
+      {
+        "title": "Ekonomik Çözüm",
+        "description": "Sadece depoladığınız eşya kadar ödeme yaparsınız, tam depo ücreti ödemezsiniz."
+      },
+      {
+        "title": "Esneklik",
+        "description": "İster tek bir mobilya, ister birkaç kutu için kullanabilirsiniz."
+      },
+      {
+        "title": "Kolay Erişim",
+        "description": "Eşyalarınıza dilediğiniz zaman ulaşabilirsiniz."
+      },
+      {
+        "title": "Profesyonel Koruma",
+        "description": "Eşyalarınız özel ambalajlar ve iklim kontrollü ortamda korunur."
+      },
+      {
+        "title": "Kısa Süreli Seçenek",
+        "description": "Bir aydan başlayan kısa dönem depolama imkanı."
+      },
+      {
+        "title": "Sigortalı Hizmet",
+        "description": "Tüm eşyalarınız depolama süresince sigorta kapsamındadır."
+      }
+    ],
+    "mainContent": {
+      "firstSection": {
+        "title": "Hangi Eşyalar İçin Uygundur?",
+        "description": "Parça eşya depolama hizmetimiz, çeşitli türdeki tek parça veya az sayıdaki eşyalarınız için idealdir. Evinizdeki fazla eşyalardan kurtulmak istediğinizde veya geçici süreyle eşyalarınızı güvende tutmak istediğinizde ekonomik bir çözüm sunar.",
+        "items": [
+          {
+            "title": "Mobilya Parçaları",
+            "description": "Koltuk, yatak, dolap, masa gibi tek parça mobilyalar"
+          },
+          {
+            "title": "Beyaz Eşyalar",
+            "description": "Buzdolabı, çamaşır makinesi, bulaşık makinesi, fırın gibi eşyalar"
+          },
+          {
+            "title": "Koli ve Kutular",
+            "description": "Kitaplar, giysiler, hatıra eşyaları için kutular"
+          },
+          {
+            "title": "Mevsimlik Eşyalar",
+            "description": "Kış/yaz spor ekipmanları, klima, vantilatör gibi sezonluk eşyalar"
+          }
+        ]
+      },
+      "secondSection": {
+        "title": "Parça Eşya Depolama Sürecimiz",
+        "description": "Parça eşya depolama sürecimiz, müşterilerimizin ihtiyaçlarına göre özelleştirilmiş, pratik ve ekonomik bir hizmet anlayışıyla tasarlanmıştır. Eşyalarınızın güvenliği için her adımda profesyonel yaklaşım sergileriz.",
+        "items": [
+          {
+            "title": "İhtiyaç Analizi",
+            "description": "Depolanacak eşyaların türü, boyutu ve süresinin belirlenmesi"
+          },
+          {
+            "title": "Özel Paketleme",
+            "description": "Her eşya türüne uygun koruyucu paketleme malzemesi kullanımı"
+          },
+          {
+            "title": "Güvenli Taşıma",
+            "description": "Profesyonel ekip ve uygun araçlarla eşyaların taşınması"
+          },
+          {
+            "title": "Eşya Yerleşimi",
+            "description": "İhtiyaca uygun depolama alanında stratejik yerleşim"
+          }
+        ]
+      }
+    },
+    "process": {
+      "title": "Parça Eşya Depolama Adımları",
+      "steps": [
+        "Depolanacak eşyaların tespiti ve fiyat teklifi",
+        "Eşyaların özel malzemelerle paketlenmesi",
+        "Güvenli şekilde depolama alanına taşınması",
+        "Eşya listesinin oluşturulması ve sisteme kaydı",
+        "İklim kontrollü depolama alanında yerleşim",
+        "İhtiyaç durumunda eşyaların teslimi veya erişimi"
+      ]
+    },
+    "additionalInfo": {
+      "title": "Neden Horex Parça Eşya Depolama?",
+      "items": [
+        "Eşya başına fiyatlandırma ile ekonomik çözüm",
+        "Her tür eşya için uygun depolama alanları",
+        "Alanında uzman, deneyimli personel",
+        "Modern güvenlik sistemleriyle korunan tesisler",
+        "7/24 müşteri destek hattı",
+        "Esnek kontrat süreleri ve kolay uzatma imkanı"
+      ]
+    },
+    "ctaTitle": "Parça Eşyalarınız İçin Ekonomik Depolama",
+    "ctaDescription": "Tek bir mobilyadan birkaç kutuya kadar, tüm eşyalarınız için uygun fiyatlı depolama çözümleri sunuyoruz."
+  }
+} 

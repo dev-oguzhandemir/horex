@@ -8,8 +8,8 @@
     "alt": "Horex Nakliyat Banner"
   },
   "heroImage": {
-    "src": "/blog/fabrika-tasima.jpg",
-    "alt": "Horex Nakliyat Fabrika Taşımacılığı",
+    "src": "/images/transportation-services/fabrika-tasimaciligi.jpg",
+    "alt": "Horex Nakliyat Fabrika Taşımacılığı Hizmeti",
     "width": 1200,
     "height": 800
   },
@@ -47,7 +47,7 @@
   ],
   "content": {
     "mainImage": {
-      "src": "/blog/fabrika-tasima.jpg",
+      "src": "/images/transportation-services/fabrika-tasimaciligi.jpg",
       "alt": "Horex Nakliyat Fabrika Taşımacılığı Hizmeti",
       "width": 800,
       "height": 600

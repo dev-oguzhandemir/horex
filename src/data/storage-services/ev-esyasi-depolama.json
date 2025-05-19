@@ -1,0 +1,159 @@
+{
+  "title": "Ev Eşyası Depolama",
+  "description": "GÜVENLİ VE TEMİZ ORTAMDA EŞYALARINIZ KORUMA ALTINDA",
+  "metaDescription": "Horex Nakliyat ile ev eşyalarınız için güvenli, iklim kontrollü depolama hizmeti. 7/24 güvenlik, sigortalı depolama ve uygun fiyat garantisi.",
+  "metaKeywords": "ev eşyası depolama, mobilya depolama, eşya emanet, güvenli depolama, istanbul eşya depolama, konteyner depolama, ev taşıma, geçici depolama",
+  "banner": {
+    "src": "/images/banner/all-page-banner-2.png",
+    "alt": "Horex Nakliyat Banner"
+  },
+  "heroImage": {
+    "src": "/images/storage-services/ev-esyasi-depolama.jpg",
+    "alt": "Ev Eşyası Depolama - Güvenli ve İklim Kontrollü Depolama Alanları",
+    "width": 1200,
+    "height": 800
+  },
+  "features": [
+    {
+      "title": "İklim Kontrollü Alanlar",
+      "description": "Nem ve sıcaklık kontrollü depolar.",
+      "icon": "🌡️"
+    },
+    {
+      "title": "7/24 Güvenlik",
+      "description": "Kesintisiz kamera ve güvenlik personeli.",
+      "icon": "🔒"
+    },
+    {
+      "title": "Esnek Depolama Süreleri",
+      "description": "Kısa ve uzun vadeli çözümler.",
+      "icon": "📅"
+    },
+    {
+      "title": "Sigortalı Hizmet",
+      "description": "Eşyalarınız güvence altında.",
+      "icon": "📋"
+    },
+    {
+      "title": "Modern Depolar",
+      "description": "Temiz ve hijyenik saklama alanları.",
+      "icon": "🏢"
+    },
+    {
+      "title": "Kolay Erişim",
+      "description": "İhtiyaç duyduğunuzda eşyalarınıza erişim.",
+      "icon": "🔑"
+    }
+  ],
+  "content": {
+    "mainImage": {
+      "src": "/images/storage-services/ev-esyasi-depolama.jpg",
+      "alt": "Ev Eşyası Depolama - Güvenli ve Modern Konteyner Depolama Sistemi",
+      "width": 800,
+      "height": 600
+    },
+    "introductionTitle": "Ev Eşyası Depolama Hizmeti",
+    "introduction": "Ev eşyası depolama hizmetimiz, taşınma sırasında, renovasyon dönemlerinde veya uzun süreli seyahatlerinizde eşyalarınızı güvenle saklayabileceğiniz profesyonel bir çözüm sunar. Horex Nakliyat olarak, eşyalarınızın değerini biliyor ve onları en güvenli şekilde koruyoruz.",
+    "featuresTitle": "Hizmet Özellikleri",
+    "highlightsTitle": "Ev Eşyası Depolama Avantajları",
+    "whatsappMessage": "Merhaba, ev eşyası depolama hizmeti hakkında bilgi almak istiyorum.",
+    "whatsappButtonText": "Ücretsiz Teklif Al",
+    "ctaButtonText": "İletişime Geçin",
+    "highlights": [
+      {
+        "title": "Güvenli Saklama",
+        "description": "7/24 kamera sistemleri, yangın ve hırsızlık alarmları ile eşyalarınız her an koruma altında."
+      },
+      {
+        "title": "İklim Kontrolü",
+        "description": "Nem, sıcaklık ve hava kalitesi kontrol sistemleri ile eşyalarınız bozulmadan saklanır."
+      },
+      {
+        "title": "Esneklik",
+        "description": "Farklı boyutlarda alanlar ve esnek süreler ile ihtiyacınıza uygun depolama çözümleri."
+      },
+      {
+        "title": "Özel Paketleme",
+        "description": "Eşyalarınız özel malzemelerle paketlenerek uzun süreli koruma sağlanır."
+      },
+      {
+        "title": "Sigortalı Hizmet",
+        "description": "Depolama süresince tüm eşyalarınız sigorta kapsamında güvence altındadır."
+      },
+      {
+        "title": "Online Takip",
+        "description": "Depolanan eşyalarınızı online sistemimizden takip edebilirsiniz."
+      }
+    ],
+    "mainContent": {
+      "firstSection": {
+        "title": "Ev Eşyası Depolama Sürecimiz",
+        "description": "Ev eşyalarınızı depolarken titiz ve sistematik bir süreç izliyoruz. Her aşama profesyonel ekibimiz tarafından yönetilir ve eşyalarınızın güvenliği için maksimum özen gösterilir.",
+        "items": [
+          {
+            "title": "Keşif ve Planlama",
+            "description": "Eşyalarınızın durumunu ve miktarını değerlendirme"
+          },
+          {
+            "title": "Profesyonel Paketleme",
+            "description": "Eşya türüne özel koruyucu paketleme"
+          },
+          {
+            "title": "Güvenli Taşıma",
+            "description": "Özel araçlarla depolama alanına taşıma"
+          },
+          {
+            "title": "Envanter Yönetimi",
+            "description": "Detaylı eşya listesi ve barkod sistemi"
+          }
+        ]
+      },
+      "secondSection": {
+        "title": "Depolama Alanlarımız",
+        "description": "Modern ve güvenli depolama tesislerimiz, eşyalarınızın korunmasına yönelik tüm teknik gereksinimlerle donatılmıştır. Farklı boyutlarda depolama alanlarımız ile her ihtiyaca uygun çözüm sunuyoruz.",
+        "items": [
+          {
+            "title": "Konteyner Depolama",
+            "description": "Kişiye özel kapalı konteyner alanları"
+          },
+          {
+            "title": "Oda Tipi Depolama",
+            "description": "Farklı boyutlarda özel depolama odaları"
+          },
+          {
+            "title": "Açık Alan Depolama",
+            "description": "Büyük eşyalar için geniş alanlar"
+          },
+          {
+            "title": "Özel Eşya Depolama",
+            "description": "Antika ve değerli eşyalar için özel bölümler"
+          }
+        ]
+      }
+    },
+    "process": {
+      "title": "Ev Eşyası Depolama Adımları",
+      "steps": [
+        "Ücretsiz keşif ve ihtiyaç analizi",
+        "Eşyalarınızın profesyonel paketlenmesi",
+        "Depolama alanına güvenli taşıma",
+        "Detaylı envanter listesi oluşturma",
+        "İklim kontrollü alanlarda depolama",
+        "İhtiyaç duyduğunuzda teslimat"
+      ]
+    },
+    "additionalInfo": {
+      "title": "Neden Horex Depolama?",
+      "items": [
+        "10 yılı aşkın depolama deneyimi",
+        "10.000 m² kapalı depolama alanı",
+        "Tam donanımlı modern tesisler",
+        "Özel eşya ve mobilya koruma sistemleri",
+        "Ekonomik ve esnek fiyatlandırma",
+        "Ücretsiz nakliye seçenekleri"
+      ]
+    },
+    "ctaTitle": "Ev Eşyalarınız İçin Güvenli Depolama",
+    "ctaDescription": "Eşyalarınız bizimle güvende. Hemen ücretsiz keşif ve fiyat teklifi alın."
+  }
+} 

@@ -1,0 +1,156 @@
+{
+  "title": "Lojistik Sürecimiz",
+  "description": "PROFESYONEL LOJİSTİK PLANLAMA VE YÖNETİM",
+  "metaDescription": "Horex Nakliyat ile uçtan uca lojistik süreç yönetimi. Planlama, koordinasyon ve takip sistemi ile taşıma projelerinizde maksimum verimlilik ve güvenlik sağlıyoruz.",
+  "metaKeywords": "lojistik süreç, lojistik yönetim, nakliye süreci, profesyonel taşıma planlaması, lojistik koordinasyon, istanbul lojistik şirketi, nakliye planlama, taşıma süreci",
+  "heroImage": {
+    "src": "/images/service-capacity/lojistik-surecimiz.jpg",
+    "alt": "Horex Nakliyat Lojistik Süreç Yönetimi",
+    "width": 1200,
+    "height": 800
+  },
+  "features": [
+    {
+      "title": "Detaylı Planlama",
+      "description": "Tüm süreç için kapsamlı lojistik planı",
+      "icon": "📝"
+    },
+    {
+      "title": "Koordinasyon",
+      "description": "Tüm ekipler arası kesintisiz iletişim",
+      "icon": "🔄"
+    },
+    {
+      "title": "Gerçek Zamanlı Takip",
+      "description": "Taşıma sürecinin anlık takibi",
+      "icon": "📱"
+    },
+    {
+      "title": "Teknolojik Altyapı",
+      "description": "Süreç yönetiminde ileri teknolojiler",
+      "icon": "💻"
+    },
+    {
+      "title": "Rota Optimizasyonu",
+      "description": "En verimli güzergâh planlaması",
+      "icon": "🗺️"
+    },
+    {
+      "title": "Risk Yönetimi",
+      "description": "Olası sorunlar için B planları",
+      "icon": "⚠️"
+    }
+  ],
+  "content": {
+    "mainImage": {
+      "src": "/images/service-capacity/lojistik-surecimiz.jpg",
+      "alt": "Horex Nakliyat Lojistik Süreç Yönetimi",
+      "width": 800,
+      "height": 600
+    },
+    "introductionTitle": "Lojistik Süreç Yönetimi",
+    "introduction": "Horex Nakliyat olarak, her taşıma projesi için özel tasarlanmış uçtan uca lojistik süreç yönetimi sunuyoruz. Profesyonel ekibimiz ve teknolojik altyapımız ile eşyalarınızın güvenle taşınmasını sağlıyoruz.",
+    "featuresTitle": "Lojistik Yönetim Sürecimiz",
+    "highlightsTitle": "Süreç Yönetimi Avantajları",
+    "whatsappMessage": "Merhaba, lojistik süreç yönetimi hakkında bilgi almak istiyorum.",
+    "whatsappButtonText": "Bilgi Alın",
+    "ctaButtonText": "Detaylı Bilgi",
+    "highlights": [
+      {
+        "title": "Verimlilik",
+        "description": "Kaynakların optimum kullanımı ile zaman ve maliyet tasarrufu"
+      },
+      {
+        "title": "Şeffaflık",
+        "description": "Sürecin her aşamasında tam bilgilendirme ve görünürlük"
+      },
+      {
+        "title": "Esneklik",
+        "description": "Değişen koşullara hızlı uyum sağlama kapasitesi"
+      },
+      {
+        "title": "Güvenilirlik",
+        "description": "Planlandığı gibi ilerleyen süreçler ve zamanında teslimat"
+      },
+      {
+        "title": "Entegrasyon",
+        "description": "Diğer hizmetlerle tam entegre lojistik çözümler"
+      },
+      {
+        "title": "Ölçeklenebilirlik",
+        "description": "Küçük taşımacılıktan büyük projelere uyarlanabilir yapı"
+      }
+    ],
+    "mainContent": {
+      "firstSection": {
+        "title": "Lojistik Süreç Aşamalarımız",
+        "description": "Her taşıma projesi için özel tasarlanmış, sistematik bir lojistik süreç izliyoruz. Bu süreç, planlamadan teslimat sonrası hizmetlere kadar tüm aşamaları kapsar.",
+        "items": [
+          {
+            "title": "İhtiyaç Analizi",
+            "description": "Taşınacak yükün kapsamlı değerlendirmesi"
+          },
+          {
+            "title": "Stratejik Planlama",
+            "description": "Rota, araç ve ekip planlaması"
+          },
+          {
+            "title": "Kaynak Tahsisi",
+            "description": "Uygun araç, ekipman ve personel seçimi"
+          },
+          {
+            "title": "Operasyon Yönetimi",
+            "description": "Taşıma sürecinin aktif kontrolü ve yönetimi"
+          }
+        ]
+      },
+      "secondSection": {
+        "title": "Lojistik Teknolojilerimiz",
+        "description": "Modern lojistik süreçlerimizi destekleyen ileri teknolojik altyapımız, verimliliği ve güvenliği maksimize eder.",
+        "items": [
+          {
+            "title": "GPS Takip Sistemleri",
+            "description": "Araçların gerçek zamanlı konum takibi"
+          },
+          {
+            "title": "Lojistik Yönetim Yazılımı",
+            "description": "Tüm süreçlerin dijital ortamda yönetimi"
+          },
+          {
+            "title": "Mobil Uygulama",
+            "description": "Müşteriler için taşıma durumu takip sistemi"
+          },
+          {
+            "title": "İleri Analitik",
+            "description": "Veri analizi ile süreç optimizasyonu"
+          }
+        ]
+      }
+    },
+    "process": {
+      "title": "Lojistik Süreç Adımları",
+      "steps": [
+        "Müşteri ihtiyaçlarının detaylı analizi",
+        "Kapsamlı lojistik plan hazırlama",
+        "Kaynak ve ekipman tahsisi",
+        "Süreç takvimlendirme ve koordinasyon",
+        "Operasyon yönetimi ve takibi",
+        "Anlık raporlama ve müşteri bilgilendirme",
+        "Teslimat ve süreç değerlendirmesi"
+      ]
+    },
+    "additionalInfo": {
+      "title": "Neden Horex Lojistik Süreci?",
+      "items": [
+        "Tecrübeli lojistik planlama ekibi",
+        "İleri teknoloji destekli süreç yönetimi",
+        "Gerçek zamanlı takip ve raporlama",
+        "Olağanüstü durum yönetimi uzmanlığı",
+        "Entegre kalite kontrol sistemleri",
+        "Sürekli süreç iyileştirme yaklaşımı"
+      ]
+    },
+    "ctaTitle": "Lojistik Süreçlerinizi Profesyonelleştirin",
+    "ctaDescription": "Horex Nakliyat ile taşıma projelerinizde maksimum verimlilik ve güvenliği sağlayın. Detaylı bilgi ve ücretsiz danışmanlık için bizimle iletişime geçin."
+  }
+} 

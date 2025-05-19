@@ -8,8 +8,8 @@
     "alt": "Horex Nakliyat Banner"
   },
   "heroImage": {
-    "src": "/blog/asansorlu-tasima.jpg",
-    "alt": "Horex Nakliyat Asansörlü Taşıma",
+    "src": "/images/transportation-services/asansorlu-tasima.jpg",
+    "alt": "Horex Nakliyat Asansörlü Taşıma Hizmeti",
     "width": 1200,
     "height": 800
   },
@@ -47,7 +47,7 @@
   ],
   "content": {
     "mainImage": {
-      "src": "/blog/asansorlu-tasima.jpg",
+      "src": "/images/transportation-services/asansorlu-tasima.jpg",
       "alt": "Horex Nakliyat Asansörlü Taşıma Hizmeti",
       "width": 800,
       "height": 600

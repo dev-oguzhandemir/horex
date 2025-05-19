@@ -2,8 +2,8 @@
 
 import React, { useEffect, useRef } from 'react'
 import { motion, useInView, useAnimation } from 'framer-motion'
-import Head from 'next/head'
 import { usePathname } from 'next/navigation'
+import Image from 'next/image'
 
 interface ServiceFeature {
   title: string
@@ -22,6 +22,12 @@ interface TransportationServiceProps {
   metaDescription: string
   metaKeywords: string
   features: ServiceFeature[]
+  heroImage?: {
+    src: string
+    alt: string
+    width: number
+    height: number
+  }
   content: {
     introduction: string
     introductionTitle: string
@@ -74,6 +80,7 @@ export default function TransportationService({
   metaDescription,
   metaKeywords,
   features,
+  heroImage,
   content,
 }: TransportationServiceProps) {
   const ref = useRef(null)
@@ -111,39 +118,25 @@ export default function TransportationService({
 
   return (
     <>
-      <Head>
-        {/* Temel SEO Meta Etiketleri */}
-        <title>{title} | Horex Nakliyat</title>
-        <meta name="description" content={metaDescription} />
-        <meta name="keywords" content={metaKeywords} />
-        <meta name="robots" content="index, follow" />
-        <link rel="canonical" href={canonicalUrl} />
-
-        {/* Open Graph Etiketleri */}
-        <meta property="og:title" content={title} />
-        <meta property="og:description" content={metaDescription} />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content={canonicalUrl} />
-        {content.mainImage && <meta property="og:image" content={`https://www.horexnakliyat.com${content.mainImage.src}`} />}
-        <meta property="og:site_name" content="Horex Nakliyat" />
-
-        {/* Twitter Card Etiketleri */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={title} />
-        <meta name="twitter:description" content={metaDescription} />
-        {content.mainImage && <meta name="twitter:image" content={`https://www.horexnakliyat.com${content.mainImage.src}`} />}
-
-        {/* Structured Data */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
-        />
-      </Head>
-
       <main className="min-h-screen" aria-label={`${title} - Horex Nakliyat`}>
         {/* Hero Section */}
         <section className="relative h-[90vh] flex items-center justify-center bg-gradient-to-r from-horex-red to-horex-black" ref={heroRef}>
-          <div className="container mx-auto px-4">
+          {heroImage && (
+            <div className="absolute inset-0 z-0 opacity-20">
+              <Image
+                src={heroImage.src}
+                alt={heroImage.alt || `${title} - Horex Nakliyat Nakliyat Hizmetleri`}
+                fill
+                sizes="100vw"
+                style={{ objectFit: 'cover' }}
+                priority
+                quality={85}
+                fetchPriority="high"
+                title={`${title} - Profesyonel Nakliyat Hizmeti | Horex Nakliyat`}
+              />
+            </div>
+          )}
+          <div className="container mx-auto px-4 z-10">
             <div className="text-center text-white">
               <motion.div
                 initial={{ y: -50, opacity: 0 }}
@@ -237,6 +230,23 @@ export default function TransportationService({
               <p className="text-lg text-gray-700 leading-relaxed mb-8">
                 {content.introduction}
               </p>
+              
+              {/* Display mainImage if available */}
+              {content.mainImage && (
+                <div className="mb-12 relative w-full h-96 rounded-xl overflow-hidden">
+                  <Image
+                    src={content.mainImage.src}
+                    alt={content.mainImage.alt || `${title} - Detaylı Görsel | Horex Nakliyat`}
+                    fill
+                    sizes="(max-width: 768px) 100vw, 1200px"
+                    style={{ objectFit: 'cover' }}
+                    className="rounded-xl"
+                    loading="eager"
+                    quality={85}
+                    title={`${title} - Profesyonel Nakliyat Çözümleri | Horex Nakliyat`}
+                  />
+                </div>
+              )}
             </div>
           </div>
         </section>

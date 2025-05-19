@@ -1,0 +1,56 @@
+# Project Rules: SEO Odaklı Statik Web Sitesi (Next.js + TypeScript)
+
+## Proje Amacı
+Bu proje, Next.js ve TypeScript kullanılarak geliştirilen **tamamen statik**, yüksek performanslı ve SEO uyumlu bir web sitesidir. Sitenin birincil amacı, arama motoru dostu teknik yapıyı en iyi şekilde uygulayarak **Google gibi arama motorlarında üst sıralarda yer almasını sağlamak** ve **SEO tekniklerinin eksiksiz uygulanmasını** garanti altına almaktır.
+
+## Geliştirme Kuralları ve Dikkat Edilmesi Gerekenler
+
+- **Tamamen Statik Üretim (Static Generation / SSG)** kullanılmalıdır. `getStaticProps`, `getStaticPaths` ile içerikler önceden oluşturulmalı, `getServerSideProps` gibi dinamik üretim kullanılmamalıdır.
+  
+- SEO uyumlu olması için [Ayhan Karaman'ın Adım Adım Teknik SEO Rehberi](https://www.ayhankaraman.com/adim-adim-teknik-seo-rehberi/) belgesi proje boyunca referans alınmalıdır.
+
+- **Her sayfa için özel `<title>` ve `<meta name="description">` tanımlamaları yapılmalıdır.**
+  - `next/head` kullanılmalı.
+  - Açıklamalar özgün, 160 karakteri geçmeyecek şekilde optimize edilmelidir.
+
+- **Canonical URL tanımlamaları zorunludur.**
+  - Tekil içeriklerde kopya içerik sorununu önlemek için `rel="canonical"` link etiketi eklenmelidir.
+
+- **Open Graph (og:*) ve Twitter Card meta tag’leri her sayfaya eklenmelidir.**
+  - Sosyal medya paylaşımları için görsel, başlık ve açıklama optimize edilmelidir.
+
+- **Tüm görsellerde `alt` açıklamaları bulunmalıdır.**
+  - Erişilebilirlik ve görsel SEO için zorunludur.
+
+- **Sayfada sadece bir tane `<h1>` kullanılmalı; hiyerarşik başlık yapısı korunmalıdır (H1 > H2 > H3).**
+
+- **Robots.txt ve Sitemap.xml** dosyaları eksiksiz ve güncel olmalıdır.
+  - Robots.txt içerisinde `Sitemap:` satırı mutlaka yer almalıdır.
+
+- **Mobile-first tasarım uygulanmalıdır.**
+  - Responsive yapı ve `<meta name="viewport">` etiketi her sayfada olmalı.
+
+- **Sayfa hızı ve performansı önceliklidir.**
+  - Core Web Vitals kriterleri dikkate alınmalı (CLS, LCP, FID).
+  - LCP için görsel optimizasyon yapılmalı (`next/image` kullanımı teşvik edilmeli).
+  - Render-blocking kaynaklar azaltılmalı.
+
+- **HTTPS protokolü varsayılmalı, tüm bağlantılar güvenli olarak yapılandırılmalıdır.**
+
+- **URL yapısı sade ve okunabilir olmalı.**
+  - Küçük harf, kısa URL, tire ile ayrılmış yapılar tercih edilmeli.
+  - Query parametreleri yerine statik yollar (`/hizmetler/web-tasarim`) kullanılmalı.
+
+- **Schema.org yapılandırılmış veri (structured data)** mümkün olan her sayfada kullanılmalıdır.
+  - Blog, ürün, hizmet gibi içerikler için `JSON-LD` şemaları oluşturulmalı.
+
+## Cursor AI Kullanımı İçin Not:
+Bu projede Cursor AI kod düzenleyicisi, proje boyunca **SEO teknik kurallarına uygunluk** açısından geliştiriciye yol göstermek amacıyla kullanılmalıdır. Cursor’un yapay zekâ desteği, aşağıdaki amaçlarla kullanılabilir:
+
+- Sayfa içi SEO kontrollerini manuel olarak denetlemek (title, meta, h1, alt gibi).
+- İçeriklerin SEO uyumlu başlık ve açıklamalarla yazıldığını kontrol etmek.
+- Yapılandırılmış veri ve semantik HTML önerileri sunmak.
+- Performans (Core Web Vitals) ve erişilebilirlik konusunda kod iyileştirme önerileri almak.
+
+## Sonuç
+Bu proje, SEO odaklı en iyi teknikleri uygulamayı hedefleyen bir vitrindir. Kodlama sürecinde tüm kararlar, SEO teknik gereklilikleri çerçevesinde verilmeli; herhangi bir yapısal değişiklik önce SEO etkisi açısından değerlendirilmelidir.

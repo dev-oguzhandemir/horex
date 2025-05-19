@@ -1,0 +1,159 @@
+{
+  "title": "Ofis ve Kurumsal Depolama",
+  "description": "ŞİRKETİNİZİN TÜM EŞYA VE EVRAKLARI PROFESYONEL KORUMA ALTINDA",
+  "metaDescription": "Horex Nakliyat ile şirketiniz için özel ofis ve kurumsal depolama çözümleri. Ofis mobilyaları, arşiv belgeleri ve ticari envanter için güvenli, erişilebilir depolama hizmeti.",
+  "metaKeywords": "ofis depolama, kurumsal depolama, şirket eşyası depolama, ofis mobilyası depolama, arşiv depolama, evrak depolama, ticari depolama, kurumsal arşiv hizmeti",
+  "banner": {
+    "src": "/images/banner/all-page-banner-2.png",
+    "alt": "Horex Nakliyat Banner"
+  },
+  "heroImage": {
+    "src": "/images/storage-services/ofis-ve-kurumsal-depolama.jpg",
+    "alt": "Ofis ve Kurumsal Depolama - Şirketler İçin Profesyonel Depolama Çözümleri",
+    "width": 1200,
+    "height": 800
+  },
+  "features": [
+    {
+      "title": "Belge ve Arşiv Yönetimi",
+      "description": "Evraklarınız sistematik olarak arşivlenir ve saklanır.",
+      "icon": "📁"
+    },
+    {
+      "title": "Ofis Mobilyası Depolama",
+      "description": "Taşınma veya renovasyon süreçlerinde mobilya güvenliği.",
+      "icon": "🪑"
+    },
+    {
+      "title": "Envanter Yönetimi",
+      "description": "Ticari stok ve envanter için özel çözümler.",
+      "icon": "📦"
+    },
+    {
+      "title": "Dokümantasyon",
+      "description": "Detaylı kayıt ve takip sistemi.",
+      "icon": "📋"
+    },
+    {
+      "title": "İmha Hizmeti",
+      "description": "Gizli evraklar için güvenli imha servisi.",
+      "icon": "🔒"
+    },
+    {
+      "title": "Hızlı Teslimat",
+      "description": "Acil evrak ve eşya teslimatı.",
+      "icon": "⏱️"
+    }
+  ],
+  "content": {
+    "mainImage": {
+      "src": "/images/storage-services/ofis-ve-kurumsal-depolama.jpg",
+      "alt": "Ofis ve Kurumsal Depolama - Şirket Arşivleri ve Ofis Ekipmanları İçin Güvenli Saklama",
+      "width": 800,
+      "height": 600
+    },
+    "introductionTitle": "Ofis ve Kurumsal Depolama Hizmeti",
+    "introduction": "Ofis ve kurumsal depolama hizmetimiz, şirketlerin ofis mobilyaları, ticari ekipmanlar, arşiv belgeleri ve stok fazlası ürünler için profesyonel depolama çözümleri sunar. İşletmenizin boyutu veya sektörü ne olursa olsun, ihtiyaçlarınıza göre özelleştirilmiş, güvenli ve erişilebilir depolama seçenekleri sunuyoruz.",
+    "featuresTitle": "Hizmet Özellikleri",
+    "highlightsTitle": "Kurumsal Depolama Avantajları",
+    "whatsappMessage": "Merhaba, ofis ve kurumsal depolama hizmeti hakkında bilgi almak istiyorum.",
+    "whatsappButtonText": "Kurumsal Teklif Al",
+    "ctaButtonText": "İletişime Geçin",
+    "highlights": [
+      {
+        "title": "İşletme Maliyetlerinde Azalma",
+        "description": "Ofis alanınızda depolama için yer ayırmak yerine, daha düşük maliyetle profesyonel depolama alanlarımızı kullanın."
+      },
+      {
+        "title": "Süreç Yönetimi",
+        "description": "Taşınma, renovasyon veya kapasite değişikliği dönemlerinde kesintisiz iş sürekliliği sağlar."
+      },
+      {
+        "title": "Güvenli Arşiv Saklama",
+        "description": "Yasal olarak saklamanız gereken firma belgeleri ve arşivler için özel güvenlikli depolama alanları."
+      },
+      {
+        "title": "Envanter Kontrolü",
+        "description": "Dijital envanter yönetim sistemi ile eşyalarınızı ve stoklarınızı takip edin."
+      },
+      {
+        "title": "Uyarlanabilir Çözümler",
+        "description": "İşletmenizin büyümesi veya küçülmesine göre kolayca ölçeklenebilen depolama alanları."
+      },
+      {
+        "title": "Operasyonel Esneklik",
+        "description": "Sezonluk ürünler veya dönemsel ekipman depolama imkanı ile operasyonel esneklik."
+      }
+    ],
+    "mainContent": {
+      "firstSection": {
+        "title": "Kurumsal Depolama Çözümlerimiz",
+        "description": "İşletmelerin ihtiyaçlarına özel tasarlanmış depolama çözümlerimiz, profesyonel iş standartlarına uygun olarak sunulmaktadır. Her sektörün benzersiz gereksinimlerini karşılayacak çeşitlilikte hizmetler sunuyoruz.",
+        "items": [
+          {
+            "title": "Arşiv Depolama",
+            "description": "Firma dokümanları, muhasebe evrakları ve yasal belgeler için"
+          },
+          {
+            "title": "Ofis Mobilyası Depolama",
+            "description": "Masa, sandalye, dolap ve elektronik ekipmanlar için"
+          },
+          {
+            "title": "Ticari Ürün Depolama",
+            "description": "Envanter fazlası, sezonluk ürünler ve ticari mallar için"
+          },
+          {
+            "title": "Özel Ekipman Depolama",
+            "description": "Özel endüstriyel ekipman ve teknik cihazlar için"
+          }
+        ]
+      },
+      "secondSection": {
+        "title": "Kurumsal Depolama Sürecimiz",
+        "description": "İşletmenizin depolama ihtiyaçlarını profesyonel bir yaklaşımla ele alıyoruz. Sürecimiz, ihtiyaç analizinden başlayarak sürekli destek sağlayan bir hizmet döngüsüdür.",
+        "items": [
+          {
+            "title": "Kurumsal İhtiyaç Analizi",
+            "description": "İşletmenize özel depolama gereksinimlerinin belirlenmesi"
+          },
+          {
+            "title": "Özelleştirilmiş Planlama",
+            "description": "Depolama stratejisinin işletme süreçlerinize göre tasarlanması"
+          },
+          {
+            "title": "Profesyonel Taşıma",
+            "description": "Ofisten depolama alanına güvenli ve hızlı nakliye"
+          },
+          {
+            "title": "Envanter Yönetimi",
+            "description": "Dijital sistem üzerinden depolanan varlıkların takibi"
+          }
+        ]
+      }
+    },
+    "process": {
+      "title": "Kurumsal Depolama Adımları",
+      "steps": [
+        "İşletmenizin depolama ihtiyaçlarının değerlendirilmesi",
+        "İhtiyaca göre özelleştirilmiş depolama planı",
+        "Taşınma ve lojistik planlaması",
+        "Depolama alanının hazırlanması ve güvenlik önlemleri",
+        "Varlıkların profesyonelce depolanması ve konumlandırılması",
+        "Dijital envanter kaydının oluşturulması ve erişim tanımlanması"
+      ]
+    },
+    "additionalInfo": {
+      "title": "Neden Horex Kurumsal Depolama?",
+      "items": [
+        "Kurumsal müşterilere özel hizmet ekibi",
+        "İş sürekliliğinizi destekleyen esnek çözümler",
+        "İleri düzey güvenlik sistemleri ve 7/24 izleme",
+        "Çevre kontrollü depolama alanları",
+        "Kontratlı ve faturalı kurumsal hizmet",
+        "Acil durum erişim protokolleri ve iş sürekliliği desteği"
+      ]
+    },
+    "ctaTitle": "İşletmeniz İçin Profesyonel Depolama",
+    "ctaDescription": "Firmanız için özel depolama çözümlerimiz hakkında detaylı bilgi ve kurumsal teklif almak için hemen iletişime geçin."
+  }
+} 

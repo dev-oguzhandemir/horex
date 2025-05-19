@@ -1,0 +1,156 @@
+{
+  "title": "Araçlarımız",
+  "description": "MODERN VE GÜVENLİ TAŞIMA ARAÇLARI",
+  "metaDescription": "Horex Nakliyat'ın modern ve bakımlı araç filosu. Her türlü eşya ve yük taşıma kapasitesine sahip, güvenli ve teknolojik donanımlı araçlarla profesyonel taşımacılık.",
+  "metaKeywords": "nakliyat araçları, taşıma filosu, yük taşıma araçları, eşya taşıma kamyonları, profesyonel taşıma araçları, kamyon filosu, nakliye araçları, istanbul nakliyat firması",
+  "heroImage": {
+    "src": "/images/service-capacity/araclarimiz.jpg",
+    "alt": "Horex Nakliyat Profesyonel Araç Filosu",
+    "width": 1200,
+    "height": 800
+  },
+  "features": [
+    {
+      "title": "Modern Filo",
+      "description": "Düzenli bakımlı genç araç filosu",
+      "icon": "🚚"
+    },
+    {
+      "title": "GPS Takip",
+      "description": "Tüm araçlarda gerçek zamanlı konum takibi",
+      "icon": "📍"
+    },
+    {
+      "title": "Güvenlik Donanımı",
+      "description": "Sürüş ve yük güvenliği sistemleri",
+      "icon": "🔐"
+    },
+    {
+      "title": "Özel Ekipman",
+      "description": "Yük sabitleme ve koruma ekipmanları",
+      "icon": "🔧"
+    },
+    {
+      "title": "Farklı Kapasiteler",
+      "description": "Her yük tipi için uygun araçlar",
+      "icon": "⚖️"
+    },
+    {
+      "title": "Eğitimli Sürücüler",
+      "description": "Profesyonel ve deneyimli personel",
+      "icon": "👨‍✈️"
+    }
+  ],
+  "content": {
+    "mainImage": {
+      "src": "/images/service-capacity/araclarimiz.jpg",
+      "alt": "Horex Nakliyat Araç Filosu",
+      "width": 800,
+      "height": 600
+    },
+    "introductionTitle": "Araç Filomuz",
+    "introduction": "Horex Nakliyat olarak, her türlü taşıma işlemi için özel olarak seçilmiş, modern ve teknolojik donanımlı araç filomuzla hizmet vermekteyiz. Araçlarımız düzenli bakımlarla her zaman en üst seviyede performans sağlamaktadır.",
+    "featuresTitle": "Araç Filomuzun Özellikleri",
+    "highlightsTitle": "Araç Filomuzun Avantajları",
+    "whatsappMessage": "Merhaba, araç filonuz hakkında bilgi almak istiyorum.",
+    "whatsappButtonText": "Araç Bilgisi Alın",
+    "ctaButtonText": "Fiyat Teklifi Alın",
+    "highlights": [
+      {
+        "title": "Teknolojik Altyapı",
+        "description": "GPS takip, telemetri ve sürüş verilerinin analizi ile optimum performans"
+      },
+      {
+        "title": "Düzenli Bakım",
+        "description": "Tüm araçların periyodik ve önleyici bakım programları"
+      },
+      {
+        "title": "Özel İç Donanım",
+        "description": "Eşyalarınıza özel koruma sağlayan iç donanımlar ve sabitleme sistemleri"
+      },
+      {
+        "title": "Farklı Kapasite Seçenekleri",
+        "description": "Küçük ev eşyalarından büyük hacimli yüklere uygun farklı boyut seçenekleri"
+      },
+      {
+        "title": "Temiz Araçlar",
+        "description": "Her taşıma öncesi temizlenen ve dezenfekte edilen araç içi alanlar"
+      },
+      {
+        "title": "Alternatif Enerji",
+        "description": "Çevre dostu, düşük emisyonlu taşıma çözümleri"
+      }
+    ],
+    "mainContent": {
+      "firstSection": {
+        "title": "Araç Filomuz ve Kapasitelerimiz",
+        "description": "Horex Nakliyat, farklı yük tiplerine ve hacimlere uygun geniş bir araç filosuna sahiptir. Her taşıma ihtiyacınıza uygun bir aracımız mutlaka bulunmaktadır.",
+        "items": [
+          {
+            "title": "Panelvan Araçlar",
+            "description": "Küçük hacimli ve hassas eşyaların güvenli taşınması"
+          },
+          {
+            "title": "10-15 m³ Kamyonetler",
+            "description": "1+1, 2+1 evler için uygun orta hacimli araçlar"
+          },
+          {
+            "title": "30-40 m³ Kamyonlar",
+            "description": "Büyük ev ve ofis taşımaları için geniş hacimli araçlar"
+          },
+          {
+            "title": "Tır ve Lowbedler",
+            "description": "Ağır yük ve proje taşımacılığı için özel araçlar"
+          }
+        ]
+      },
+      "secondSection": {
+        "title": "Araçlarımızın Güvenlik Donanımları",
+        "description": "Filomuz, sürüş güvenliği ve yük koruması için en ileri teknoloji ile donatılmıştır. Eşyalarınızın güvenliği birinci önceliğimizdir.",
+        "items": [
+          {
+            "title": "Aktif Sürüş Güvenliği",
+            "description": "ABS, ESP, şerit takip gibi sürüş destek sistemleri"
+          },
+          {
+            "title": "Yük Güvenliği",
+            "description": "Yük sabitleme rayları, kayışlar ve hava süspansiyon"
+          },
+          {
+            "title": "İklim Kontrolü",
+            "description": "Kargo alanında sıcaklık ve nem kontrolü"
+          },
+          {
+            "title": "Acil Durum Sistemleri",
+            "description": "Acil durumlar için konum bildirimi ve yardım çağrı sistemi"
+          }
+        ]
+      }
+    },
+    "process": {
+      "title": "Araç Seçim ve Hazırlık Süreci",
+      "steps": [
+        "Taşınacak eşyalarınızın hacim ve ağırlık analizi",
+        "İhtiyaca uygun araç seçimi ve planlaması",
+        "Araç iç temizlik ve dezenfeksiyonu",
+        "Özel ekipman ve malzeme hazırlığı",
+        "Taşıma öncesi son kontroller",
+        "Araç yükleme ve yük sabitleme",
+        "Güvenli taşıma ve teslimat"
+      ]
+    },
+    "additionalInfo": {
+      "title": "Araç Filomuzun Standartları",
+      "items": [
+        "Ortalama 3 yaş altı genç araç filosu",
+        "Aylık düzenli teknik kontrol ve bakım",
+        "Eşya koruma odaklı iç düzen ve malzemeler",
+        "Sürekli eğitimli profesyonel sürücüler",
+        "Sürüş ve yük takibi için IoT teknolojisi",
+        "Minimum karbon ayak izi için optimizasyon"
+      ]
+    },
+    "ctaTitle": "Taşımacılık İhtiyaçlarınız İçin İdeal Araçlar",
+    "ctaDescription": "Modern ve güvenli araç filomuzla eşyalarınızı sorunsuz taşıyoruz. Ücretsiz keşif ve uygun araç seçimi için bizimle iletişime geçin."
+  }
+} 

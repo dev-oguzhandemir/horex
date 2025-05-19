@@ -8,7 +8,7 @@
     "alt": "Horex Nakliyat Banner"
   },
   "heroImage": {
-    "src": "/blog/sigortali-tasimacilik.jpg",
+    "src": "/images/transportation-services/sigortali-tasimacilik.jpg",
     "alt": "Horex Nakliyat Sigortalı Taşımacılık Hizmeti",
     "width": 1200,
     "height": 800
@@ -47,7 +47,7 @@
   ],
   "content": {
     "mainImage": {
-      "src": "/blog/sigortali-tasimacilik.jpg",
+      "src": "/images/transportation-services/sigortali-tasimacilik.jpg",
       "alt": "Horex Nakliyat Sigortalı Taşımacılık Hizmeti",
       "width": 800,
       "height": 600

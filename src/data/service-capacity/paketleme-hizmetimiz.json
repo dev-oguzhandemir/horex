@@ -1,0 +1,156 @@
+{
+  "title": "Paketleme Hizmetimiz",
+  "description": "PROFESYONEL VE GÜVENLİ EŞYA PAKETLEME",
+  "metaDescription": "Horex Nakliyat'ın profesyonel paketleme hizmeti. Özel malzemeler ve tekniklerle eşyalarınızı güvenle paketliyor, taşıma sırasında oluşabilecek hasarları önlüyoruz.",
+  "metaKeywords": "eşya paketleme, profesyonel paketleme, nakliyat paketleme, güvenli paketleme, mobilya paketleme, özel eşya paketleme, antika paketleme, istanbul paketleme hizmeti",
+  "heroImage": {
+    "src": "/images/service-capacity/paketleme-hizmetimiz.jpg",
+    "alt": "Horex Nakliyat Profesyonel Paketleme Hizmeti",
+    "width": 1200,
+    "height": 800
+  },
+  "features": [
+    {
+      "title": "Özel Malzemeler",
+      "description": "Eşya tipine uygun paketleme malzemeleri",
+      "icon": "📦"
+    },
+    {
+      "title": "Uzman Ekip",
+      "description": "Profesyonel paketleme personeli",
+      "icon": "👨‍🔧"
+    },
+    {
+      "title": "Ürün Koruma",
+      "description": "Hasarlara karşı tam koruma",
+      "icon": "🛡️"
+    },
+    {
+      "title": "Özel Çözümler",
+      "description": "Hassas eşyalar için özel paketleme",
+      "icon": "💎"
+    },
+    {
+      "title": "Detaylı Etiketleme",
+      "description": "Kolay bulunabilirlik için etiketleme",
+      "icon": "🏷️"
+    },
+    {
+      "title": "Çevre Dostu",
+      "description": "Sürdürülebilir paketleme malzemeleri",
+      "icon": "♻️"
+    }
+  ],
+  "content": {
+    "mainImage": {
+      "src": "/images/service-capacity/paketleme-hizmetimiz.jpg",
+      "alt": "Horex Nakliyat Profesyonel Paketleme Hizmeti",
+      "width": 800,
+      "height": 600
+    },
+    "introductionTitle": "Profesyonel Paketleme Hizmeti",
+    "introduction": "Horex Nakliyat olarak, ev ve ofis eşyalarınızın taşınması ve depolanması öncesinde profesyonel paketleme hizmeti sunuyoruz. Uzman ekibimiz, her eşya türü için özel geliştirilen paketleme teknikleri ve malzemeleri kullanarak eşyalarınızı güvenle paketliyor.",
+    "featuresTitle": "Paketleme Hizmetimizin Özellikleri",
+    "highlightsTitle": "Paketleme Hizmetimizin Avantajları",
+    "whatsappMessage": "Merhaba, paketleme hizmetiniz hakkında bilgi almak istiyorum.",
+    "whatsappButtonText": "Paketleme Hizmeti Alın",
+    "ctaButtonText": "Ücretsiz Keşif",
+    "highlights": [
+      {
+        "title": "Özel Malzeme Seçimi",
+        "description": "Her eşya için en uygun koruyucu malzemenin seçilmesi"
+      },
+      {
+        "title": "Hasarsız Taşıma",
+        "description": "Doğru paketleme ile taşıma hasarlarının minimuma indirilmesi"
+      },
+      {
+        "title": "Düzenli Yerleşim",
+        "description": "Kutu içi yerleşimin optimum alan kullanımı için planlanması"
+      },
+      {
+        "title": "Kolay Açma",
+        "description": "Taşıma sonrası paketlerin kolay açılabilir şekilde hazırlanması"
+      },
+      {
+        "title": "Zaman Tasarrufu",
+        "description": "Profesyonel ekiple çok daha hızlı paketleme süreci"
+      },
+      {
+        "title": "Stressiz Taşınma",
+        "description": "Paketleme yükünden kurtularak taşınmanın daha kolay hale gelmesi"
+      }
+    ],
+    "mainContent": {
+      "firstSection": {
+        "title": "Paketleme Tekniklerimiz",
+        "description": "Her eşya türü için özel olarak geliştirdiğimiz paketleme teknikleri, eşyalarınızın taşıma ve depolama süreçlerinde maksimum koruma sağlar.",
+        "items": [
+          {
+            "title": "Mobilya Paketleme",
+            "description": "Mobilyaların çizilme ve hasardan korunması için özel teknikler"
+          },
+          {
+            "title": "Hassas Eşya Paketleme",
+            "description": "Porselen, cam ve elektronik eşyalar için özel koruma"
+          },
+          {
+            "title": "Kıyafet Paketleme",
+            "description": "Gardırop kutuları ve askılı taşıma sistemleriyle katlama gerektirmeyen çözümler"
+          },
+          {
+            "title": "Antika Paketleme",
+            "description": "Değerli ve antika eşyalar için müze standartlarında paketleme"
+          }
+        ]
+      },
+      "secondSection": {
+        "title": "Paketleme Malzemelerimiz",
+        "description": "En kaliteli paketleme malzemeleri, eşyalarınızın güvenliği için kritik öneme sahiptir. Tüm paketleme malzemelerimiz profesyonel nakliyat standartlarına uygundur.",
+        "items": [
+          {
+            "title": "Özel Nakliyat Kutuları",
+            "description": "Farklı boyutlarda dayanıklı çift katlı kutular"
+          },
+          {
+            "title": "Koruyucu Malzemeler",
+            "description": "Hava kabarcıklı naylonlar, köpük ve darbe emici malzemeler"
+          },
+          {
+            "title": "Özel Ambalaj Kağıtları",
+            "description": "Yağ ve leke bırakmayan asitsiz ambalaj kağıtları"
+          },
+          {
+            "title": "Sabitleme Malzemeleri",
+            "description": "Bant, çember ve sabitleme kayışları"
+          }
+        ]
+      }
+    },
+    "process": {
+      "title": "Paketleme Sürecimiz",
+      "steps": [
+        "Eşyaların detaylı envanteri ve değerlendirmesi",
+        "Paketleme planı ve malzeme hazırlığı",
+        "Eşyaların temizlenmesi ve hazırlanması",
+        "Profesyonel paketleme uygulaması",
+        "Kutuların etiketlenmesi ve organizasyonu",
+        "Eşya listesi ve içerik dökümanı hazırlama",
+        "Paketlenmiş eşyaların güvenli taşınması"
+      ]
+    },
+    "additionalInfo": {
+      "title": "Paketleme Hizmetimizin Farkları",
+      "items": [
+        "Tecrübeli ve eğitimli paketleme ekibi",
+        "En kaliteli endüstriyel paketleme malzemeleri",
+        "Eşya türüne göre özelleştirilmiş paketleme teknikleri",
+        "Detaylı etiketleme ve envanter yönetimi",
+        "Paketleme sonrası temiz ve düzenli alan bırakma",
+        "Paketleme malzemelerinin geri dönüşüm desteği"
+      ]
+    },
+    "ctaTitle": "Profesyonel Paketleme ile Güvenli Taşıma",
+    "ctaDescription": "Eşyalarınızın güvenliği için profesyonel paketleme hizmetimizden faydalanın. Ücretsiz keşif ve paketleme teklifi için bizimle iletişime geçin."
+  }
+} 

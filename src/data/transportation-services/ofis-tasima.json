@@ -8,8 +8,8 @@
     "alt": "Horex Nakliyat Banner"
   },
   "heroImage": {
-    "src": "/blog/ofis-tasima.jpg",
-    "alt": "Horex Nakliyat Profesyonel Ofis Taşıma",
+    "src": "/images/transportation-services/ofis-tasima.jpg",
+    "alt": "Horex Nakliyat Ofis Taşıma Hizmeti",
     "width": 1200,
     "height": 800
   },
@@ -47,8 +47,8 @@
   ],
   "content": {
     "mainImage": {
-      "src": "/blog/ofis-tasima.jpg",
-      "alt": "Horex Nakliyat Profesyonel Ofis Taşıma Hizmeti",
+      "src": "/images/transportation-services/ofis-tasima.jpg",
+      "alt": "Horex Nakliyat Ofis Taşıma Hizmeti",
       "width": 800,
       "height": 600
     },

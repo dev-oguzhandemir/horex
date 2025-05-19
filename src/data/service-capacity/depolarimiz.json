@@ -1,0 +1,156 @@
+{
+  "title": "Depolarımız",
+  "description": "GÜVENLİ VE TEMİZ DEPOLAMA ALANLARI",
+  "metaDescription": "Horex Nakliyat'ın modern ve güvenli depolama tesisleri. İklim kontrollü, 7/24 kamera sistemleri ve profesyonel ekiple eşyalarınızı en güvenli şekilde saklıyoruz.",
+  "metaKeywords": "depolama alanları, güvenli depo, eşya depolama tesisleri, konteyner depolama, iklim kontrollü depo, istanbul depolama alanları, profesyonel depolama, sigortalı depolama",
+  "heroImage": {
+    "src": "/images/service-capacity/depolarimiz.jpg",
+    "alt": "Horex Nakliyat Modern Depolama Tesisleri",
+    "width": 1200,
+    "height": 800
+  },
+  "features": [
+    {
+      "title": "İklim Kontrolü",
+      "description": "Nem ve sıcaklık kontrollü ortamlar",
+      "icon": "🌡️"
+    },
+    {
+      "title": "24/7 Güvenlik",
+      "description": "Kesintisiz kamera ve alarm sistemleri",
+      "icon": "🔒"
+    },
+    {
+      "title": "Yangın Güvenliği",
+      "description": "Modern yangın önleme sistemleri",
+      "icon": "🧯"
+    },
+    {
+      "title": "Temiz Alanlar",
+      "description": "Hijyenik ve düzenli depolama",
+      "icon": "✨"
+    },
+    {
+      "title": "Kolay Erişim",
+      "description": "Randevu ile eşyalara erişim imkanı",
+      "icon": "🔑"
+    },
+    {
+      "title": "Sigortalı Hizmet",
+      "description": "Tüm eşyaların tam sigorta kapsamı",
+      "icon": "📋"
+    }
+  ],
+  "content": {
+    "mainImage": {
+      "src": "/images/service-capacity/depolarimiz.jpg",
+      "alt": "Horex Nakliyat Modern Depolama Tesisleri",
+      "width": 800,
+      "height": 600
+    },
+    "introductionTitle": "Depolama Tesislerimiz",
+    "introduction": "Horex Nakliyat olarak, eşyalarınızın güvenle saklanması için özel olarak tasarlanmış modern depolama tesislerimizle hizmet vermekteyiz. İklim kontrollü, 7/24 güvenlik önlemleri ve profesyonel ekibimizle eşyalarınız güvende.",
+    "featuresTitle": "Depolarımızın Özellikleri",
+    "highlightsTitle": "Depolama Tesislerimizin Avantajları",
+    "whatsappMessage": "Merhaba, depolama tesisleriniz hakkında bilgi almak istiyorum.",
+    "whatsappButtonText": "Depo Bilgisi Alın",
+    "ctaButtonText": "Detaylı Bilgi",
+    "highlights": [
+      {
+        "title": "Modern Güvenlik",
+        "description": "24 saat kamera gözetimi, hareket sensörleri ve profesyonel güvenlik personeli"
+      },
+      {
+        "title": "Özel İklimlendirme",
+        "description": "Nem, sıcaklık ve hava kalitesi kontrolü ile eşyalarınızı koruma"
+      },
+      {
+        "title": "Zararlı Kontrolü",
+        "description": "Düzenli ilaçlama ve koruyucu önlemler ile zararlılardan arındırılmış ortam"
+      },
+      {
+        "title": "Modüler Yapı",
+        "description": "İhtiyacınıza göre farklı boyutlarda alan tahsisi imkanı"
+      },
+      {
+        "title": "Lojistik Entegrasyonu",
+        "description": "Taşıma ve depolama süreçlerinin kesintisiz entegrasyonu"
+      },
+      {
+        "title": "Acil Durum Sistemleri",
+        "description": "Yangın, su baskını ve diğer risklere karşı tam koruma"
+      }
+    ],
+    "mainContent": {
+      "firstSection": {
+        "title": "Depo Çeşitlerimiz",
+        "description": "Farklı depolama ihtiyaçlarınıza uygun çeşitli depo türleri sunuyoruz. Her depolama alanı, maksimum güvenlik ve eşya koruması sağlamak üzere tasarlanmıştır.",
+        "items": [
+          {
+            "title": "Konteyner Depolar",
+            "description": "Kişiye özel, kilitli konteyner depolama alanları"
+          },
+          {
+            "title": "Oda Tipi Depolar",
+            "description": "Farklı boyutlarda özel oda depolama seçenekleri"
+          },
+          {
+            "title": "Açık Alan Depolar",
+            "description": "Büyük hacimli eşyalar için geniş depolama alanları"
+          },
+          {
+            "title": "Özel Eşya Depoları",
+            "description": "Antika, sanat eseri gibi değerli eşyalar için özel alanlar"
+          }
+        ]
+      },
+      "secondSection": {
+        "title": "Tesislerimizin Altyapısı",
+        "description": "Depolama tesislerimiz en ileri teknoloji ve güvenlik altyapısıyla donatılmıştır. Eşyalarınızın her koşulda güvenle saklanması önceliğimizdir.",
+        "items": [
+          {
+            "title": "Akıllı İklimlendirme",
+            "description": "Otomatik nem ve sıcaklık kontrol sistemleri"
+          },
+          {
+            "title": "Gelişmiş Güvenlik",
+            "description": "Parmak izi, şifre veya kart ile erişim sistemleri"
+          },
+          {
+            "title": "Yangın Söndürme",
+            "description": "Otomatik yangın algılama ve söndürme sistemleri"
+          },
+          {
+            "title": "Yük Taşıma Ekipmanları",
+            "description": "Forklift, transpalet ve yük asansörleri"
+          }
+        ]
+      }
+    },
+    "process": {
+      "title": "Depolama Süreciniz",
+      "steps": [
+        "Ücretsiz depolama ihtiyaç analizi",
+        "Eşyalarınıza uygun depo alanı belirleme",
+        "Profesyonel paketleme ve hazırlık",
+        "Güvenli nakliye ve depolama",
+        "Düzenli kontrol ve bakım",
+        "Kolay erişim ve talep halinde teslimat",
+        "Depolama sonrası teslimat planlaması"
+      ]
+    },
+    "additionalInfo": {
+      "title": "Depolama Tesislerimizin Farkı",
+      "items": [
+        "10.000 m² toplam kapalı depolama alanı",
+        "Şehir merkezine yakın kolay ulaşılabilir lokasyon",
+        "Özel güvenlik ve kamera sistemleri",
+        "Profesyonel depo yönetim ekibi",
+        "Yüksek tavanlı, geniş koridorlu yapı",
+        "Toz ve nemden arındırılmış ortam"
+      ]
+    },
+    "ctaTitle": "Eşyalarınız İçin En Güvenli Depolama",
+    "ctaDescription": "Modern ve güvenli depolama tesislerimizde eşyalarınızı güvenle saklıyoruz. Ücretsiz depo inceleme turu ve fiyat teklifi için bizimle iletişime geçin."
+  }
+} 

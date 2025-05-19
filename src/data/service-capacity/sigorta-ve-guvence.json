@@ -1,0 +1,156 @@
+{
+  "title": "Sigorta ve Güvence",
+  "description": "EŞYALARINIZ %100 KORUMA ALTINDA",
+  "metaDescription": "Horex Nakliyat'tan tam kapsamlı taşıma sigortası ve güvence. Eşyalarınızın taşınması ve depolanması sırasında oluşabilecek risklere karşı eksiksiz korunma.",
+  "metaKeywords": "nakliyat sigortası, eşya taşıma sigortası, güvenceli nakliyat, sigortalı taşıma, taşıma hasarı güvencesi, eşya sigortası, güvenli taşıma, sigortalı depolama",
+  "heroImage": {
+    "src": "/images/service-capacity/sigorta-ve-guvence.jpg",
+    "alt": "Horex Nakliyat Sigorta ve Güvence Hizmeti",
+    "width": 1200,
+    "height": 800
+  },
+  "features": [
+    {
+      "title": "Tam Kapsamlı Sigorta",
+      "description": "Tüm eşyalarınızı kapsayan sigorta",
+      "icon": "📜"
+    },
+    {
+      "title": "Hızlı Tazminat",
+      "description": "Olası hasarlarda hızlı tazminat süreci",
+      "icon": "⏱️"
+    },
+    {
+      "title": "Esnek Poliçeler",
+      "description": "İhtiyaca göre özelleştirilebilir sigorta",
+      "icon": "📋"
+    },
+    {
+      "title": "Değerli Eşya Koruması",
+      "description": "Değerli ve antika eşyalar için özel sigorta",
+      "icon": "💎"
+    },
+    {
+      "title": "Ekstra Güvenceler",
+      "description": "Nakliyat süreci için ek teminatlar",
+      "icon": "🛡️"
+    },
+    {
+      "title": "Şeffaf Süreç",
+      "description": "Tüm sigorta sürecinde tam bilgilendirme",
+      "icon": "👁️"
+    }
+  ],
+  "content": {
+    "mainImage": {
+      "src": "/images/service-capacity/sigorta-ve-guvence.jpg",
+      "alt": "Horex Nakliyat Sigorta ve Güvence Hizmeti",
+      "width": 800,
+      "height": 600
+    },
+    "introductionTitle": "Nakliyat Sigortası Hizmetimiz",
+    "introduction": "Horex Nakliyat olarak, taşıma ve depolama sürecinde eşyalarınızın tam güvence altında olması için kapsamlı sigorta çözümleri sunuyoruz. Profesyonel risk yönetimimiz ve güçlü sigorta ortaklıklarımızla içiniz rahat olsun.",
+    "featuresTitle": "Sigorta Hizmetimizin Özellikleri",
+    "highlightsTitle": "Sigorta ve Güvence Avantajlarımız",
+    "whatsappMessage": "Merhaba, nakliyat sigortası hizmetiniz hakkında bilgi almak istiyorum.",
+    "whatsappButtonText": "Sigorta Bilgisi Alın",
+    "ctaButtonText": "Güvence Paketi Alın",
+    "highlights": [
+      {
+        "title": "Kapsamlı Teminat",
+        "description": "Kırılma, çizilme, hasar görme gibi tüm risklere karşı tam koruma"
+      },
+      {
+        "title": "Değer Beyanı",
+        "description": "Eşyaların gerçek değerinin sigortalanması ve tam tazminat garantisi"
+      },
+      {
+        "title": "Anında Hasar Tespiti",
+        "description": "Olası hasarlarda anında tespit ve değerlendirme süreci"
+      },
+      {
+        "title": "Sorunsuz Tazminat",
+        "description": "Hasar durumunda minimum bürokrasi ile hızlı tazminat ödemesi"
+      },
+      {
+        "title": "Uluslararası Geçerlilik",
+        "description": "Yurtdışı taşımalarında da geçerli sigorta poliçeleri"
+      },
+      {
+        "title": "Depolama Sigortası",
+        "description": "Depolama süresince de devam eden sigorta güvencesi"
+      }
+    ],
+    "mainContent": {
+      "firstSection": {
+        "title": "Sigorta Kapsamımız",
+        "description": "Nakliyat sigortamız, eşyalarınızın taşınması ve depolanması sırasında karşılaşabileceği tüm risklere karşı koruma sağlar. Sektörün en kapsamlı teminatlarıyla hizmet veriyoruz.",
+        "items": [
+          {
+            "title": "Kırılma ve Hasar",
+            "description": "Kırılma, çizilme ve fiziksel hasarlara karşı tam koruma"
+          },
+          {
+            "title": "Doğal Afetler",
+            "description": "Yangın, su baskını ve doğal afetlere karşı güvence"
+          },
+          {
+            "title": "Hırsızlık Koruması",
+            "description": "Taşıma ve depolama sırasında hırsızlık güvencesi"
+          },
+          {
+            "title": "3. Şahıs Sorumluluk",
+            "description": "Taşıma sırasında oluşabilecek 3. şahıs zararları teminatı"
+          }
+        ]
+      },
+      "secondSection": {
+        "title": "Sigorta Sürecimiz",
+        "description": "Eşyalarınızın sigortalanması, taşıma sürecinin önemli bir parçasıdır. Basit ve şeffaf bir sigorta süreci ile eşyalarınızı güvence altına alıyoruz.",
+        "items": [
+          {
+            "title": "Eşya Değer Tespiti",
+            "description": "Taşınacak eşyaların detaylı değer analizi"
+          },
+          {
+            "title": "Özel Poliçe Hazırlama",
+            "description": "İhtiyaçlarınıza uygun sigorta poliçesi oluşturma"
+          },
+          {
+            "title": "Taşıma Öncesi Envanter",
+            "description": "Eşyaların durumunun detaylı dokümantasyonu"
+          },
+          {
+            "title": "Hasar Yönetim Süreci",
+            "description": "Hasar durumunda kolay ve hızlı çözüm akışı"
+          }
+        ]
+      }
+    },
+    "process": {
+      "title": "Sigorta ve Tazminat Süreci",
+      "steps": [
+        "Taşınacak eşyaların detaylı envanteri",
+        "Eşya değerlerinin belirlenmesi",
+        "Uygun sigorta kapsamının seçilmesi",
+        "Poliçe düzenlenmesi ve onay",
+        "Taşıma öncesi eşya durumu tespiti",
+        "Taşıma süresince sigorta takibi",
+        "Hasar durumunda anında tespit ve tazminat"
+      ]
+    },
+    "additionalInfo": {
+      "title": "Sigorta Ortaklarımız ve Güvencelerimiz",
+      "items": [
+        "Türkiye'nin önde gelen sigorta şirketleriyle işbirliği",
+        "A+ derecelendirmeli sigorta çözümleri",
+        "7/24 hasar tespit ve destek hattı",
+        "Anlaşmalı eksper ağı",
+        "%100 hasar tazmin garantisi",
+        "Ek güvence paketleri seçeneği"
+      ]
+    },
+    "ctaTitle": "Eşyalarınız İçin Tam Güvence",
+    "ctaDescription": "Taşıma sürecinde içinizin rahat olması için kapsamlı sigorta çözümlerimizden faydalanın. Ücretsiz danışmanlık ve özel sigorta teklifi için bizimle iletişime geçin."
+  }
+} 

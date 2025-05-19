@@ -8,8 +8,8 @@
     "alt": "Horex Nakliyat Banner"
   },
   "heroImage": {
-    "src": "/blog/sehirlerarasi.jpg",
-    "alt": "Horex Nakliyat Şehirler Arası Nakliyat",
+    "src": "/images/transportation-services/sehirler-arasi-nakliyat.jpg",
+    "alt": "Horex Nakliyat Şehirler Arası Nakliyat Hizmeti",
     "width": 1200,
     "height": 800
   },
@@ -47,8 +47,8 @@
   ],
   "content": {
     "mainImage": {
-      "src": "/blog/sehirlerarasi.jpg",
-      "alt": "Horex Nakliyat Profesyonel Şehirler Arası Nakliyat Hizmeti",
+      "src": "/images/transportation-services/sehirler-arasi-nakliyat.jpg",
+      "alt": "Horex Nakliyat Şehirler Arası Nakliyat Hizmeti",
       "width": 800,
       "height": 600
     },

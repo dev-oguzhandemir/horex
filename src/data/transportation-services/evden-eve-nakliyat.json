@@ -8,8 +8,8 @@
     "alt": "Horex Nakliyat Banner"
   },
   "heroImage": {
-    "src": "/blog/depolama.jpg",
-    "alt": "Horex Nakliyat Evden Eve Nakliyat",
+    "src": "/images/transportation-services/evden-eve-nakliyat.jpg",
+    "alt": "Horex Nakliyat Evden Eve Nakliyat Hizmeti",
     "width": 1200,
     "height": 800
   },
@@ -47,8 +47,8 @@
   ],
   "content": {
     "mainImage": {
-      "src": "/blog/depolama.jpg",
-      "alt": "Horex Nakliyat Profesyonel Evden Eve Nakliyat Hizmeti",
+      "src": "/images/transportation-services/evden-eve-nakliyat.jpg",
+      "alt": "Horex Nakliyat Evden Eve Nakliyat Hizmeti",
       "width": 800,
       "height": 600
     },

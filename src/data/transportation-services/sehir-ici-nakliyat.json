@@ -8,8 +8,8 @@
     "alt": "Horex Nakliyat Banner"
   },
   "heroImage": {
-    "src": "/blog/sehir-ici.jpg",
-    "alt": "Horex Nakliyat Şehir İçi Nakliyat",
+    "src": "/images/transportation-services/sehir-ici-nakliyat.jpg",
+    "alt": "Horex Nakliyat Şehir İçi Nakliyat Hizmeti",
     "width": 1200,
     "height": 800
   },
@@ -47,7 +47,7 @@
   ],
   "content": {
     "mainImage": {
-      "src": "/blog/sehir-ici.jpg",
+      "src": "/images/transportation-services/sehir-ici-nakliyat.jpg",
       "alt": "Horex Nakliyat Şehir İçi Nakliyat Hizmeti",
       "width": 800,
       "height": 600

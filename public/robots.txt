@@ -3,7 +3,8 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://example.com
+Host: https://horex.com.tr
 
 # Sitemaps
-Sitemap: https://example.com/sitemap.xml
+Sitemap: https://horex.com.tr/sitemap.xml
+Sitemap: https://horex.com.tr/sitemap-0.xml

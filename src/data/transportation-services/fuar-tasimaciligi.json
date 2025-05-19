@@ -8,8 +8,8 @@
     "alt": "Horex Nakliyat Banner"
   },
   "heroImage": {
-    "src": "/blog/fuar-tasima.jpg",
-    "alt": "Horex Nakliyat Fuar Taşımacılığı",
+    "src": "/images/transportation-services/fuar-tasimaciligi.jpg",
+    "alt": "Horex Nakliyat Fuar Taşımacılığı Hizmeti",
     "width": 1200,
     "height": 800
   },
@@ -47,7 +47,7 @@
   ],
   "content": {
     "mainImage": {
-      "src": "/blog/fuar-tasima.jpg",
+      "src": "/images/transportation-services/fuar-tasimaciligi.jpg",
       "alt": "Horex Nakliyat Fuar Taşımacılığı Hizmeti",
       "width": 800,
       "height": 600

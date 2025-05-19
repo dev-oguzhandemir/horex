@@ -1,0 +1,159 @@
+{
+  "title": "Oda Bazlı Depolama",
+  "description": "HER ODA İÇİN ÖZEL GÜVENLİ DEPOLAMA ÇÖZÜMLERİ",
+  "metaDescription": "Horex Nakliyat ile oda bazlı depolama hizmeti. Evinizdeki her odanın eşyaları için ayrı depolama alanları, düzenli istifleme ve kolay erişim imkanı.",
+  "metaKeywords": "oda bazlı depolama, oda oda eşya depolama, odaya göre eşya saklama, salon depolama, yatak odası depolama, çocuk odası depolama, mutfak eşyası depolama",
+  "banner": {
+    "src": "/images/banner/all-page-banner-2.png",
+    "alt": "Horex Nakliyat Banner"
+  },
+  "heroImage": {
+    "src": "/images/storage-services/oda-bazli-depolama.jpg",
+    "alt": "Oda Bazlı Depolama - Odalarınızın Eşyaları İçin Özel Depolama Alanları",
+    "width": 1200,
+    "height": 800
+  },
+  "features": [
+    {
+      "title": "Odaya Göre Ayrım",
+      "description": "Her oda eşyaları ayrı ayrı paketleme ve depolama.",
+      "icon": "🏠"
+    },
+    {
+      "title": "Düzenli İstifleme",
+      "description": "Oda planınıza uygun yerleşim ve istifleme.",
+      "icon": "📋"
+    },
+    {
+      "title": "Kolay Erişim",
+      "description": "İhtiyaç duyduğunuz odanın eşyalarına hızlı erişim.",
+      "icon": "🔍"
+    },
+    {
+      "title": "Özel Paketleme",
+      "description": "Her oda eşyasına özel koruyucu ambalaj.",
+      "icon": "📦"
+    },
+    {
+      "title": "Detaylı Etiketleme",
+      "description": "Tüm eşyalar odalarına göre etiketlenir.",
+      "icon": "🏷️"
+    },
+    {
+      "title": "Hızlı Yerleşim",
+      "description": "Taşınma sonrası oda bazlı kolay yerleştirme.",
+      "icon": "⏱️"
+    }
+  ],
+  "content": {
+    "mainImage": {
+      "src": "/images/storage-services/oda-bazli-depolama.jpg",
+      "alt": "Oda Bazlı Depolama - Her Odaya Özel Sistematik Depolama Çözümü",
+      "width": 800,
+      "height": 600
+    },
+    "introductionTitle": "Oda Bazlı Depolama Hizmeti",
+    "introduction": "Oda bazlı depolama hizmetimiz, eşyalarınızı tamamen size özel, kilitlenebilir odalarda saklayabileceğiniz modern bir çözüm sunar. Self storage olarak da bilinen bu sistemde, ihtiyacınıza göre seçeceğiniz ebatlarda bir depolama odası kiralanır ve bu odaya sadece siz erişim sağlarsınız.",
+    "featuresTitle": "Hizmet Özellikleri",
+    "highlightsTitle": "Oda Bazlı Depolama Avantajları",
+    "whatsappMessage": "Merhaba, oda bazlı depolama hizmeti hakkında bilgi almak istiyorum.",
+    "whatsappButtonText": "Fiyat Teklifi Al",
+    "ctaButtonText": "İletişime Geçin",
+    "highlights": [
+      {
+        "title": "Tam Gizlilik",
+        "description": "Sadece size ait anahtarla açılan özel odanızda eşyalarınız gizli ve güvende."
+      },
+      {
+        "title": "Esneklik",
+        "description": "İhtiyacınıza göre 1m² ile 30m² arasında değişen oda büyüklükleri."
+      },
+      {
+        "title": "Kolay Erişim",
+        "description": "Dilediğiniz zaman ziyaret edebilir, eşya ekleyip çıkarabilirsiniz."
+      },
+      {
+        "title": "Maliyet Avantajı",
+        "description": "Tam ev depolamaya göre sadece ihtiyacınız kadar alan için ödeme yaparsınız."
+      },
+      {
+        "title": "Kısa Süreli Kiralama",
+        "description": "Minimum 1 aylık sözleşme ile kısa süreli çözümler sunar."
+      },
+      {
+        "title": "24 Saat Erişim",
+        "description": "Özel güvenlik şifresiyle mesai saatleri dışında da erişim imkanı."
+      }
+    ],
+    "mainContent": {
+      "firstSection": {
+        "title": "Oda Boyutları ve Kullanım Alanları",
+        "description": "Oda bazlı depolama sistemimizde, farklı ihtiyaçlara yönelik çeşitli boyutlarda depolama odaları sunmaktayız. Her boyuttaki odalarımız kişisel eşyalarınızı güvenle saklamanız için idealdır.",
+        "items": [
+          {
+            "title": "Küçük Odalar (1-5 m²)",
+            "description": "Sezonluk giyim, spor ekipmanları, kitaplar için ideal"
+          },
+          {
+            "title": "Orta Boy Odalar (6-12 m²)",
+            "description": "Bir iki odalık ev eşyası, hobi malzemeleri için uygun"
+          },
+          {
+            "title": "Büyük Odalar (13-20 m²)",
+            "description": "Mobilya takımları, beyaz eşyalar için geniş alan"
+          },
+          {
+            "title": "Ekstra Büyük (21-30 m²)",
+            "description": "Komple ev eşyası veya ticari ekipman depolaması için"
+          }
+        ]
+      },
+      "secondSection": {
+        "title": "Güvenlik Özelliklerimiz",
+        "description": "Oda bazlı depolama tesislerimizde eşyalarınızın güvenliği en önemli önceliğimizdir. Modern güvenlik sistemlerimiz ile 7/24 koruma sağlıyoruz.",
+        "items": [
+          {
+            "title": "Dijital Kamera Sistemi",
+            "description": "Tüm alanları kapsayan 24 saat kayıt yapan kameralar"
+          },
+          {
+            "title": "Kişisel Şifre ve Anahtar",
+            "description": "Sadece size özel erişim anahtarları ve şifreler"
+          },
+          {
+            "title": "Hareket Sensörleri",
+            "description": "İzinsiz giriş tespiti için sensör sistemleri"
+          },
+          {
+            "title": "Güvenlik Personeli",
+            "description": "Depolama tesisinde görevli güvenlik görevlileri"
+          }
+        ]
+      }
+    },
+    "process": {
+      "title": "Oda Bazlı Depolama Adımları",
+      "steps": [
+        "İhtiyacınıza uygun oda boyutunun belirlenmesi",
+        "Depolama süresinin ve hizmet detaylarının kararlaştırılması",
+        "Kişisel şifre ve anahtar teslimi",
+        "Eşyalarınızın odaya yerleştirilmesi",
+        "Depolama süresince dilediğiniz zaman erişim",
+        "Depolama süresi sonunda eşyalarınızın teslim alınması"
+      ]
+    },
+    "additionalInfo": {
+      "title": "Neden Horex Oda Bazlı Depolama?",
+      "items": [
+        "İstanbul'un merkezi konumunda kolay ulaşılabilir tesis",
+        "Ulaşımı rahat, otopark imkanı olan lokasyon",
+        "Her boyutta oda seçeneği ile kişiselleştirilmiş çözümler",
+        "Dijital ortamda envanter kayıt sistemi",
+        "İsteğe bağlı paketleme ve taşıma hizmeti",
+        "Uygun fiyatlı ve şeffaf fiyatlandırma politikası"
+      ]
+    },
+    "ctaTitle": "Kişisel Depolama Odanız Hazır",
+    "ctaDescription": "İhtiyacınıza uygun boyutta bir depolama odası için hemen bizimle iletişime geçin."
+  }
+} 

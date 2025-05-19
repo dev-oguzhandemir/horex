@@ -5,109 +5,24 @@ import FutureServices from '@/components/FutureServices'
 import HeroSection from '@/components/HeroSection'
 import SelectionCriteria from '@/components/SelectionCriteria'
 import { Metadata } from 'next'
+import SEO from '@/components/SEO'
+import Script from 'next/script'
 
-// SEO Metadata - Bu kısım dinamik olarak CMS'den de beslenebilir
-export const metadata: Metadata = {
+// SEO Metadata
+export const metadata: Metadata = SEO.generateMetadata({
   title: 'Horex Nakliyat - Güvenilir Evden Eve Nakliyat ve Lojistik Hizmetleri',
   description: 'Profesyonel nakliyat hizmetleri ile eşyalarınızı güvenle taşıyoruz. Evden eve nakliyat, ofis taşıma ve depolama çözümleri için hemen teklif alın.',
   keywords: 'nakliyat, evden eve nakliyat, ofis taşıma, eşya depolama, güvenli taşımacılık, istanbul nakliyat, şehirler arası nakliyat',
-  alternates: {
-    canonical: 'https://horex.com.tr',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Horex Nakliyat - Güvenilir Evden Eve Nakliyat ve Lojistik Hizmetleri',
-    description: 'Profesyonel nakliyat hizmetleri ile eşyalarınızı güvenle taşıyoruz. Evden eve nakliyat, ofis taşıma ve depolama çözümleri için hemen teklif alın.',
-    images: ['https://horex.com.tr/og-image.jpg'],
-    creator: '@horexnakliyat',
-    site: '@horexnakliyat',
-  },
-  openGraph: {
-    type: 'website',
-    url: 'https://horex.com.tr',
-    title: 'Horex Nakliyat - Güvenilir Evden Eve Nakliyat ve Lojistik Hizmetleri',
-    description: 'Profesyonel nakliyat hizmetleri ile eşyalarınızı güvenle taşıyoruz. Evden eve nakliyat, ofis taşıma ve depolama çözümleri için hemen teklif alın.',
-    siteName: 'Horex Nakliyat',
-    images: [
-      {
-        url: 'https://horex.com.tr/og-image.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'Horex Nakliyat - Profesyonel Taşımacılık Hizmetleri',
-      },
-    ],
-    locale: 'tr_TR',
-  },
-}
+  canonical: 'https://horex.com.tr',
+  ogImage: 'https://horex.com.tr/images/og-image.jpg',
+  ogImageAlt: 'Horex Nakliyat - Profesyonel Taşımacılık Hizmetleri',
+});
 
-// SEO için yapılandırılmış veri
-const structuredData = {
-  "@context": "https://schema.org",
-  "@type": "MovingCompany",
-  "name": "Horex Nakliyat",
-  "image": "https://horex.com.tr/logo.svg",
-  "logo": "https://horex.com.tr/logo.svg",
-  "description": "Profesyonel nakliyat hizmetleri ile eşyalarınızı güvenle taşıyoruz.",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Güvenli Sokağı No: 1",
-    "addressLocality": "Maltepe",
-    "addressRegion": "İstanbul",
-    "postalCode": "34846",
-    "addressCountry": "TR"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": "40.913051",
-    "longitude": "29.153112"
-  },
-  "url": "https://horex.com.tr",
-  "telephone": "+908508883939",
-  "email": "ayirkanhoroz@gmail.com",
-  "priceRange": "₺₺",
-  "openingHours": "Mo-Su 00:00-24:00",
-  "sameAs": [
-    "https://facebook.com/horexnakliyat",
-    "https://instagram.com/horexnakliyat",
-    "https://twitter.com/horexnakliyat"
-  ],
-  "serviceArea": {
-    "@type": "GeoCircle",
-    "geoMidpoint": {
-      "@type": "GeoCoordinates",
-      "latitude": "41.0082",
-      "longitude": "28.9784"
-    },
-    "geoRadius": "100000"
-  },
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Nakliyat Hizmetleri",
-    "itemListElement": [
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Evden Eve Nakliyat"
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Ofis Taşıma"
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Şehirler Arası Nakliyat"
-        }
-      }
-    ]
-  }
-}
+// FAQ için tip tanımları
+type FAQItem = {
+  question: string;
+  answer: string;
+};
 
 // İçerik bölümleri için ayrı componentlar - CMS entegrasyonu için uygun yapı
 const WhyChooseUs = () => {
@@ -172,13 +87,94 @@ const WhyChooseUs = () => {
   )
 }
 
+// Sık Sorulan Sorular Bileşeni
+const FAQSection = ({ questions }: { questions: FAQItem[] }) => {
+  return (
+    <section className="py-16 bg-gray-50" id="sikca-sorulan-sorular">
+      <div className="container mx-auto px-4">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">
+          Nakliyat Hakkında Sık Sorulan Sorular
+        </h2>
+        <p className="text-center text-gray-700 max-w-3xl mx-auto mb-12">
+          Nakliyat süreçleri hakkında merak ettiğiniz soruların cevaplarını aşağıda bulabilirsiniz. Daha fazla sorunuz varsa bize ulaşmaktan çekinmeyin.
+        </p>
+        
+        <div className="max-w-3xl mx-auto space-y-6">
+          {questions.map((faq: FAQItem, index: number) => (
+            <div key={index} className="bg-white p-6 rounded-lg shadow-md">
+              <h3 className="text-xl font-semibold text-horex-red mb-3">
+                {faq.question}
+              </h3>
+              <p className="text-gray-700">
+                {faq.answer}
+              </p>
+            </div>
+          ))}
+        </div>
+        
+        <div className="mt-12 text-center">
+          <a
+            href="/iletisim"
+            className="inline-flex items-center justify-center px-6 py-3 bg-horex-red text-white rounded-lg font-medium hover:bg-red-700 transition-colors"
+          >
+            Teklif Alın
+          </a>
+        </div>
+      </div>
+    </section>
+  );
+};
+
 export default function Home() {
+  // Structured data için kullanılacak şemalar
+  const organizationSchema = SEO.generateOrganizationSchema();
+  
+  // FAQ şeması için sorular
+  const faqQuestions: FAQItem[] = [
+    {
+      question: "Nakliyat hizmetleriniz hangi bölgeleri kapsamaktadır?",
+      answer: "Horex Nakliyat olarak Türkiye'nin tüm şehirlerine hizmet vermekteyiz. İstanbul içi ve şehirler arası nakliyat hizmetlerimiz bulunmaktadır."
+    },
+    {
+      question: "Nakliyat fiyatlarınız nasıl belirlenmektedir?",
+      answer: "Nakliyat fiyatlarımız taşınacak eşyaların miktarı, mesafe, kat durumu ve asansör kullanımı gibi faktörlere göre belirlenmektedir. Ücretsiz ekspertiz hizmetimizle size özel fiyat teklifi sunuyoruz."
+    },
+    {
+      question: "Eşyalarımın güvenliği için ne tür önlemler alıyorsunuz?",
+      answer: "Tüm eşyalarınız profesyonel ekipmanlar ve malzemelerle paketlenir, sigortalı olarak taşınır. Alanında uzman personelimiz ile eşyalarınızın güvenliği maksimum seviyede sağlanır."
+    },
+    {
+      question: "Taşınma öncesi hangi hazırlıkları yapmalıyım?",
+      answer: "Değerli ve kırılgan eşyalarınızı ayrı tutmanızı, taşınma gününden bir gün önce eşyalarınızı hazır etmenizi ve önemli belgeleri yanınızda bulundurmanızı öneririz. Nakliyat uzmanlarımız size detaylı bir hazırlık listesi sunacaktır."
+    }
+  ];
+  
+  const faqSchema = SEO.generateFAQSchema(faqQuestions);
+  
+  // Web sayfası şeması
+  const webPageSchema = SEO.generateWebPageSchema(
+    'Horex Nakliyat - Profesyonel Taşımacılık Hizmetleri',
+    'Güvenilir ve profesyonel nakliyat hizmetleri sunan Horex Nakliyat resmi web sitesi. Evden eve nakliyat, ofis taşıma ve depolama hizmetleri.',
+    'https://horex.com.tr'
+  );
+
   return (
     <>
-      {/* Schema.org yapılandırılmış veri */}
-      <script
+      {/* Schema.org yapılandırılmış veriler */}
+      <Script
+        id="organization-schema"
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        dangerouslySetInnerHTML={{ __html: organizationSchema }}
+      />
+      <Script
+        id="faq-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: faqSchema }}
+      />
+      <Script
+        id="webpage-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: webPageSchema }}
       />
 
       {/* Hero Section */}
@@ -198,8 +194,11 @@ export default function Home() {
 
       {/* Referanslar */}
       <References />
+      
+      {/* Sık Sorulan Sorular */}
+      <FAQSection questions={faqQuestions} />
 
-      {/* Blog & Haberler */}
+      {/* Blog Bölümü */}
       <BlogSection />
     </>
   )

@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: process.env.SITE_URL || 'https://example.com',
+  siteUrl: process.env.SITE_URL || 'https://horex.com.tr',
   generateRobotsTxt: true,
   robotsTxtOptions: {
     policies: [
@@ -8,6 +8,10 @@ module.exports = {
         userAgent: '*',
         allow: '/',
       },
+    ],
+    additionalSitemaps: [
+      'https://horex.com.tr/sitemap.xml',
+      'https://horex.com.tr/sitemap-0.xml',
     ],
   },
   changefreq: 'daily',
