@@ -365,8 +365,7 @@ export default function Header() {
               alt="Horex Nakliyat Logo"
               width={150}
               height={40}
-              className="h-10 w-auto"
-              priority
+              sizes="150px"
             />
           </Link>
 
@@ -486,7 +485,7 @@ export default function Header() {
           }`}
           aria-hidden={!isMenuOpen}
         >
-          <nav className="py-4" aria-label="Mobil Menü">
+          <nav className="py-4" aria-label="Mobil Menü" role="navigation">
             {menuItems.map((item) => (
               <div key={item.title} className="border-b border-gray-100 last:border-b-0">
                 {item.href && !item.submenu ? (
@@ -497,6 +496,8 @@ export default function Header() {
                       : 'hover:bg-gray-50'
                       }`}
                     onClick={() => setIsMenuOpen(false)}
+                    tabIndex={isMenuOpen ? 0 : -1}
+                    aria-hidden={!isMenuOpen}
                   >
                     <div className="flex items-center space-x-3">
                       <span className="w-5 h-5 flex-shrink-0" aria-hidden="true">{item.icon}</span>
@@ -518,6 +519,8 @@ export default function Header() {
                     }}
                     aria-expanded={item.submenu ? activeSubmenu === item.title : undefined}
                     aria-haspopup={item.submenu ? "true" : undefined}
+                    tabIndex={isMenuOpen ? 0 : -1}
+                    aria-hidden={!isMenuOpen}
                   >
                     <div className="flex items-center space-x-3">
                       <span className="w-5 h-5 flex-shrink-0" aria-hidden="true">{item.icon}</span>
@@ -543,6 +546,7 @@ export default function Header() {
                       : "max-h-0 opacity-0"
                   }`}
                   role="menu"
+                  aria-hidden={!(item.submenu && activeSubmenu === item.title && isMenuOpen)}
                 >
                   {item.submenu && activeSubmenu === item.title && (
                     <div className="py-2">
@@ -553,6 +557,8 @@ export default function Header() {
                           className="flex items-start p-3 hover:bg-gray-100 transition-colors"
                           onClick={() => setIsMenuOpen(false)}
                           role="menuitem"
+                          tabIndex={isMenuOpen && activeSubmenu === item.title ? 0 : -1}
+                          aria-hidden={!(isMenuOpen && activeSubmenu === item.title)}
                         >
                           <div className="text-horex-red flex-shrink-0 mr-3 mt-1" aria-hidden="true">
                             {subitem.icon}

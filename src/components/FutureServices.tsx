@@ -35,7 +35,7 @@ export default function FutureServices() {
                 alt="Nakliyat Hizmetlerinin Geleceği - Horex Nakliyat"
                 fill
                 className="object-cover"
-                priority
+                sizes="(max-width: 768px) 100vw, 50vw"
               />
             </div>
           </motion.div>
