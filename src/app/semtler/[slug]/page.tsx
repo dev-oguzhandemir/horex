@@ -15,8 +15,10 @@ export function generateStaticParams() {
 }
 
 // Generate metadata for each district page
-export function generateMetadata({ params }: { params: Params }): Metadata {
-  const { slug } = params;
+export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
+  // Properly await params object before using it
+  const resolvedParams = await Promise.resolve(params);
+  const slug = resolvedParams.slug;
   
   // Check if the district exists
   if (!districtData[slug]) {
@@ -42,8 +44,10 @@ export function generateMetadata({ params }: { params: Params }): Metadata {
   });
 }
 
-export default function District({ params }: { params: Params }) {
-  const { slug } = params;
+export default async function District({ params }: { params: Params }) {
+  // Properly await params object before using it
+  const resolvedParams = await Promise.resolve(params);
+  const slug = resolvedParams.slug;
   
   // Check if the district exists
   if (!districtData[slug]) {

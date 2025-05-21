@@ -16,8 +16,10 @@ export function generateStaticParams() {
 }
 
 // Generate metadata for each blog post
-export function generateMetadata({ params }: { params: Params }): Metadata {
-  const { slug } = params;
+export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
+  // Properly await params object before using it
+  const resolvedParams = await Promise.resolve(params);
+  const slug = resolvedParams.slug;
   
   // Get the blog post
   const post = getBlogPostBySlug(slug);
@@ -63,8 +65,10 @@ const parseMarkdown = (markdown: string) => {
   return html;
 };
 
-export default function BlogPostPage({ params }: { params: Params }) {
-  const { slug } = params;
+export default async function BlogPostPage({ params }: { params: Params }) {
+  // Properly await params object before using it
+  const resolvedParams = await Promise.resolve(params);
+  const slug = resolvedParams.slug;
   
   // Get the blog post
   const post = getBlogPostBySlug(slug);
