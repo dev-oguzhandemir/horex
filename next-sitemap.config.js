@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: process.env.SITE_URL || 'https://horex.com.tr',
+  siteUrl: process.env.SITE_URL || 'https://horexnakliyat.com',
   generateRobotsTxt: true,
   robotsTxtOptions: {
     policies: [
@@ -10,8 +10,8 @@ module.exports = {
       },
     ],
     additionalSitemaps: [
-      'https://horex.com.tr/sitemap.xml',
-      'https://horex.com.tr/sitemap-0.xml',
+      'https://horexnakliyat.com/sitemap.xml',
+      'https://horexnakliyat.com/sitemap-0.xml',
     ],
   },
   changefreq: 'daily',

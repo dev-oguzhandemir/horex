@@ -8,16 +8,16 @@ export const metadata: Metadata = {
   description: serviceData.metaDescription,
   keywords: serviceData.metaKeywords,
   alternates: {
-    canonical: `https://horex.com.tr/hizmet-kapasitemiz/sigorta-ve-guvence`,
+    canonical: `https://horexnakliyat.com/hizmet-kapasitemiz/sigorta-ve-guvence`,
   },
   openGraph: {
     title: serviceData.title,
     description: serviceData.metaDescription,
-    url: 'https://horex.com.tr/hizmet-kapasitemiz/sigorta-ve-guvence',
+    url: 'https://horexnakliyat.com/hizmet-kapasitemiz/sigorta-ve-guvence',
     siteName: 'Horex Nakliyat',
     images: [
       {
-        url: `https://horex.com.tr${serviceData.heroImage?.src || '/images/og-image.jpg'}`,
+        url: `https://horexnakliyat.com${serviceData.heroImage?.src || '/images/og-image.jpg'}`,
         width: 1200,
         height: 630,
         alt: serviceData.heroImage?.alt || 'Horex Nakliyat Sigorta ve Güvence Hizmeti',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: serviceData.title,
     description: serviceData.metaDescription,
-    images: [`https://horex.com.tr${serviceData.heroImage?.src || '/images/og-image.jpg'}`],
+    images: [`https://horexnakliyat.com${serviceData.heroImage?.src || '/images/og-image.jpg'}`],
     creator: '@horexnakliyat',
     site: '@horexnakliyat',
   },
@@ -41,19 +41,19 @@ export default function SigortaVeGuvencePage() {
   const serviceSchemaData = generateServiceSchema(
     serviceData.title,
     serviceData.metaDescription,
-    'https://horex.com.tr/hizmet-kapasitemiz/sigorta-ve-guvence'
+    'https://horexnakliyat.com/hizmet-kapasitemiz/sigorta-ve-guvence'
   )
 
   // Breadcrumb data
   const breadcrumbSchemaData = generateBreadcrumbSchema([
-    { name: 'Ana Sayfa', url: 'https://horex.com.tr' },
-    { name: 'Hizmet Kapasitemiz', url: 'https://horex.com.tr/hizmet-kapasitemiz' },
-    { name: serviceData.title, url: 'https://horex.com.tr/hizmet-kapasitemiz/sigorta-ve-guvence' },
+    { name: 'Ana Sayfa', url: 'https://horexnakliyat.com' },
+    { name: 'Hizmet Kapasitemiz', url: 'https://horexnakliyat.com/hizmet-kapasitemiz' },
+    { name: serviceData.title, url: 'https://horexnakliyat.com/hizmet-kapasitemiz/sigorta-ve-guvence' },
   ])
 
   // Image schema data
   const imageSchemaData = generateImageSchema(
-    `https://horex.com.tr${serviceData.heroImage?.src || '/images/og-image.jpg'}`,
+    `https://horexnakliyat.com${serviceData.heroImage?.src || '/images/og-image.jpg'}`,
     serviceData.heroImage?.alt || 'Horex Nakliyat Sigorta ve Güvence Hizmetleri',
     1200, 
     800

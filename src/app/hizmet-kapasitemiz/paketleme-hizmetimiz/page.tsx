@@ -8,16 +8,16 @@ export const metadata: Metadata = {
   description: serviceData.metaDescription,
   keywords: serviceData.metaKeywords,
   alternates: {
-    canonical: `https://horex.com.tr/hizmet-kapasitemiz/paketleme-hizmetimiz`,
+    canonical: `https://horexnakliyat.com/hizmet-kapasitemiz/paketleme-hizmetimiz`,
   },
   openGraph: {
     title: serviceData.title,
     description: serviceData.metaDescription,
-    url: 'https://horex.com.tr/hizmet-kapasitemiz/paketleme-hizmetimiz',
+    url: 'https://horexnakliyat.com/hizmet-kapasitemiz/paketleme-hizmetimiz',
     siteName: 'Horex Nakliyat',
     images: [
       {
-        url: `https://horex.com.tr${serviceData.heroImage?.src || '/images/og-image.jpg'}`,
+        url: `https://horexnakliyat.com${serviceData.heroImage?.src || '/images/og-image.jpg'}`,
         width: 1200,
         height: 630,
         alt: serviceData.heroImage?.alt || 'Horex Nakliyat Profesyonel Paketleme Hizmeti',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: serviceData.title,
     description: serviceData.metaDescription,
-    images: [`https://horex.com.tr${serviceData.heroImage?.src || '/images/og-image.jpg'}`],
+    images: [`https://horexnakliyat.com${serviceData.heroImage?.src || '/images/og-image.jpg'}`],
     creator: '@horexnakliyat',
     site: '@horexnakliyat',
   },
@@ -41,19 +41,19 @@ export default function PaketlemeHizmetimizPage() {
   const serviceSchemaData = generateServiceSchema(
     serviceData.title,
     serviceData.metaDescription,
-    'https://horex.com.tr/hizmet-kapasitemiz/paketleme-hizmetimiz'
+    'https://horexnakliyat.com/hizmet-kapasitemiz/paketleme-hizmetimiz'
   )
 
   // Breadcrumb data
   const breadcrumbSchemaData = generateBreadcrumbSchema([
-    { name: 'Ana Sayfa', url: 'https://horex.com.tr' },
-    { name: 'Hizmet Kapasitemiz', url: 'https://horex.com.tr/hizmet-kapasitemiz' },
-    { name: serviceData.title, url: 'https://horex.com.tr/hizmet-kapasitemiz/paketleme-hizmetimiz' },
+    { name: 'Ana Sayfa', url: 'https://horexnakliyat.com' },
+    { name: 'Hizmet Kapasitemiz', url: 'https://horexnakliyat.com/hizmet-kapasitemiz' },
+    { name: serviceData.title, url: 'https://horexnakliyat.com/hizmet-kapasitemiz/paketleme-hizmetimiz' },
   ])
 
   // Image schema data
   const imageSchemaData = generateImageSchema(
-    `https://horex.com.tr${serviceData.heroImage?.src || '/images/og-image.jpg'}`,
+    `https://horexnakliyat.com${serviceData.heroImage?.src || '/images/og-image.jpg'}`,
     serviceData.heroImage?.alt || 'Horex Nakliyat Paketleme Hizmetleri',
     1200, 
     800

@@ -26,7 +26,7 @@ export default function DistrictPage({
   slug,
 }: DistrictProps) {
   // Generate schemas for SEO
-  const pageUrl = `https://horex.com.tr/semtler/${slug}`;
+  const pageUrl = `https://horexnakliyat.com/semtler/${slug}`;
   
   const localBusinessSchema = SEO.generateOrganizationSchema();
   
@@ -37,8 +37,8 @@ export default function DistrictPage({
   );
   
   const breadcrumbSchema = SEO.generateBreadcrumbSchema([
-    { name: 'Ana Sayfa', url: 'https://horex.com.tr' },
-    { name: 'İstanbul\'un Önemli Semtleri', url: 'https://horex.com.tr/semtler' },
+    { name: 'Ana Sayfa', url: 'https://horexnakliyat.com' },
+    { name: 'İstanbul\'un Önemli Semtleri', url: 'https://horexnakliyat.com/semtler' },
     { name: districtName, url: pageUrl },
   ]);
   
@@ -47,7 +47,7 @@ export default function DistrictPage({
     : '';
 
   const imageSchema = SEO.generateImageSchema(
-    `https://horex.com.tr${imagePath}`,
+    `https://horexnakliyat.com${imagePath}`,
     `${districtName} Nakliyat - Horex Nakliyat`,
     1200,
     630

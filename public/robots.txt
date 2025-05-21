@@ -3,8 +3,8 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://horex.com.tr
+Host: https://horexnakliyat.com
 
 # Sitemaps
-Sitemap: https://horex.com.tr/sitemap.xml
-Sitemap: https://horex.com.tr/sitemap-0.xml
+Sitemap: https://horexnakliyat.com/sitemap.xml
+Sitemap: https://horexnakliyat.com/sitemap-0.xml

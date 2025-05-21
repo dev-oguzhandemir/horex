@@ -7,7 +7,7 @@ export const metadata: Metadata = SEO.generateMetadata({
   title: 'Hakkımızda - Horex Nakliyat | Güvenli Taşımacılığın Adresi',
   description: 'Horex Nakliyat, Türkiye\'nin önde gelen taşımacılık ve lojistik şirketidir. Profesyonel ekip, sigortalı taşımacılık ve zamanında teslimat ile hizmetinizdeyiz.',
   keywords: 'horex nakliyat hakkında, güvenli taşımacılık, profesyonel nakliye hizmeti, ev taşıma, ofis taşıma, depolama hizmetleri, uluslararası taşımacılık',
-  canonical: 'https://horex.com.tr/hakkimizda',
+  canonical: 'https://horexnakliyat.com/hakkimizda',
   ogType: 'profile',
 });
 
@@ -19,8 +19,8 @@ export default function AboutUsPage() {
       '@type': 'Organization',
       name: 'Horex Nakliyat',
       description: 'Profesyonel ve hızlı nakliye hizmetleriyle eşyalarınızı güvenle taşıyoruz.',
-      url: 'https://horex.com.tr',
-      logo: 'https://horex.com.tr/logo.svg',
+      url: 'https://horexnakliyat.com',
+      logo: 'https://horexnakliyat.com/logo.svg',
       address: {
         '@type': 'PostalAddress',
         streetAddress: 'Güvenli Sokağı No: 1',
@@ -33,8 +33,8 @@ export default function AboutUsPage() {
   });
   
   const breadcrumbSchema = SEO.generateBreadcrumbSchema([
-    { name: 'Ana Sayfa', url: 'https://horex.com.tr' },
-    { name: 'Hakkımızda', url: 'https://horex.com.tr/hakkimizda' }
+    { name: 'Ana Sayfa', url: 'https://horexnakliyat.com' },
+    { name: 'Hakkımızda', url: 'https://horexnakliyat.com/hakkimizda' }
   ]);
 
   return (
@@ -342,7 +342,7 @@ export default function AboutUsPage() {
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2 text-red-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                     </svg>
-                    <span>info@horex.com.tr</span>
+                    <span>info@horexnakliyat.com</span>
                   </li>
                 </ul>
               </div>

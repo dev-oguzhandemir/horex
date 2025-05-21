@@ -36,11 +36,11 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
     title: `${districtName} Nakliyat Hizmetleri - İstanbul Profesyonel Taşımacılık`,
     description,
     keywords: `${districtName} nakliyat, ${districtName} evden eve nakliyat, ${districtName} taşımacılık, ${districtName} ev taşıma, ${districtName} ofis taşıma, ${districtName} depolama hizmetleri`,
-    url: `https://horex.com.tr/semtler/${slug}`,
-    ogImage: `https://horex.com.tr/images/districts/${slug}.jpg`,
+    url: `https://horexnakliyat.com/semtler/${slug}`,
+    ogImage: `https://horexnakliyat.com/images/districts/${slug}.jpg`,
     ogImageAlt: `${districtName} Nakliyat - Horex Nakliyat`,
     ogType: 'article',
-    canonical: `https://horex.com.tr/semtler/${slug}`,
+    canonical: `https://horexnakliyat.com/semtler/${slug}`,
   });
 }
 

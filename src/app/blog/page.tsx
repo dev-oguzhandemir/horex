@@ -11,21 +11,21 @@ export const metadata: Metadata = SEO.generateMetadata({
   title: 'Nakliyat ve Taşımacılık Blog - Horex Nakliyat | Faydalı Bilgiler',
   description: 'Evden eve nakliyat, ofis taşıma, eşya depolama ve paketleme teknikleri hakkında faydalı bilgiler ve profesyonel taşınma ipuçları Horex Nakliyat blogunda.',
   keywords: 'nakliyat blog, taşınma rehberi, evden eve nakliyat ipuçları, paketleme önerileri, eşya depolama, ofis taşıma, güvenli taşınma yöntemleri',
-  canonical: 'https://horex.com.tr/blog',
+  canonical: 'https://horexnakliyat.com/blog',
   ogType: 'website',
-  ogImage: 'https://horex.com.tr/images/blog-cover.jpg',
+  ogImage: 'https://horexnakliyat.com/images/blog-cover.jpg',
 });
 
 export default function BlogPage() {
   const blogHomeSchema = SEO.generateWebPageSchema(
     'Horex Nakliyat Blog - Nakliyat ve Taşımacılık Makaleleri',
     'Nakliyat ve taşımacılık hakkında bilgi edinebileceğiniz Horex Nakliyat blog sayfası. Taşınma ipuçları, paketleme teknikleri ve daha fazlası.',
-    'https://horex.com.tr/blog'
+    'https://horexnakliyat.com/blog'
   );
 
   const breadcrumbSchema = SEO.generateBreadcrumbSchema([
-    { name: 'Ana Sayfa', url: 'https://horex.com.tr' },
-    { name: 'Blog', url: 'https://horex.com.tr/blog' }
+    { name: 'Ana Sayfa', url: 'https://horexnakliyat.com' },
+    { name: 'Blog', url: 'https://horexnakliyat.com/blog' }
   ]);
 
   // Get district data for blog posts

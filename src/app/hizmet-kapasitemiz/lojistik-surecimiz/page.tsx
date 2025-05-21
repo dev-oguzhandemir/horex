@@ -8,16 +8,16 @@ export const metadata: Metadata = {
   description: serviceData.metaDescription,
   keywords: serviceData.metaKeywords,
   alternates: {
-    canonical: `https://horex.com.tr/hizmet-kapasitemiz/lojistik-surecimiz`,
+    canonical: `https://horexnakliyat.com/hizmet-kapasitemiz/lojistik-surecimiz`,
   },
   openGraph: {
     title: serviceData.title,
     description: serviceData.metaDescription,
-    url: 'https://horex.com.tr/hizmet-kapasitemiz/lojistik-surecimiz',
+    url: 'https://horexnakliyat.com/hizmet-kapasitemiz/lojistik-surecimiz',
     siteName: 'Horex Nakliyat',
     images: [
       {
-        url: `https://horex.com.tr${serviceData.heroImage?.src || '/images/og-image.jpg'}`,
+        url: `https://horexnakliyat.com${serviceData.heroImage?.src || '/images/og-image.jpg'}`,
         width: 1200,
         height: 630,
         alt: serviceData.heroImage?.alt || 'Horex Nakliyat Lojistik Süreç Yönetimi',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: serviceData.title,
     description: serviceData.metaDescription,
-    images: [`https://horex.com.tr${serviceData.heroImage?.src || '/images/og-image.jpg'}`],
+    images: [`https://horexnakliyat.com${serviceData.heroImage?.src || '/images/og-image.jpg'}`],
     creator: '@horexnakliyat',
     site: '@horexnakliyat',
   },
@@ -41,14 +41,14 @@ export default function LojistikSurecimizPage() {
   const serviceSchemaData = generateServiceSchema(
     serviceData.title,
     serviceData.metaDescription,
-    'https://horex.com.tr/hizmet-kapasitemiz/lojistik-surecimiz'
+    'https://horexnakliyat.com/hizmet-kapasitemiz/lojistik-surecimiz'
   )
 
   // Breadcrumb data
   const breadcrumbSchemaData = generateBreadcrumbSchema([
-    { name: 'Ana Sayfa', url: 'https://horex.com.tr' },
-    { name: 'Hizmet Kapasitemiz', url: 'https://horex.com.tr/hizmet-kapasitemiz' },
-    { name: serviceData.title, url: 'https://horex.com.tr/hizmet-kapasitemiz/lojistik-surecimiz' },
+    { name: 'Ana Sayfa', url: 'https://horexnakliyat.com' },
+    { name: 'Hizmet Kapasitemiz', url: 'https://horexnakliyat.com/hizmet-kapasitemiz' },
+    { name: serviceData.title, url: 'https://horexnakliyat.com/hizmet-kapasitemiz/lojistik-surecimiz' },
   ])
 
   return (

@@ -14,8 +14,8 @@ export const metadata: Metadata = SEO.generateMetadata({
   title: 'Özel Eşya Depolama - Horex Nakliyat | Değerli Eşyalar İçin Özel Koruma',
   description: serviceData.metaDescription,
   keywords: serviceData.metaKeywords,
-  canonical: 'https://horex.com.tr/depolama-hizmetleri/ozel-esya-depolama',
-  ogImage: serviceData.heroImage ? `https://horex.com.tr${serviceData.heroImage.src}` : 'https://horex.com.tr/images/og-image.jpg',
+  canonical: 'https://horexnakliyat.com/depolama-hizmetleri/ozel-esya-depolama',
+  ogImage: serviceData.heroImage ? `https://horexnakliyat.com${serviceData.heroImage.src}` : 'https://horexnakliyat.com/images/og-image.jpg',
   ogImageAlt: serviceData.heroImage ? serviceData.heroImage.alt : 'Horex Nakliyat - Özel Eşya Depolama Hizmetleri',
   ogType: 'website'
 });
@@ -25,14 +25,14 @@ export default function SpecialItemsStorageService() {
   const serviceSchema = SEO.generateServiceSchema(
     serviceData.title,
     serviceData.metaDescription,
-    'https://horex.com.tr/depolama-hizmetleri/ozel-esya-depolama'
+    'https://horexnakliyat.com/depolama-hizmetleri/ozel-esya-depolama'
   );
 
   // Breadcrumb için schema.org yapılandırılmış veri
   const breadcrumbSchema = SEO.generateBreadcrumbSchema([
-    { name: 'Ana Sayfa', url: 'https://horex.com.tr' },
-    { name: 'Depolama Hizmetleri', url: 'https://horex.com.tr/depolama-hizmetleri' },
-    { name: 'Özel Eşya Depolama', url: 'https://horex.com.tr/depolama-hizmetleri/ozel-esya-depolama' }
+    { name: 'Ana Sayfa', url: 'https://horexnakliyat.com' },
+    { name: 'Depolama Hizmetleri', url: 'https://horexnakliyat.com/depolama-hizmetleri' },
+    { name: 'Özel Eşya Depolama', url: 'https://horexnakliyat.com/depolama-hizmetleri/ozel-esya-depolama' }
   ]);
 
   // FAQ için sorular ve cevaplar

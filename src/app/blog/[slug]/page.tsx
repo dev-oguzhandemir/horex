@@ -36,11 +36,11 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
     title: `${post.title} | Horex Nakliyat Blog`,
     description: post.excerpt,
     keywords: `${post.title.toLowerCase()}, nakliyat, taşımacılık, horex, evden eve nakliyat, ofis taşıma, eşya depolama`,
-    url: `https://horex.com.tr/blog/${slug}`,
-    ogImage: `https://horex.com.tr${post.coverImage}`,
+    url: `https://horexnakliyat.com/blog/${slug}`,
+    ogImage: `https://horexnakliyat.com${post.coverImage}`,
     ogImageAlt: post.title,
     ogType: 'article',
-    canonical: `https://horex.com.tr/blog/${slug}`,
+    canonical: `https://horexnakliyat.com/blog/${slug}`,
     author: post.author,
     publishedAt: post.date,
   });
@@ -85,16 +85,16 @@ export default async function BlogPostPage({ params }: { params: Params }) {
   const articleSchema = SEO.generateArticleSchema(
     post.title,
     post.excerpt,
-    `https://horex.com.tr${post.coverImage}`,
+    `https://horexnakliyat.com${post.coverImage}`,
     post.date,
     post.author,
-    `https://horex.com.tr/blog/${slug}`
+    `https://horexnakliyat.com/blog/${slug}`
   );
   
   const breadcrumbSchema = SEO.generateBreadcrumbSchema([
-    { name: 'Ana Sayfa', url: 'https://horex.com.tr' },
-    { name: 'Blog', url: 'https://horex.com.tr/blog' },
-    { name: post.title, url: `https://horex.com.tr/blog/${slug}` },
+    { name: 'Ana Sayfa', url: 'https://horexnakliyat.com' },
+    { name: 'Blog', url: 'https://horexnakliyat.com/blog' },
+    { name: post.title, url: `https://horexnakliyat.com/blog/${slug}` },
   ]);
   
   return (

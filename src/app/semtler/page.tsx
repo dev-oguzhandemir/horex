@@ -9,8 +9,8 @@ export const metadata: Metadata = SEO.generateMetadata({
   title: 'İstanbul\'un Önemli Semtleri - Horex Nakliyat ve Taşımacılık Hizmetleri',
   description: 'İstanbul\'un tüm semtlerinde profesyonel nakliyat ve taşımacılık hizmetleri. Levent, Maslak, Nişantaşı ve diğer önemli semtlerde güvenilir ve sigortalı evden eve nakliyat.',
   keywords: 'İstanbul semtleri nakliyat, Levent evden eve nakliyat, Maslak nakliyat, Etiler taşımacılık, Nişantaşı nakliye, İstanbul semt nakliyatı',
-  canonical: 'https://horex.com.tr/semtler',
-  ogImage: 'https://horex.com.tr/images/istanbul-semtleri.jpg',
+  canonical: 'https://horexnakliyat.com/semtler',
+  ogImage: 'https://horexnakliyat.com/images/istanbul-semtleri.jpg',
   ogType: 'website',
 });
 
@@ -21,12 +21,12 @@ export default function DistrictsPage() {
   const webPageSchema = SEO.generateWebPageSchema(
     'İstanbul\'un Önemli Semtleri - Nakliyat Hizmetlerimiz',
     'İstanbul\'un Levent, Maslak, Nişantaşı gibi önemli semtlerinde profesyonel nakliyat hizmetleri sunuyoruz.',
-    'https://horex.com.tr/semtler'
+    'https://horexnakliyat.com/semtler'
   );
   
   const breadcrumbSchema = SEO.generateBreadcrumbSchema([
-    { name: 'Ana Sayfa', url: 'https://horex.com.tr' },
-    { name: 'İstanbul\'un Önemli Semtleri', url: 'https://horex.com.tr/semtler' }
+    { name: 'Ana Sayfa', url: 'https://horexnakliyat.com' },
+    { name: 'İstanbul\'un Önemli Semtleri', url: 'https://horexnakliyat.com/semtler' }
   ]);
 
   return (

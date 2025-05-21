@@ -8,8 +8,8 @@ export const metadata: Metadata = SEO.generateMetadata({
   title: 'Evden Eve Nakliyat - Horex Nakliyat | Güvenilir Taşıma Hizmeti',
   description: serviceData.metaDescription,
   keywords: serviceData.metaKeywords,
-  canonical: 'https://horex.com.tr/nakliyat-hizmetleri/evden-eve-nakliyat',
-  ogImage: serviceData.heroImage ? `https://horex.com.tr${serviceData.heroImage.src}` : 'https://horex.com.tr/images/og-image.jpg',
+  canonical: 'https://horexnakliyat.com/nakliyat-hizmetleri/evden-eve-nakliyat',
+  ogImage: serviceData.heroImage ? `https://horexnakliyat.com${serviceData.heroImage.src}` : 'https://horexnakliyat.com/images/og-image.jpg',
   ogImageAlt: serviceData.heroImage ? serviceData.heroImage.alt : 'Horex Nakliyat - Evden Eve Nakliyat Hizmetleri',
   ogType: 'website'
 });
@@ -25,14 +25,14 @@ export default function HomeToHomeTransportation() {
   const serviceSchema = SEO.generateServiceSchema(
     serviceData.title,
     serviceData.metaDescription,
-    'https://horex.com.tr/nakliyat-hizmetleri/evden-eve-nakliyat'
+    'https://horexnakliyat.com/nakliyat-hizmetleri/evden-eve-nakliyat'
   );
 
   // Breadcrumb için schema.org yapılandırılmış veri
   const breadcrumbSchema = SEO.generateBreadcrumbSchema([
-    { name: 'Ana Sayfa', url: 'https://horex.com.tr' },
-    { name: 'Nakliyat Hizmetleri', url: 'https://horex.com.tr/nakliyat-hizmetleri' },
-    { name: 'Evden Eve Nakliyat', url: 'https://horex.com.tr/nakliyat-hizmetleri/evden-eve-nakliyat' }
+    { name: 'Ana Sayfa', url: 'https://horexnakliyat.com' },
+    { name: 'Nakliyat Hizmetleri', url: 'https://horexnakliyat.com/nakliyat-hizmetleri' },
+    { name: 'Evden Eve Nakliyat', url: 'https://horexnakliyat.com/nakliyat-hizmetleri/evden-eve-nakliyat' }
   ]);
 
   // FAQ için sorular ve cevaplar

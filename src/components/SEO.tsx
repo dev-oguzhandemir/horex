@@ -19,8 +19,8 @@ export const generateMetadata = ({
   title,
   description,
   keywords = '',
-  url = 'https://horex.com.tr',
-  ogImage = 'https://horex.com.tr/images/og-image.jpg', // Update this to a valid path
+  url = 'https://horexnakliyat.com',
+  ogImage = 'https://horexnakliyat.com/images/og-image.jpg', // Update this to a valid path
   ogImageAlt = 'Horex Nakliyat - Profesyonel Taşımacılık Hizmetleri',
   ogType = 'website',
   twitterCard = 'summary_large_image',
@@ -126,8 +126,8 @@ export const generateSchemaOrgData = (
 export const generateOrganizationSchema = () => {
   return generateSchemaOrgData('MovingCompany', {
     name: 'Horex Nakliyat',
-    image: 'https://horex.com.tr/logo.svg',
-    logo: 'https://horex.com.tr/logo.svg',
+    image: 'https://horexnakliyat.com/logo.svg',
+    logo: 'https://horexnakliyat.com/logo.svg',
     description: 'Profesyonel nakliyat hizmetleri ile eşyalarınızı güvenle taşıyoruz.',
     address: {
       '@type': 'PostalAddress',
@@ -142,7 +142,7 @@ export const generateOrganizationSchema = () => {
       latitude: '40.913051',
       longitude: '29.153112'
     },
-    url: 'https://horex.com.tr',
+    url: 'https://horexnakliyat.com',
     telephone: '+908508883939',
     email: 'ayirkanhoroz@gmail.com',
     priceRange: '₺₺',
@@ -164,7 +164,7 @@ export const generateServiceSchema = (serviceName: string, serviceDescription: s
     provider: {
       '@type': 'MovingCompany',
       name: 'Horex Nakliyat',
-      image: 'https://horex.com.tr/logo.svg'
+      image: 'https://horexnakliyat.com/logo.svg'
     },
     areaServed: {
       '@type': 'Country',
@@ -219,7 +219,7 @@ export const generateArticleSchema = (
       name: 'Horex Nakliyat',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://horex.com.tr/logo.svg'
+        url: 'https://horexnakliyat.com/logo.svg'
       }
     }
   });
@@ -250,7 +250,7 @@ export const generateWebPageSchema = (title: string, description: string, url: s
       name: 'Horex Nakliyat',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://horex.com.tr/logo.svg'
+        url: 'https://horexnakliyat.com/logo.svg'
       }
     }
   });

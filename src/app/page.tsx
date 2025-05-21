@@ -14,8 +14,8 @@ export const metadata: Metadata = SEO.generateMetadata({
   title: 'Horex Nakliyat - Güvenilir Evden Eve Nakliyat ve Lojistik Hizmetleri',
   description: 'Profesyonel nakliyat hizmetleri ile eşyalarınızı güvenle taşıyoruz. Evden eve nakliyat, ofis taşıma ve depolama çözümleri için hemen teklif alın.',
   keywords: 'nakliyat, evden eve nakliyat, ofis taşıma, eşya depolama, güvenli taşımacılık, istanbul nakliyat, şehirler arası nakliyat',
-  canonical: 'https://horex.com.tr',
-  ogImage: 'https://horex.com.tr/images/og-image.jpg',
+  canonical: 'https://horexnakliyat.com',
+  ogImage: 'https://horexnakliyat.com/images/og-image.jpg',
   ogImageAlt: 'Horex Nakliyat - Profesyonel Taşımacılık Hizmetleri',
 });
 
@@ -163,7 +163,7 @@ export default function Home() {
   const webPageSchema = SEO.generateWebPageSchema(
     'Horex Nakliyat - Profesyonel Taşımacılık Hizmetleri',
     'Güvenilir ve profesyonel nakliyat hizmetleri sunan Horex Nakliyat resmi web sitesi. Evden eve nakliyat, ofis taşıma ve depolama hizmetleri.',
-    'https://horex.com.tr'
+    'https://horexnakliyat.com'
   );
 
   return (

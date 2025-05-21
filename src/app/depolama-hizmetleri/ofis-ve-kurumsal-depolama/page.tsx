@@ -14,8 +14,8 @@ export const metadata: Metadata = SEO.generateMetadata({
   title: 'Ofis ve Kurumsal Depolama - Horex Nakliyat | İşletmeler İçin Özel Çözümler',
   description: serviceData.metaDescription,
   keywords: serviceData.metaKeywords,
-  canonical: 'https://horex.com.tr/depolama-hizmetleri/ofis-ve-kurumsal-depolama',
-  ogImage: serviceData.heroImage ? `https://horex.com.tr${serviceData.heroImage.src}` : 'https://horex.com.tr/images/og-image.jpg',
+  canonical: 'https://horexnakliyat.com/depolama-hizmetleri/ofis-ve-kurumsal-depolama',
+  ogImage: serviceData.heroImage ? `https://horexnakliyat.com${serviceData.heroImage.src}` : 'https://horexnakliyat.com/images/og-image.jpg',
   ogImageAlt: serviceData.heroImage ? serviceData.heroImage.alt : 'Horex Nakliyat - Ofis ve Kurumsal Depolama Hizmetleri',
   ogType: 'website'
 });
@@ -25,14 +25,14 @@ export default function OfficeCorporateStorageService() {
   const serviceSchema = SEO.generateServiceSchema(
     serviceData.title,
     serviceData.metaDescription,
-    'https://horex.com.tr/depolama-hizmetleri/ofis-ve-kurumsal-depolama'
+    'https://horexnakliyat.com/depolama-hizmetleri/ofis-ve-kurumsal-depolama'
   );
 
   // Breadcrumb için schema.org yapılandırılmış veri
   const breadcrumbSchema = SEO.generateBreadcrumbSchema([
-    { name: 'Ana Sayfa', url: 'https://horex.com.tr' },
-    { name: 'Depolama Hizmetleri', url: 'https://horex.com.tr/depolama-hizmetleri' },
-    { name: 'Ofis ve Kurumsal Depolama', url: 'https://horex.com.tr/depolama-hizmetleri/ofis-ve-kurumsal-depolama' }
+    { name: 'Ana Sayfa', url: 'https://horexnakliyat.com' },
+    { name: 'Depolama Hizmetleri', url: 'https://horexnakliyat.com/depolama-hizmetleri' },
+    { name: 'Ofis ve Kurumsal Depolama', url: 'https://horexnakliyat.com/depolama-hizmetleri/ofis-ve-kurumsal-depolama' }
   ]);
 
   // FAQ için sorular ve cevaplar

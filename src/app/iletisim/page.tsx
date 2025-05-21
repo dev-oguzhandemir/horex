@@ -7,7 +7,7 @@ export const metadata: Metadata = SEO.generateMetadata({
   title: 'İletişim - Horex Nakliyat | Bize Ulaşın',
   description: 'Horex Nakliyat ile iletişime geçin. Evden eve nakliyat, ofis taşıma ve depolama hizmetleri için ücretsiz teklif alın.',
   keywords: 'horex nakliyat iletişim, nakliyat iletişim, nakliyat telefon, nakliyat adres, nakliyat whatsapp',
-  canonical: 'https://horex.com.tr/iletisim',
+  canonical: 'https://horexnakliyat.com/iletisim',
   ogType: 'website',
 });
 
@@ -15,7 +15,7 @@ export default function ContactPage() {
   const contactSchema = SEO.generateSchemaOrgData('ContactPage', {
     name: 'Horex Nakliyat İletişim',
     description: 'Horex Nakliyat iletişim bilgileri. Telefon, WhatsApp, e-posta ve adres bilgilerimiz.',
-    url: 'https://horex.com.tr/iletisim',
+    url: 'https://horexnakliyat.com/iletisim',
     contactPoint: [
       {
         '@type': 'ContactPoint',
@@ -28,8 +28,8 @@ export default function ContactPage() {
   });
   
   const breadcrumbSchema = SEO.generateBreadcrumbSchema([
-    { name: 'Ana Sayfa', url: 'https://horex.com.tr' },
-    { name: 'İletişim', url: 'https://horex.com.tr/iletisim' }
+    { name: 'Ana Sayfa', url: 'https://horexnakliyat.com' },
+    { name: 'İletişim', url: 'https://horexnakliyat.com/iletisim' }
   ]);
 
   return (

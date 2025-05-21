@@ -14,8 +14,8 @@ export const metadata: Metadata = SEO.generateMetadata({
   title: 'Parça Eşya Taşımacılığı - Horex Nakliyat | Ekonomik Taşıma Çözümleri',
   description: serviceData.metaDescription,
   keywords: serviceData.metaKeywords,
-  canonical: 'https://horex.com.tr/nakliyat-hizmetleri/parca-esya-tasimaciligi',
-  ogImage: serviceData.heroImage ? `https://horex.com.tr${serviceData.heroImage.src}` : 'https://horex.com.tr/images/og-image.jpg',
+  canonical: 'https://horexnakliyat.com/nakliyat-hizmetleri/parca-esya-tasimaciligi',
+  ogImage: serviceData.heroImage ? `https://horexnakliyat.com${serviceData.heroImage.src}` : 'https://horexnakliyat.com/images/og-image.jpg',
   ogImageAlt: serviceData.heroImage ? serviceData.heroImage.alt : 'Horex Nakliyat - Parça Eşya Taşımacılığı Hizmetleri',
   ogType: 'website'
 });
@@ -25,14 +25,14 @@ export default function PartialItemTransportation() {
   const serviceSchema = SEO.generateServiceSchema(
     serviceData.title,
     serviceData.metaDescription,
-    'https://horex.com.tr/nakliyat-hizmetleri/parca-esya-tasimaciligi'
+    'https://horexnakliyat.com/nakliyat-hizmetleri/parca-esya-tasimaciligi'
   );
 
   // Breadcrumb için schema.org yapılandırılmış veri
   const breadcrumbSchema = SEO.generateBreadcrumbSchema([
-    { name: 'Ana Sayfa', url: 'https://horex.com.tr' },
-    { name: 'Nakliyat Hizmetleri', url: 'https://horex.com.tr/nakliyat-hizmetleri' },
-    { name: 'Parça Eşya Taşımacılığı', url: 'https://horex.com.tr/nakliyat-hizmetleri/parca-esya-tasimaciligi' }
+    { name: 'Ana Sayfa', url: 'https://horexnakliyat.com' },
+    { name: 'Nakliyat Hizmetleri', url: 'https://horexnakliyat.com/nakliyat-hizmetleri' },
+    { name: 'Parça Eşya Taşımacılığı', url: 'https://horexnakliyat.com/nakliyat-hizmetleri/parca-esya-tasimaciligi' }
   ]);
 
   // FAQ için sorular ve cevaplar

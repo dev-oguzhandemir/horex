@@ -18,11 +18,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Horex Nakliyat - Güvenilir Evden Eve Nakliyat ve Lojistik Hizmetleri",
     description: "Türkiye'nin her noktasında profesyonel evden eve nakliyat, şehirler arası nakliyat, ofis taşıma ve eşya depolama hizmetleri sunuyoruz.",
-    url: "https://horex.com.tr",
+    url: "https://horexnakliyat.com",
     siteName: "Horex Nakliyat",
     images: [
       {
-        url: "https://horex.com.tr/og-image.jpg",
+        url: "https://horexnakliyat.com/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Horex Nakliyat - Profesyonel Taşımacılık Hizmetleri",

@@ -14,8 +14,8 @@ export const metadata: Metadata = SEO.generateMetadata({
   title: 'Ofis Taşıma - Horex Nakliyat | Kesintisiz İş Taşımacılığı',
   description: serviceData.metaDescription,
   keywords: serviceData.metaKeywords,
-  canonical: 'https://horex.com.tr/nakliyat-hizmetleri/ofis-tasima',
-  ogImage: serviceData.heroImage ? `https://horex.com.tr${serviceData.heroImage.src}` : 'https://horex.com.tr/images/og-image.jpg',
+  canonical: 'https://horexnakliyat.com/nakliyat-hizmetleri/ofis-tasima',
+  ogImage: serviceData.heroImage ? `https://horexnakliyat.com${serviceData.heroImage.src}` : 'https://horexnakliyat.com/images/og-image.jpg',
   ogImageAlt: serviceData.heroImage ? serviceData.heroImage.alt : 'Horex Nakliyat - Ofis Taşıma Hizmetleri',
   ogType: 'website'
 });
@@ -25,14 +25,14 @@ export default function OfficeTransportation() {
   const serviceSchema = SEO.generateServiceSchema(
     serviceData.title,
     serviceData.metaDescription,
-    'https://horex.com.tr/nakliyat-hizmetleri/ofis-tasima'
+    'https://horexnakliyat.com/nakliyat-hizmetleri/ofis-tasima'
   );
 
   // Breadcrumb için schema.org yapılandırılmış veri
   const breadcrumbSchema = SEO.generateBreadcrumbSchema([
-    { name: 'Ana Sayfa', url: 'https://horex.com.tr' },
-    { name: 'Nakliyat Hizmetleri', url: 'https://horex.com.tr/nakliyat-hizmetleri' },
-    { name: 'Ofis Taşıma', url: 'https://horex.com.tr/nakliyat-hizmetleri/ofis-tasima' }
+    { name: 'Ana Sayfa', url: 'https://horexnakliyat.com' },
+    { name: 'Nakliyat Hizmetleri', url: 'https://horexnakliyat.com/nakliyat-hizmetleri' },
+    { name: 'Ofis Taşıma', url: 'https://horexnakliyat.com/nakliyat-hizmetleri/ofis-tasima' }
   ]);
 
   // FAQ için sorular ve cevaplar

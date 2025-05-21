@@ -14,8 +14,8 @@ export const metadata: Metadata = SEO.generateMetadata({
   title: 'Şehirler Arası Nakliyat - Horex Nakliyat | Güvenilir Taşımacılık',
   description: serviceData.metaDescription,
   keywords: serviceData.metaKeywords,
-  canonical: 'https://horex.com.tr/nakliyat-hizmetleri/sehirler-arasi-nakliyat',
-  ogImage: serviceData.heroImage ? `https://horex.com.tr${serviceData.heroImage.src}` : 'https://horex.com.tr/images/og-image.jpg',
+  canonical: 'https://horexnakliyat.com/nakliyat-hizmetleri/sehirler-arasi-nakliyat',
+  ogImage: serviceData.heroImage ? `https://horexnakliyat.com${serviceData.heroImage.src}` : 'https://horexnakliyat.com/images/og-image.jpg',
   ogImageAlt: serviceData.heroImage ? serviceData.heroImage.alt : 'Horex Nakliyat - Şehirler Arası Nakliyat Hizmetleri',
   ogType: 'website'
 });
@@ -25,14 +25,14 @@ export default function IntercityTransportation() {
   const serviceSchema = SEO.generateServiceSchema(
     serviceData.title,
     serviceData.metaDescription,
-    'https://horex.com.tr/nakliyat-hizmetleri/sehirler-arasi-nakliyat'
+    'https://horexnakliyat.com/nakliyat-hizmetleri/sehirler-arasi-nakliyat'
   );
 
   // Breadcrumb için schema.org yapılandırılmış veri
   const breadcrumbSchema = SEO.generateBreadcrumbSchema([
-    { name: 'Ana Sayfa', url: 'https://horex.com.tr' },
-    { name: 'Nakliyat Hizmetleri', url: 'https://horex.com.tr/nakliyat-hizmetleri' },
-    { name: 'Şehirler Arası Nakliyat', url: 'https://horex.com.tr/nakliyat-hizmetleri/sehirler-arasi-nakliyat' }
+    { name: 'Ana Sayfa', url: 'https://horexnakliyat.com' },
+    { name: 'Nakliyat Hizmetleri', url: 'https://horexnakliyat.com/nakliyat-hizmetleri' },
+    { name: 'Şehirler Arası Nakliyat', url: 'https://horexnakliyat.com/nakliyat-hizmetleri/sehirler-arasi-nakliyat' }
   ]);
 
   // FAQ için sorular ve cevaplar

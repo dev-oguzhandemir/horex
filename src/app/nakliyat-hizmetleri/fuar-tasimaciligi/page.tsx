@@ -14,8 +14,8 @@ export const metadata: Metadata = SEO.generateMetadata({
   title: 'Fuar Taşımacılığı - Horex Nakliyat | Profesyonel Fuar Lojistiği',
   description: serviceData.metaDescription,
   keywords: serviceData.metaKeywords,
-  canonical: 'https://horex.com.tr/nakliyat-hizmetleri/fuar-tasimaciligi',
-  ogImage: serviceData.heroImage ? `https://horex.com.tr${serviceData.heroImage.src}` : 'https://horex.com.tr/images/og-image.jpg',
+  canonical: 'https://horexnakliyat.com/nakliyat-hizmetleri/fuar-tasimaciligi',
+  ogImage: serviceData.heroImage ? `https://horexnakliyat.com${serviceData.heroImage.src}` : 'https://horexnakliyat.com/images/og-image.jpg',
   ogImageAlt: serviceData.heroImage ? serviceData.heroImage.alt : 'Horex Nakliyat - Fuar Taşımacılığı Hizmetleri',
   ogType: 'website'
 });
@@ -25,14 +25,14 @@ export default function FairTransportation() {
   const serviceSchema = SEO.generateServiceSchema(
     serviceData.title,
     serviceData.metaDescription,
-    'https://horex.com.tr/nakliyat-hizmetleri/fuar-tasimaciligi'
+    'https://horexnakliyat.com/nakliyat-hizmetleri/fuar-tasimaciligi'
   );
 
   // Breadcrumb için schema.org yapılandırılmış veri
   const breadcrumbSchema = SEO.generateBreadcrumbSchema([
-    { name: 'Ana Sayfa', url: 'https://horex.com.tr' },
-    { name: 'Nakliyat Hizmetleri', url: 'https://horex.com.tr/nakliyat-hizmetleri' },
-    { name: 'Fuar Taşımacılığı', url: 'https://horex.com.tr/nakliyat-hizmetleri/fuar-tasimaciligi' }
+    { name: 'Ana Sayfa', url: 'https://horexnakliyat.com' },
+    { name: 'Nakliyat Hizmetleri', url: 'https://horexnakliyat.com/nakliyat-hizmetleri' },
+    { name: 'Fuar Taşımacılığı', url: 'https://horexnakliyat.com/nakliyat-hizmetleri/fuar-tasimaciligi' }
   ]);
 
   // FAQ için sorular ve cevaplar
