@@ -4,7 +4,12 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+// Load font with display: swap for better performance
+const inter = Inter({ 
+  subsets: ["latin"],
+  display: 'swap',
+  preload: true
+});
 
 export const metadata: Metadata = {
   title: "Horex Nakliyat - Güvenilir Evden Eve Nakliyat ve Lojistik Hizmetleri",
@@ -49,6 +54,18 @@ export default function RootLayout({
 }) {
   return (
     <html lang="tr">
+      <head>
+        {/* Preload critical CSS */}
+        <link 
+          rel="preload" 
+          href="/logo.svg" 
+          as="image" 
+          type="image/svg+xml"
+        />
+        {/* Add preconnect for any third-party domains */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+      </head>
       <body className={`${inter.className} overflow-x-hidden`}>
         <Header />
         <main className="min-h-screen pt-[120px]">

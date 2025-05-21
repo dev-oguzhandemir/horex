@@ -6,26 +6,24 @@ import { motion, useInView, useAnimation } from 'framer-motion'
 
 export default function HeroSection() {
   const ref = useRef(null)
-  const isInView = useInView(ref, { once: true })
+  const isInView = useInView(ref, { once: true, amount: 0.1 })
   const mainControls = useAnimation()
 
   useEffect(() => {
-    if (isInView) {
-      mainControls.start('visible')
-    }
-  }, [isInView, mainControls])
+    mainControls.start('visible')
+  }, [mainControls])
 
   return (
     <section className="relative h-[90vh] flex items-center justify-center bg-gradient-to-r from-horex-red to-horex-black" ref={ref}>
       <div className="container mx-auto px-4">
         <div className="text-center text-white">
           <motion.div
-            initial={{ y: -50, opacity: 0 }}
+            initial={{ y: 0, opacity: 0.9 }}
             animate={mainControls}
             variants={{
               visible: { y: 0, opacity: 1 }
             }}
-            transition={{ duration: 0.6, delay: 0.2 }}
+            transition={{ duration: 0.3 }}
           >
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
             Forex Nakliyat <br />
@@ -34,25 +32,25 @@ export default function HeroSection() {
           </motion.div>
 
           <motion.div
-            initial={{ y: 50, opacity: 0 }}
+            initial={{ opacity: 0.9 }}
             animate={mainControls}
             variants={{
-              visible: { y: 0, opacity: 1 }
+              visible: { opacity: 1 }
             }}
-            transition={{ duration: 0.6, delay: 0.4 }}
+            transition={{ duration: 0.3, delay: 0.1 }}
           >
             <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto hyphens-auto break-words px-4">
-            Günümüzde taşınma süreci, insanların yaşamlarında önemli bir dönüm noktası olarak kabul edilir. Bu süreçte, eşyaların güvenli bir şekilde yeni bir adrese taşınması büyük önem taşır. İşte bu noktada nakliyat firmaları devreye girer. Nakliyat firmaları, müşterilerine profesyonel hizmet sunarak taşınma sürecini kolaylaştırır ve daha az stresli hale getirir.
+            Nakliyat sürecinizi güvenli ve profesyonel bir şekilde yönetiyoruz. Eşyalarınızın yeni adresinize sorunsuz taşınması için Forex Nakliyat yanınızda.
             </p>
           </motion.div>
 
           <motion.div
-            initial={{ scale: 0.8, opacity: 0 }}
+            initial={{ scale: 0.95, opacity: 0.9 }}
             animate={mainControls}
             variants={{
               visible: { scale: 1, opacity: 1 }
             }}
-            transition={{ duration: 0.5, delay: 0.6 }}
+            transition={{ duration: 0.3, delay: 0.2 }}
             className="flex gap-4 justify-center"
           >
             <a 
@@ -67,40 +65,39 @@ export default function HeroSection() {
               <span>Ücretsiz Teklif Al</span>
             </a>
             <Link 
-              href="/nakliyat-hizmetleri" 
+              href="/nakliyat-hizmetleri/evden-eve-nakliyat" 
               className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition-colors"
             >
               Hizmetlerimiz
             </Link>
           </motion.div>
 
-          {/* Animasyonlu Arka Plan Elementleri */}
           <motion.div 
             className="absolute top-1/4 left-10 w-20 h-20 border-2 border-white/20 rounded-full"
-            initial={{ scale: 0, opacity: 0 }}
+            initial={{ scale: 0.5, opacity: 0 }}
             animate={mainControls}
             variants={{
               visible: { scale: 1, opacity: 1 }
             }}
-            transition={{ duration: 1, delay: 0.8 }}
+            transition={{ duration: 0.5, delay: 0.3 }}
           />
           <motion.div 
             className="absolute bottom-1/4 right-10 w-32 h-32 border-2 border-white/20 rounded-full"
-            initial={{ scale: 0, opacity: 0 }}
+            initial={{ scale: 0.5, opacity: 0 }}
             animate={mainControls}
             variants={{
               visible: { scale: 1, opacity: 1 }
             }}
-            transition={{ duration: 1, delay: 1 }}
+            transition={{ duration: 0.5, delay: 0.4 }}
           />
           <motion.div 
             className="absolute top-1/3 right-1/4 w-16 h-16 border-2 border-white/20 rounded-full"
-            initial={{ scale: 0, opacity: 0 }}
+            initial={{ scale: 0.5, opacity: 0 }}
             animate={mainControls}
             variants={{
               visible: { scale: 1, opacity: 1 }
             }}
-            transition={{ duration: 1, delay: 1.2 }}
+            transition={{ duration: 0.5, delay: 0.5 }}
           />
         </div>
       </div>

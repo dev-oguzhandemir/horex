@@ -7,6 +7,7 @@ import SelectionCriteria from '@/components/SelectionCriteria'
 import { Metadata } from 'next'
 import SEO from '@/components/SEO'
 import Script from 'next/script'
+import { Suspense } from 'react'
 
 // SEO Metadata
 export const metadata: Metadata = SEO.generateMetadata({
@@ -125,6 +126,13 @@ const FAQSection = ({ questions }: { questions: FAQItem[] }) => {
   );
 };
 
+// Add simple loading placeholders for deferred components
+const Placeholder = ({ height = '400px' }: { height?: string }) => (
+  <div className="animate-pulse">
+    <div className={`w-full bg-gray-200 rounded-lg`} style={{ height }}></div>
+  </div>
+);
+
 export default function Home() {
   // Structured data için kullanılacak şemalar
   const organizationSchema = SEO.generateOrganizationSchema();
@@ -178,29 +186,32 @@ export default function Home() {
       />
 
       <div className="overflow-x-hidden w-full">
-        {/* Hero Section */}
+        {/* Prioritize HeroSection loading - no Suspense boundary */}
         <HeroSection />
-
-        {/* Neden Bizi Seçmelisiniz */}
-        <WhyChooseUs />
-
-        {/* Seçim Kriterleri */}
-        <SelectionCriteria />
-
-        {/* İstatistikler */}
-        <Stats />
-
-        {/* Nakliyat Hizmetlerinin Geleceği */}
-        <FutureServices />
-
-        {/* Referanslar */}
-        {/* <References /> */}
         
-        {/* Sık Sorulan Sorular */}
-        <FAQSection questions={faqQuestions} />
+        {/* Wrap other components in Suspense boundaries to defer their loading */}
+        <Suspense fallback={<Placeholder height="600px" />}>
+          {/* Neden Bizi Seçmelisiniz */}
+          <WhyChooseUs />
 
-        {/* Blog Bölümü */}
-        <BlogSection />
+          {/* Seçim Kriterleri */}
+          <SelectionCriteria />
+
+          {/* İstatistikler */}
+          <Stats />
+
+          {/* Nakliyat Hizmetlerinin Geleceği */}
+          <FutureServices />
+
+          {/* Referanslar */}
+          {/* <References /> */}
+          
+          {/* Sık Sorulan Sorular */}
+          <FAQSection questions={faqQuestions} />
+
+          {/* Blog Bölümü */}
+          <BlogSection />
+        </Suspense>
       </div>
     </>
   )
