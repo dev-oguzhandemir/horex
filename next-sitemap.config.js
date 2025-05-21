@@ -9,10 +9,6 @@ module.exports = {
         allow: '/',
       },
     ],
-    additionalSitemaps: [
-      'https://horexnakliyat.com/sitemap.xml',
-      'https://horexnakliyat.com/sitemap-0.xml',
-    ],
   },
   changefreq: 'daily',
   priority: 0.7,

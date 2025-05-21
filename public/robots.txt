@@ -7,4 +7,3 @@ Host: https://horexnakliyat.com
 
 # Sitemaps
 Sitemap: https://horexnakliyat.com/sitemap.xml
-Sitemap: https://horexnakliyat.com/sitemap-0.xml
