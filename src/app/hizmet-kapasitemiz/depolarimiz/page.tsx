@@ -75,15 +75,17 @@ export default function DepolarimizPage() {
         dangerouslySetInnerHTML={{ __html: imageSchemaData }}
       />
       
-      <ServiceCapacity
-        title={serviceData.title}
-        description={serviceData.description}
-        metaDescription={serviceData.metaDescription}
-        metaKeywords={serviceData.metaKeywords}
-        features={serviceData.features}
-        content={serviceData.content}
-        heroImage={serviceData.heroImage}
-      />
+      <div className="overflow-x-hidden w-full">
+        <ServiceCapacity
+          title={serviceData.title}
+          description={serviceData.description}
+          metaDescription={serviceData.metaDescription}
+          metaKeywords={serviceData.metaKeywords}
+          features={serviceData.features}
+          content={serviceData.content}
+          heroImage={serviceData.heroImage}
+        />
+      </div>
     </>
   )
 } 

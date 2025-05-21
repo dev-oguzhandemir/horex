@@ -113,7 +113,7 @@ export default function ServiceCapacity({
   return (
     <main className="min-h-screen" aria-label={`${title} - Horex Nakliyat`}>
       {/* Hero Section */}
-      <section className="relative h-[90vh] flex items-center justify-center bg-gradient-to-r from-horex-red to-horex-black" ref={heroRef}>
+      <section className="relative h-[90vh] flex items-center justify-center bg-gradient-to-r from-horex-red to-horex-black overflow-hidden" ref={heroRef}>
         {heroImage && (
           <div className="absolute inset-0 z-0 opacity-20">
             <Image
@@ -139,7 +139,7 @@ export default function ServiceCapacity({
               }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              <h1 className="text-4xl md:text-6xl font-bold mb-6">
+              <h1 className="text-4xl md:text-6xl font-bold mb-6 break-words hyphens-auto px-4">
                 {title}
               </h1>
             </motion.div>
@@ -152,7 +152,7 @@ export default function ServiceCapacity({
               }}
               transition={{ duration: 0.6, delay: 0.4 }}
             >
-              <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto">
+              <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto break-words hyphens-auto px-4">
                 {description}
               </p>
             </motion.div>
@@ -216,11 +216,11 @@ export default function ServiceCapacity({
       </section>
 
       {/* Özellikler Bölümü */}
-      <section ref={featuresRef} className="py-20 bg-white">
+      <section ref={featuresRef} className="py-20 bg-white overflow-x-hidden">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-horex-black">{content.featuresTitle}</h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">{content.introduction}</p>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-horex-black break-words hyphens-auto">{content.featuresTitle}</h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto break-words hyphens-auto">{content.introduction}</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -233,8 +233,8 @@ export default function ServiceCapacity({
                 className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow border border-gray-100"
               >
                 <div className="text-4xl mb-4">{feature.icon}</div>
-                <h3 className="text-xl font-bold mb-2 text-horex-black">{feature.title}</h3>
-                <p className="text-gray-600">{feature.description}</p>
+                <h3 className="text-xl font-bold mb-2 text-horex-black break-words hyphens-auto">{feature.title}</h3>
+                <p className="text-gray-600 break-words hyphens-auto">{feature.description}</p>
               </motion.div>
             ))}
           </div>
@@ -243,11 +243,11 @@ export default function ServiceCapacity({
 
       {/* Ana İçerik Bölümü */}
       {content.mainContent && (
-        <section ref={mainContentRef} className="py-20 bg-gray-50">
+        <section ref={mainContentRef} className="py-20 bg-gray-50 overflow-x-hidden">
           <div className="container mx-auto px-4">
             {/* Main Image */}
             {content.mainImage && (
-              <div className="mb-12 relative w-full h-96 rounded-xl overflow-hidden">
+              <div className="mb-12 relative w-full h-60 md:h-96 rounded-xl overflow-hidden">
                 <Image
                   src={content.mainImage.src}
                   alt={content.mainImage.alt || `${title} Detay - Horex Nakliyat`}
@@ -265,8 +265,8 @@ export default function ServiceCapacity({
             {/* First Section */}
             <div className="mb-20">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold mb-4 text-horex-black">{content.mainContent.firstSection.title}</h2>
-                <p className="text-lg text-gray-600 max-w-3xl mx-auto">{content.mainContent.firstSection.description}</p>
+                <h2 className="text-3xl md:text-4xl font-bold mb-4 text-horex-black break-words hyphens-auto">{content.mainContent.firstSection.title}</h2>
+                <p className="text-lg text-gray-600 max-w-3xl mx-auto break-words hyphens-auto">{content.mainContent.firstSection.description}</p>
               </div>
 
               <div className="grid md:grid-cols-2 gap-8">
@@ -278,8 +278,8 @@ export default function ServiceCapacity({
                     transition={{ duration: 0.5, delay: index * 0.1 }}
                     className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow"
                   >
-                    <h3 className="text-xl font-bold mb-2 text-horex-black">{item.title}</h3>
-                    <p className="text-gray-600">{item.description}</p>
+                    <h3 className="text-xl font-bold mb-2 text-horex-black break-words hyphens-auto">{item.title}</h3>
+                    <p className="text-gray-600 break-words hyphens-auto">{item.description}</p>
                   </motion.div>
                 ))}
               </div>
@@ -288,8 +288,8 @@ export default function ServiceCapacity({
             {/* Second Section */}
             <div>
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold mb-4 text-horex-black">{content.mainContent.secondSection.title}</h2>
-                <p className="text-lg text-gray-600 max-w-3xl mx-auto">{content.mainContent.secondSection.description}</p>
+                <h2 className="text-3xl md:text-4xl font-bold mb-4 text-horex-black break-words hyphens-auto">{content.mainContent.secondSection.title}</h2>
+                <p className="text-lg text-gray-600 max-w-3xl mx-auto break-words hyphens-auto">{content.mainContent.secondSection.description}</p>
               </div>
 
               <div className="grid md:grid-cols-2 gap-8">
@@ -301,8 +301,8 @@ export default function ServiceCapacity({
                     transition={{ duration: 0.5, delay: index * 0.1 }}
                     className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow"
                   >
-                    <h3 className="text-xl font-bold mb-2 text-horex-black">{item.title}</h3>
-                    <p className="text-gray-600">{item.description}</p>
+                    <h3 className="text-xl font-bold mb-2 text-horex-black break-words hyphens-auto">{item.title}</h3>
+                    <p className="text-gray-600 break-words hyphens-auto">{item.description}</p>
                   </motion.div>
                 ))}
               </div>
@@ -312,10 +312,10 @@ export default function ServiceCapacity({
       )}
 
       {/* Avantajlar Bölümü */}
-      <section ref={highlightsRef} className="py-20 bg-white">
+      <section ref={highlightsRef} className="py-20 bg-white overflow-x-hidden">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-horex-black">{content.highlightsTitle}</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-horex-black break-words hyphens-auto">{content.highlightsTitle}</h2>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
@@ -330,8 +330,8 @@ export default function ServiceCapacity({
                 <div className="bg-horex-red text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl mx-auto mb-4">
                   {index + 1}
                 </div>
-                <h3 className="text-xl font-bold mb-3 text-horex-black">{highlight.title}</h3>
-                <p className="text-gray-600">{highlight.description}</p>
+                <h3 className="text-xl font-bold mb-3 text-horex-black break-words hyphens-auto">{highlight.title}</h3>
+                <p className="text-gray-600 break-words hyphens-auto">{highlight.description}</p>
               </motion.div>
             ))}
           </div>
@@ -339,10 +339,10 @@ export default function ServiceCapacity({
       </section>
 
       {/* Süreç Bölümü */}
-      <section ref={processRef} className="py-20 bg-gray-900 text-white">
+      <section ref={processRef} className="py-20 bg-gray-900 text-white overflow-x-hidden">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">{content.process.title}</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 break-words hyphens-auto">{content.process.title}</h2>
           </div>
 
           <div className="max-w-4xl mx-auto">
@@ -358,7 +358,7 @@ export default function ServiceCapacity({
                   {index + 1}
                 </div>
                 <div className="bg-gray-800 p-5 rounded-lg flex-grow">
-                  <p className="text-lg">{step}</p>
+                  <p className="text-lg break-words hyphens-auto">{step}</p>
                 </div>
               </motion.div>
             ))}
@@ -367,10 +367,10 @@ export default function ServiceCapacity({
       </section>
 
       {/* Ek Bilgiler */}
-      <section ref={additionalInfoRef} className="py-20 bg-white">
+      <section ref={additionalInfoRef} className="py-20 bg-white overflow-x-hidden">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-horex-black">{content.additionalInfo.title}</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-horex-black break-words hyphens-auto">{content.additionalInfo.title}</h2>
           </div>
 
           <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-6">
@@ -380,14 +380,14 @@ export default function ServiceCapacity({
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: inViewAdditionalInfo ? 1 : 0, y: inViewAdditionalInfo ? 0 : 20 }}
                 transition={{ duration: 0.3, delay: index * 0.05 }}
-                className="flex items-center"
+                className="flex items-start"
               >
-                <div className="text-horex-red mr-3">
+                <div className="text-horex-red mr-3 mt-1 flex-shrink-0">
                   <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
                   </svg>
                 </div>
-                <p className="text-gray-700">{item}</p>
+                <p className="text-gray-700 break-words hyphens-auto">{item}</p>
               </motion.div>
             ))}
           </div>
@@ -395,10 +395,10 @@ export default function ServiceCapacity({
       </section>
 
       {/* CTA Bölümü */}
-      <section className="py-20 bg-horex-red text-white">
+      <section className="py-20 bg-horex-red text-white overflow-x-hidden">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">{content.ctaTitle}</h2>
-          <p className="text-xl mb-8 max-w-3xl mx-auto">{content.ctaDescription}</p>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 break-words hyphens-auto">{content.ctaTitle}</h2>
+          <p className="text-xl mb-8 max-w-3xl mx-auto break-words hyphens-auto">{content.ctaDescription}</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
               href={`https://wa.me/905072135501?text=${encodeURIComponent(whatsappMessage)}`}

@@ -78,19 +78,19 @@ export default function HomeStorageService() {
       <StorageService {...serviceData} />
       
       {/* Sık Sorulan Sorular Bölümü */}
-      <section className="py-16 bg-gray-50" id="sikca-sorulan-sorular">
+      <section className="py-16 bg-gray-50 overflow-x-hidden" id="sikca-sorulan-sorular">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 break-words hyphens-auto">
             Ev Eşyası Depolama Hakkında Sık Sorulan Sorular
           </h2>
           
           <div className="max-w-3xl mx-auto space-y-6">
             {faqQuestions.map((faq: FAQItem, index: number) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-semibold text-horex-red mb-3">
+                <h3 className="text-xl font-semibold text-horex-red mb-3 break-words hyphens-auto">
                   {faq.question}
                 </h3>
-                <p className="text-gray-700">
+                <p className="text-gray-700 break-words hyphens-auto">
                   {faq.answer}
                 </p>
               </div>
@@ -98,7 +98,7 @@ export default function HomeStorageService() {
           </div>
           
           <div className="mt-12 text-center">
-            <p className="text-lg text-gray-700 mb-4">
+            <p className="text-lg text-gray-700 mb-4 break-words hyphens-auto">
               Eşyalarınızı güvenle depolamak için hemen bizimle iletişime geçin.
             </p>
             <a

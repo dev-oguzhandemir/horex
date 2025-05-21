@@ -49,7 +49,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="tr">
-      <body className={inter.className}>
+      <body className={`${inter.className} overflow-x-hidden`}>
         <Header />
         <main className="min-h-screen pt-[120px]">
           {children}

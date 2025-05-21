@@ -439,7 +439,7 @@ export default function Header() {
                       index >= menuItems.length/2 
                         ? 'right-0 origin-top-right' 
                         : 'left-0 origin-top-left'
-                    } w-[90vw] max-w-[600px] bg-white shadow-xl rounded-lg py-6 px-8 grid grid-cols-1 md:grid-cols-2 gap-6 z-50 animate-fadeIn`}
+                    } w-[clamp(280px,90vw,600px)] max-w-[600px] bg-white shadow-xl rounded-lg py-6 px-8 grid grid-cols-1 md:grid-cols-2 gap-6 z-50 animate-fadeIn`}
                     style={{
                       // Ensure submenu doesn't go off screen
                       maxHeight: 'calc(100vh - 200px)',
@@ -479,7 +479,7 @@ export default function Header() {
         {/* Mobil Menü */}
         <div 
           id="mobile-menu"
-          className={`lg:hidden border-t border-gray-200 overflow-hidden transition-all duration-300 ease-in-out ${
+          className={`lg:hidden border-t border-gray-200 overflow-hidden transition-all duration-300 ease-in-out w-full ${
             isMenuOpen 
               ? "max-h-[70vh] opacity-100 overflow-y-auto" 
               : "max-h-0 opacity-0"
@@ -537,7 +537,7 @@ export default function Header() {
                   </button>
                 )}
                 <div 
-                  className={`bg-gray-50 overflow-hidden transition-all duration-300 ease-in-out ${
+                  className={`bg-gray-50 overflow-hidden transition-all duration-300 ease-in-out w-full ${
                     item.submenu && activeSubmenu === item.title 
                       ? "max-h-[1000px] opacity-100" 
                       : "max-h-0 opacity-0"

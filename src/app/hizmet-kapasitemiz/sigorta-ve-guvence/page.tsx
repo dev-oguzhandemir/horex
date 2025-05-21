@@ -1,7 +1,7 @@
 import { Metadata } from 'next'
 import ServiceCapacity from '@/components/ServiceCapacity'
 import serviceData from '@/data/service-capacity/sigorta-ve-guvence.json'
-import { generateServiceSchema, generateBreadcrumbSchema } from '@/components/SEO'
+import { generateServiceSchema, generateBreadcrumbSchema, generateImageSchema } from '@/components/SEO'
 
 export const metadata: Metadata = {
   title: `${serviceData.title} | Horex Nakliyat`,
@@ -51,6 +51,14 @@ export default function SigortaVeGuvencePage() {
     { name: serviceData.title, url: 'https://horex.com.tr/hizmet-kapasitemiz/sigorta-ve-guvence' },
   ])
 
+  // Image schema data
+  const imageSchemaData = generateImageSchema(
+    `https://horex.com.tr${serviceData.heroImage?.src || '/images/og-image.jpg'}`,
+    serviceData.heroImage?.alt || 'Horex Nakliyat Sigorta ve Güvence Hizmetleri',
+    1200, 
+    800
+  )
+
   return (
     <>
       {/* JSON-LD Structured Data */}
@@ -62,16 +70,22 @@ export default function SigortaVeGuvencePage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: breadcrumbSchemaData }}
       />
-      
-      <ServiceCapacity
-        title={serviceData.title}
-        description={serviceData.description}
-        metaDescription={serviceData.metaDescription}
-        metaKeywords={serviceData.metaKeywords}
-        features={serviceData.features}
-        content={serviceData.content}
-        heroImage={serviceData.heroImage}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: imageSchemaData }}
       />
+      
+      <div className="overflow-x-hidden w-full">
+        <ServiceCapacity
+          title={serviceData.title}
+          description={serviceData.description}
+          metaDescription={serviceData.metaDescription}
+          metaKeywords={serviceData.metaKeywords}
+          features={serviceData.features}
+          content={serviceData.content}
+          heroImage={serviceData.heroImage}
+        />
+      </div>
     </>
   )
 } 

@@ -53,18 +53,11 @@ export default function FutureServices() {
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-horex-black">
             Nakliyat Hizmetlerinin Geleceği
             </h2>
-            <p className="text-gray-600 mb-6">
-            Teknolojinin gelişmesiyle birlikte, nakliyat hizmetleri de dönüşüm geçirmektedir. Online
-rezervasyon sistemleri, GPS takip özellikleri ve dijital envanter yönetimi gibi yenilikler, nakliyat
-sektöründe müşteri memnuniyetini artırmaktadır. Gelecekte, daha sürdürülebilir ve çevre dostu
-taşımacılık çözümlerinin de yaygınlaşması beklenmektedir.
-
+            <p className="text-gray-600 mb-6 hyphens-auto break-words">
+            Teknolojinin gelişmesiyle birlikte, nakliyat hizmetleri de dönüşüm geçirmektedir. Online rezervasyon sistemleri, GPS takip özellikleri ve dijital envanter yönetimi gibi yenilikler, nakliyat sektöründe müşteri memnuniyetini artırmaktadır. Gelecekte, daha sürdürülebilir ve çevre dostu taşımacılık çözümlerinin de yaygınlaşması beklenmektedir.
             </p>
-            <p className="text-gray-600 mb-8">
-            Sonuç olarak, nakliyat firmaları taşınma sürecini kolaylaştıran ve müşterilerine güven veren
-önemli kuruluşlardır. Doğru firma seçimi, taşınmanın sorunsuz ve keyifli bir deneyim haline
-gelmesini sağlar. Bu nedenle, taşınma planlarınız için profesyonel bir nakliyat hizmeti tercih
-etmek her zaman en iyi seçenektir.
+            <p className="text-gray-600 mb-8 hyphens-auto break-words">
+            Sonuç olarak, nakliyat firmaları taşınma sürecini kolaylaştıran ve müşterilerine güven veren önemli kuruluşlardır. Doğru firma seçimi, taşınmanın sorunsuz ve keyifli bir deneyim haline gelmesini sağlar. Bu nedenle, taşınma planlarınız için profesyonel bir nakliyat hizmeti tercih etmek her zaman en iyi seçenektir.
             </p>
 
             {/* Teknoloji Özellikleri */}

@@ -41,11 +41,8 @@ export default function HeroSection() {
             }}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
-            <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto">
-            Günümüzde taşınma süreci, insanların yaşamlarında önemli bir dönüm noktası olarak kabul
-edilir. Bu süreçte, eşyaların güvenli bir şekilde yeni bir adrese taşınması büyük önem taşır. İşte bu
-noktada nakliyat firmaları devreye girer. Nakliyat firmaları, müşterilerine profesyonel hizmet
-sunarak taşınma sürecini kolaylaştırır ve daha az stresli hale getirir.
+            <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto hyphens-auto break-words px-4">
+            Günümüzde taşınma süreci, insanların yaşamlarında önemli bir dönüm noktası olarak kabul edilir. Bu süreçte, eşyaların güvenli bir şekilde yeni bir adrese taşınması büyük önem taşır. İşte bu noktada nakliyat firmaları devreye girer. Nakliyat firmaları, müşterilerine profesyonel hizmet sunarak taşınma sürecini kolaylaştırır ve daha az stresli hale getirir.
             </p>
           </motion.div>
 

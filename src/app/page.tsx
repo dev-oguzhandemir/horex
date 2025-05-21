@@ -177,29 +177,31 @@ export default function Home() {
         dangerouslySetInnerHTML={{ __html: webPageSchema }}
       />
 
-      {/* Hero Section */}
-      <HeroSection />
+      <div className="overflow-x-hidden w-full">
+        {/* Hero Section */}
+        <HeroSection />
 
-      {/* Neden Bizi Seçmelisiniz */}
-      <WhyChooseUs />
+        {/* Neden Bizi Seçmelisiniz */}
+        <WhyChooseUs />
 
-      {/* Seçim Kriterleri */}
-      <SelectionCriteria />
+        {/* Seçim Kriterleri */}
+        <SelectionCriteria />
 
-      {/* İstatistikler */}
-      <Stats />
+        {/* İstatistikler */}
+        <Stats />
 
-      {/* Nakliyat Hizmetlerinin Geleceği */}
-      <FutureServices />
+        {/* Nakliyat Hizmetlerinin Geleceği */}
+        <FutureServices />
 
-      {/* Referanslar */}
-      {/* <References /> */}
-      
-      {/* Sık Sorulan Sorular */}
-      <FAQSection questions={faqQuestions} />
+        {/* Referanslar */}
+        {/* <References /> */}
+        
+        {/* Sık Sorulan Sorular */}
+        <FAQSection questions={faqQuestions} />
 
-      {/* Blog Bölümü */}
-      <BlogSection />
+        {/* Blog Bölümü */}
+        <BlogSection />
+      </div>
     </>
   )
 }

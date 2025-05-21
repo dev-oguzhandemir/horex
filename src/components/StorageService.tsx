@@ -103,7 +103,7 @@ export default function StorageService({
   return (
     <main className="min-h-screen" aria-label={`${title} - Horex Nakliyat`}>
       {/* Hero Section */}
-      <section className="relative h-[90vh] flex items-center justify-center bg-gradient-to-r from-horex-red to-horex-black" ref={heroRef}>
+      <section className="relative h-[90vh] flex items-center justify-center bg-gradient-to-r from-horex-red to-horex-black overflow-hidden" ref={heroRef}>
         {heroImage && (
           <div className="absolute inset-0 z-0 opacity-20">
             <Image
@@ -129,7 +129,7 @@ export default function StorageService({
               }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              <h1 className="text-4xl md:text-6xl font-bold mb-6">
+              <h1 className="text-4xl md:text-6xl font-bold mb-6 break-words hyphens-auto px-4">
                 {title}
               </h1>
             </motion.div>
@@ -142,7 +142,7 @@ export default function StorageService({
               }}
               transition={{ duration: 0.6, delay: 0.4 }}
             >
-              <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto">
+              <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto break-words hyphens-auto px-4">
                 {description}
               </p>
             </motion.div>
@@ -206,11 +206,11 @@ export default function StorageService({
       </section>
 
       {/* Introduction Section */}
-      <section className="py-16" aria-labelledby="introduction-title">
+      <section className="py-16 overflow-x-hidden" aria-labelledby="introduction-title">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h2 id="introduction-title" className="text-3xl font-bold mb-8">{content.introductionTitle}</h2>
-            <p className="text-lg text-gray-700 leading-relaxed mb-8">
+            <p className="text-lg text-gray-700 leading-relaxed mb-8 break-words hyphens-auto">
               {content.introduction}
             </p>
           </div>
@@ -218,10 +218,10 @@ export default function StorageService({
       </section>
 
       {/* Features Section */}
-      <section className="py-16 bg-gray-50" aria-labelledby="features-title">
+      <section className="py-16 bg-gray-50 overflow-x-hidden" aria-labelledby="features-title">
         <div className="container mx-auto px-4">
           <h2 id="features-title" className="text-3xl font-bold text-center mb-12">{content.featuresTitle}</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {features.map((feature, index) => (
               <motion.div
                 key={index}
@@ -229,11 +229,11 @@ export default function StorageService({
                 whileInView={{ y: 0, opacity: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="bg-white rounded-lg shadow-lg p-8 transition-transform hover:scale-105"
+                className="bg-white rounded-lg shadow-lg p-6 sm:p-8 transition-transform hover:scale-105"
               >
                 <div className="text-4xl mb-4" aria-hidden="true">{feature.icon}</div>
-                <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
-                <p className="text-gray-600">{feature.description}</p>
+                <h3 className="text-xl font-semibold mb-2 break-words">{feature.title}</h3>
+                <p className="text-gray-600 break-words hyphens-auto">{feature.description}</p>
               </motion.div>
             ))}
           </div>
@@ -242,11 +242,11 @@ export default function StorageService({
 
       {/* Ana İçerik Bölümü */}
       {content.mainContent && (
-        <section className="py-20 bg-gray-50">
+        <section className="py-20 bg-gray-50 overflow-x-hidden">
           <div className="container mx-auto px-4">
             {/* Main Image */}
             {content.mainImage && (
-              <div className="mb-12 relative w-full h-96 rounded-xl overflow-hidden">
+              <div className="mb-12 relative w-full h-60 md:h-96 rounded-xl overflow-hidden">
                 <Image
                   src={content.mainImage.src}
                   alt={content.mainImage.alt || `${title} - Detaylı Görsel | Horex Nakliyat`}
@@ -264,8 +264,8 @@ export default function StorageService({
             {/* First Section - Ev Eşyası Depolama Sürecimiz */}
             <div className="mb-16">
               <h2 id="main-content-title" className="text-3xl font-bold mb-6 text-center">{content.mainContent.firstSection.title}</h2>
-              <p className="text-gray-700 mb-8 text-center max-w-4xl mx-auto">{content.mainContent.firstSection.description}</p>
-              <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <p className="text-gray-700 mb-8 text-center max-w-4xl mx-auto break-words hyphens-auto">{content.mainContent.firstSection.description}</p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 {content.mainContent.firstSection.items.map((item, index) => (
                   <motion.div 
                     key={index}
@@ -275,8 +275,8 @@ export default function StorageService({
                     transition={{ duration: 0.5, delay: index * 0.1 }}
                     className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow"
                   >
-                    <h3 className="text-xl font-bold mb-2 text-horex-red">{item.title}</h3>
-                    <p className="text-gray-600">{item.description}</p>
+                    <h3 className="text-xl font-bold mb-2 text-horex-red break-words">{item.title}</h3>
+                    <p className="text-gray-600 break-words hyphens-auto">{item.description}</p>
                   </motion.div>
                 ))}
               </div>
@@ -285,8 +285,8 @@ export default function StorageService({
             {/* Second Section - Depolama Alanlarımız */}
             <div className="mt-12">
               <h2 className="text-3xl font-bold mb-6 text-center">{content.mainContent.secondSection.title}</h2>
-              <p className="text-gray-700 mb-8 text-center max-w-4xl mx-auto">{content.mainContent.secondSection.description}</p>
-              <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <p className="text-gray-700 mb-8 text-center max-w-4xl mx-auto break-words hyphens-auto">{content.mainContent.secondSection.description}</p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 {content.mainContent.secondSection.items.map((item, index) => (
                   <motion.div 
                     key={index}
@@ -296,8 +296,8 @@ export default function StorageService({
                     transition={{ duration: 0.5, delay: index * 0.1 }}
                     className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow"
                   >
-                    <h3 className="text-xl font-bold mb-2 text-horex-red">{item.title}</h3>
-                    <p className="text-gray-600">{item.description}</p>
+                    <h3 className="text-xl font-bold mb-2 text-horex-red break-words">{item.title}</h3>
+                    <p className="text-gray-600 break-words hyphens-auto">{item.description}</p>
                   </motion.div>
                 ))}
               </div>
@@ -307,10 +307,10 @@ export default function StorageService({
       )}
 
       {/* Highlights Section */}
-      <section className="py-16 bg-gray-50" aria-labelledby="highlights-title">
+      <section className="py-16 bg-gray-50 overflow-x-hidden" aria-labelledby="highlights-title">
         <div className="container mx-auto px-4">
           <h2 id="highlights-title" className="text-3xl font-bold text-center mb-12">{content.highlightsTitle}</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {content.highlights.map((highlight, index) => (
               <motion.div
                 key={index}
@@ -320,8 +320,8 @@ export default function StorageService({
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="bg-white p-6 rounded-lg shadow-md"
               >
-                <h3 className="text-xl font-semibold mb-3 text-horex-red">{highlight.title}</h3>
-                <p className="text-gray-700">{highlight.description}</p>
+                <h3 className="text-xl font-semibold mb-3 text-horex-red break-words">{highlight.title}</h3>
+                <p className="text-gray-700 break-words hyphens-auto">{highlight.description}</p>
               </motion.div>
             ))}
           </div>
@@ -329,15 +329,15 @@ export default function StorageService({
       </section>
 
       {/* Process Section */}
-      <section className="py-16" aria-labelledby="process-title">
+      <section className="py-16 overflow-x-hidden" aria-labelledby="process-title">
         <div className="container mx-auto px-4">
           <h2 id="process-title" className="text-3xl font-bold text-center mb-12">{content.process.title}</h2>
-          <div className="max-w-4xl mx-auto">
-            <div className="relative">
-              {/* Process Timeline Line */}
-              <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-horex-red"></div>
-              
-              {/* Process Steps */}
+          <div className="max-w-4xl mx-auto relative">
+            {/* Process Timeline Line */}
+            <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-horex-red hidden md:block"></div>
+            
+            {/* Process Steps for Larger Screens */}
+            <div className="hidden md:block">
               {content.process.steps.map((step, index) => (
                 <motion.div 
                   key={index}
@@ -349,8 +349,8 @@ export default function StorageService({
                 >
                   <div className={`w-1/2 ${index % 2 === 0 ? 'text-right pr-8' : 'pl-8'}`}>
                     <div className="bg-white p-6 rounded-lg shadow-md">
-                      <div className="flex items-center mb-2">
-                        <div className="w-8 h-8 rounded-full bg-horex-red flex items-center justify-center text-white font-bold mr-2">
+                      <div className="flex items-center mb-2 flex-wrap">
+                        <div className="w-8 h-8 rounded-full bg-horex-red flex items-center justify-center text-white font-bold mr-2 flex-shrink-0">
                           {index + 1}
                         </div>
                         <h3 className="text-lg font-semibold">Adım {index + 1}</h3>
@@ -359,6 +359,28 @@ export default function StorageService({
                     </div>
                   </div>
                   <div className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 rounded-full bg-white border-4 border-horex-red"></div>
+                </motion.div>
+              ))}
+            </div>
+            
+            {/* Process Steps for Mobile */}
+            <div className="md:hidden space-y-6">
+              {content.process.steps.map((step, index) => (
+                <motion.div 
+                  key={index}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                  className="bg-white p-6 rounded-lg shadow-md"
+                >
+                  <div className="flex items-center mb-3">
+                    <div className="w-8 h-8 rounded-full bg-horex-red flex items-center justify-center text-white font-bold mr-3 flex-shrink-0">
+                      {index + 1}
+                    </div>
+                    <h3 className="text-lg font-semibold">Adım {index + 1}</h3>
+                  </div>
+                  <p className="text-gray-700">{step}</p>
                 </motion.div>
               ))}
             </div>
@@ -389,10 +411,10 @@ export default function StorageService({
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-horex-red text-white" aria-labelledby="cta-title">
+      <section className="py-20 bg-horex-red text-white overflow-x-hidden" aria-labelledby="cta-title">
         <div className="container mx-auto px-4 text-center">
-          <h2 id="cta-title" className="text-3xl font-bold mb-6">{content.ctaTitle}</h2>
-          <p className="text-xl max-w-2xl mx-auto mb-8">{content.ctaDescription}</p>
+          <h2 id="cta-title" className="text-3xl font-bold mb-6 break-words hyphens-auto">{content.ctaTitle}</h2>
+          <p className="text-xl max-w-2xl mx-auto mb-8 break-words hyphens-auto">{content.ctaDescription}</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
               href={`https://wa.me/905072135501?text=${encodeURIComponent(whatsappMessage)}`}
