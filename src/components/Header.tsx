@@ -394,6 +394,7 @@ export default function Header() {
                 className="relative group"
                 onMouseEnter={() => item.submenu && setActiveSubmenu(item.title)}
                 onMouseLeave={() => setActiveSubmenu(null)}
+                role={item.submenu ? "button" : undefined}
               >
                 {item.isMenuOnly ? (
                   <div
@@ -403,6 +404,7 @@ export default function Header() {
                       }`}
                     aria-expanded={item.submenu ? activeSubmenu === item.title : undefined}
                     aria-haspopup={item.submenu ? "true" : undefined}
+                    role="button"
                   >
                     <span className="hidden xl:block" aria-hidden="true">{item.icon}</span>
                     <span>{item.title}</span>
@@ -453,12 +455,12 @@ export default function Header() {
                         className="flex items-start space-x-4 p-3 rounded-lg hover:bg-gray-50 transition-colors group"
                         role="menuitem"
                       >
-                        <div className="flex-shrink-0 w-12 h-12 bg-horex-red bg-opacity-10 rounded-lg flex items-center justify-center group-hover:bg-opacity-20 transition-colors">
-                          <div className="text-horex-red" aria-hidden="true">
+                        <div className="flex-shrink-0 w-12 h-12 bg-horex-red bg-opacity-10 rounded-lg flex items-center justify-center group-hover:bg-opacity-20 transition-colors" role="presentation">
+                          <div className="text-horex-red" aria-hidden="true" role="presentation">
                             {subitem.icon}
                           </div>
                         </div>
-                        <div className="flex-1 min-w-0">
+                        <div className="flex-1 min-w-0" role="presentation">
                           <h3 className="font-semibold text-horex-black group-hover:text-horex-red transition-colors truncate">
                             {subitem.title}
                           </h3>
@@ -484,6 +486,7 @@ export default function Header() {
               : "max-h-0 opacity-0"
           }`}
           aria-hidden={!isMenuOpen}
+          role="menu"
         >
           <nav className="py-4" aria-label="Mobil Menü" role="navigation">
             {menuItems.map((item) => (
@@ -499,7 +502,7 @@ export default function Header() {
                     tabIndex={isMenuOpen ? 0 : -1}
                     aria-hidden={!isMenuOpen}
                   >
-                    <div className="flex items-center space-x-3">
+                    <div className="flex items-center space-x-3" role="presentation">
                       <span className="w-5 h-5 flex-shrink-0" aria-hidden="true">{item.icon}</span>
                       <span>{item.title}</span>
                     </div>
@@ -522,7 +525,7 @@ export default function Header() {
                     tabIndex={isMenuOpen ? 0 : -1}
                     aria-hidden={!isMenuOpen}
                   >
-                    <div className="flex items-center space-x-3">
+                    <div className="flex items-center space-x-3" role="presentation">
                       <span className="w-5 h-5 flex-shrink-0" aria-hidden="true">{item.icon}</span>
                       <span>{item.title}</span>
                     </div>
@@ -560,10 +563,10 @@ export default function Header() {
                           tabIndex={isMenuOpen && activeSubmenu === item.title ? 0 : -1}
                           aria-hidden={!(isMenuOpen && activeSubmenu === item.title)}
                         >
-                          <div className="text-horex-red flex-shrink-0 mr-3 mt-1" aria-hidden="true">
+                          <div className="text-horex-red flex-shrink-0 mr-3 mt-1" aria-hidden="true" role="presentation">
                             {subitem.icon}
                           </div>
-                          <div className="flex-1 min-w-0">
+                          <div className="flex-1 min-w-0" role="presentation">
                             <h3 className="font-medium truncate">
                               {subitem.title}
                             </h3>
